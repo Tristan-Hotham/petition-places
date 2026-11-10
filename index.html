@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>What each constituency signs | The geography of UK Parliament petitions</title>
+<meta name="description" content="Where in the UK do people sign which Parliament petitions? 734 petitions with about 3,000 or more signatures, mapped across all 650 constituencies.">
+<meta property="og:title" content="What each constituency signs">
+<meta property="og:description" content="Every petition has its own map. Local causes are lopsided; national ones follow two broad signature personalities that are stable over time.">
+<meta property="og:image" content="https://maps.tristanhotham.com/petition-places/header.png">
+<meta property="og:url" content="https://maps.tristanhotham.com/petition-places/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+:root{--bg:#F6EED8;--panel:#EFE3C4;--fg:#2B2119;--muted:#6E604E;--rule:#E2D3AE;--card:#FBF5E4;--border:#D3C29A;--hot:#B4442E;--cool:#2F6A9E;
+  --display:"Fraunces",Georgia,serif;--body:"Source Serif 4",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1A1612;--panel:#241E18;--fg:#EFE6D4;--muted:#ADA08B;--rule:#3A3128;--card:#211B15;--border:#4D4234;--hot:#E07A6C;--cool:#8FB4DA;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1A1612;--panel:#241E18;--fg:#EFE6D4;--muted:#ADA08B;--rule:#3A3128;--card:#211B15;--border:#4D4234;--hot:#E07A6C;--cool:#8FB4DA;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:720px;margin:0 auto;padding-block:28px 64px}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--hot);color:#fff;padding:5px 8px;font-weight:500}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:54px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+p{margin:0 0 16px}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+ul.plain{padding-left:20px} ul.plain li{margin:4px 0}
+details{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:10px 0;margin:18px 0;font-size:16px}
+summary{font:500 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;color:var(--muted)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:4px 8px;cursor:pointer;min-height:28px}
+.figure{margin:22px 0}.figure img{width:100%;display:block;border:1px solid var(--border);background:#F6EED8}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:22px 0}
+.stat b{display:block;font:900 40px/1 var(--display);color:var(--hot)}
+.stat span{font:400 13px/1.35 var(--mono);color:var(--muted)}
+table.t{width:100%;border-collapse:collapse;font:400 13.5px/1.4 var(--mono);margin:12px 0 4px}
+table.t th{text-align:left;font-weight:500;border-bottom:2px solid var(--fg);padding:5px 6px 5px 0}
+table.t td{border-bottom:1px solid var(--rule);padding:5px 6px 5px 0;vertical-align:top}
+table.t td.r,table.t th.r{text-align:right}
+.tscroll{overflow-x:auto}
+.topbar{height:40px;display:flex;align-items:center;gap:14px;margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding:0 max(14px,env(safe-area-inset-left,0px));border-bottom:3px double var(--fg);background:var(--bg);overflow:hidden;white-space:nowrap}
+.tb-name{font:800 18px/1 var(--display);color:var(--hot);text-decoration:none}
+.tb-k{font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tb-links{margin-left:auto;display:flex;gap:16px;align-items:center;font:500 12px/1 var(--mono)}
+.tb-links a{text-decoration:none}
+.mapband{width:100vw;margin-left:calc(50% - 50vw)}
+.pane{position:relative;height:calc(100vh - 43px);height:calc(100svh - 43px);min-height:480px;border-bottom:1px solid #BCA676;background:#F2EAD3;overflow:hidden}
+#map{position:absolute;inset:0}
+.cartouche{position:absolute;left:14px;top:14px;z-index:5;max-width:min(340px,calc(100% - 28px));background:rgba(251,243,220,.96);color:#2B2119;border:2px solid #2B2119;padding:10px 14px;box-shadow:0 3px 14px rgba(60,40,10,.22)}
+.cartouche h1{font:900 clamp(22px,2.3vw,30px)/1 var(--display);letter-spacing:-.015em;margin:6px 0 0;color:#2B2119}
+.cartouche h1 .a{color:#B4442E}
+.cartouche .dek{font-size:13.5px;line-height:1.36;margin:6px 0 0}
+.cartouche .byline{font-size:11px;color:#6E604E;margin-top:6px}.cartouche .kicker{color:#6E604E}
+.ct-fold{position:absolute;right:6px;top:5px;width:26px;height:26px;border:0;background:none;color:#B4442E;font:700 16px/1 var(--mono);cursor:pointer;padding:0}
+.ct-toggle{display:none;font:800 16px/1 var(--display);color:#B4442E;background:none;border:0;padding:2px 0;cursor:pointer;min-height:30px}
+.cartouche.folded .ct-body,.cartouche.folded .ct-fold{display:none}.cartouche.folded .ct-toggle{display:block}.cartouche.folded{padding:4px 11px}
+.ov-top{position:absolute;z-index:6;right:54px;top:10px;max-width:calc(100% - 480px);display:flex;flex-direction:column;gap:6px;align-items:flex-end;pointer-events:none;font:400 13px/1.3 var(--mono);color:#2B2119}
+.ov-top>*{pointer-events:auto}
+.srch{position:relative;width:min(340px,100%)}
+.srch input{width:100%;font:400 15px/1 var(--mono);background:rgba(251,245,228,.97);color:#2B2119;border:1px solid #9C8656;border-radius:3px;padding:9px 10px;min-height:40px}
+.sug{position:absolute;left:0;right:0;top:100%;margin:2px 0 0;padding:0;list-style:none;background:#FBF5E4;border:1px solid #9C8656;max-height:300px;overflow:auto;display:none;z-index:12}
+.sug li{padding:8px 10px;cursor:pointer;border-bottom:1px solid #E7D9B6}.sug li span{color:#7A6A52;font-size:12px}
+.sug li[aria-selected="true"],.sug li:hover{background:#EFE1BC}
+.chips{display:flex;gap:6px;overflow-x:auto;max-width:100%;scrollbar-width:none;padding-bottom:2px}.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;font:500 12px/1 var(--mono);background:rgba(251,245,228,.95);color:#2B2119;border:1px solid #9C8656;border-radius:999px;padding:8px 11px;cursor:pointer;min-height:34px;white-space:nowrap}
+.chip[aria-pressed="true"]{background:#B4442E;color:#fff;border-color:#2B2119}
+.chip.lyr{background:#2B2119;color:#F6EED8;border-color:#2B2119}
+.lp{position:absolute;right:54px;top:60px;z-index:9;background:rgba(251,245,228,.98);border:1px solid #9C8656;border-radius:4px;padding:10px 12px 8px;font:400 13px/1.3 var(--mono);color:#2B2119;box-shadow:0 3px 12px rgba(60,40,10,.25);display:none;min-width:250px}
+.lp.open{display:block}.lp h4{margin:0 0 6px;font:500 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#7A6A52}
+.lp label{display:flex;gap:8px;align-items:center;padding:5px 0;cursor:pointer;min-height:30px}.lp input{accent-color:#B4442E;width:16px;height:16px;flex:none}
+.keys{position:absolute;left:12px;bottom:12px;z-index:4;background:rgba(251,243,220,.96);border:1px solid #9C8656;border-radius:3px;padding:8px 10px;font:400 11.5px/1.25 var(--mono);color:#2B2119;max-width:270px}
+.keys b{display:block;font:800 14px/1.1 var(--display);margin-bottom:5px}
+.keys .bar{height:10px;border:1px solid rgba(43,33,25,.4)}
+.keys .ends{display:flex;justify-content:space-between;font-size:10.5px;color:#6E604E;margin-top:2px}
+.keys .row{display:flex;align-items:center;gap:6px;margin-top:5px}.keys .dot{width:10px;height:10px;border-radius:50%;background:#B9B4AA;border:1px solid #fff;box-shadow:0 0 0 1px #888}
+.maplibregl-popup-content{background:#FBF5E4;color:#2B2119;font:400 13px/1.45 var(--mono);border:1px solid #9C8656;border-radius:4px;padding:10px 12px;max-width:320px;max-height:44vh;overflow:auto}
+.maplibregl-popup-content b.t{display:block;font:800 19px/1.15 var(--display);color:#B4442E;margin-bottom:3px;padding-right:14px}
+.maplibregl-popup-content table{border-collapse:collapse;margin:5px 0}.maplibregl-popup-content td{padding:1px 8px 1px 0;vertical-align:top}
+.maplibregl-popup-content td:first-child{color:#7A6A52}.maplibregl-popup-content .nt{color:#7A6A52;font-size:11.5px;margin:5px 0 0}
+.maplibregl-popup-content a{color:#B4442E}
+.maplibregl-ctrl-attrib{font:400 11px/1.3 var(--mono)!important}
+.nojs{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:400 14px var(--mono);color:#6E604E;padding:20px;text-align:center}
+@media (max-width:1000px){.ov-top{left:10px;right:54px;max-width:none;align-items:flex-start}.lp{left:10px;right:auto;top:100px}.cartouche{top:100px}}
+@media (max-width:600px){.tb-k,.tb-links a.x{display:none}.topbar{gap:10px}.tb-name{font-size:15px}.tb-links{gap:10px}
+  .lp{left:8px;right:8px;min-width:0}.ov-top{left:8px;top:8px}.cartouche{left:8px;top:100px;max-width:calc(100% - 16px)}.cartouche h1{font-size:23px}
+  .ct-toggle{display:block}.ct-fold{display:none}.keys{max-width:200px;font-size:10.5px;padding:6px 8px}.chip{padding:8px 8px;font-size:11.5px}.keys .kx{display:none}.chips{flex-wrap:wrap}.cartouche{top:150px}}
+.maplibregl-popup{z-index:7}
+.tl{position:absolute;left:12px;right:60px;bottom:12px;z-index:5;display:flex;align-items:center;gap:10px;background:rgba(251,243,220,.96);border:1px solid #9C8656;border-radius:3px;padding:6px 10px;font:400 12px/1.2 var(--mono);color:#2B2119;max-width:560px}
+.tl input[type=range]{flex:1;accent-color:#B4442E;min-width:80px}
+.tl b{font:800 15px/1 var(--display);min-width:92px;text-align:center}
+.tl button{font:500 12px/1 var(--mono);background:#2B2119;color:#F6EED8;border:0;border-radius:3px;padding:7px 9px;cursor:pointer;min-height:30px}
+.keys{bottom:64px}
+.spark{display:block;margin:6px 0 2px}
+.maplibregl-popup-content .pl{border-top:1px solid #E2D3AE;margin-top:6px;padding-top:6px}
+@media (max-width:600px){.tl{left:8px;right:52px;bottom:8px;gap:6px;padding:5px 7px}.tl b{min-width:70px;font-size:13px}.keys{bottom:56px}}
+
+.pp{position:absolute;right:54px;bottom:12px;z-index:5;width:min(360px,calc(100% - 330px));background:rgba(251,243,220,.97);border:1px solid #9C8656;border-radius:3px;padding:9px 12px;font:400 12.5px/1.4 var(--mono);color:#2B2119;display:none;max-height:42%;overflow:auto}
+.pp.on{display:block}.pp b.t{display:block;font:800 16px/1.15 var(--display);color:#B4442E;margin:2px 0 4px}.pp .x{float:right;border:0;background:none;font:700 16px/1 var(--mono);cursor:pointer;color:#6E604E}
+.pp ol{margin:4px 0 0;padding-left:20px}.pp a{color:#B4442E}
+.sug li .k{display:inline-block;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:#7A6A52;margin-right:6px}
+.maplibregl-popup-content ol{margin:4px 0;padding-left:18px}.maplibregl-popup-content ol li{margin:2px 0}
+.maplibregl-popup-content button.lnk{border:0;background:none;padding:0;color:#B4442E;text-decoration:underline;font:inherit;cursor:pointer;text-align:left}
+.keys .sw{display:grid;grid-template-columns:repeat(2,1fr);gap:2px 10px;font-size:10.5px}.keys .sw span{display:flex;align-items:center;gap:5px}.keys .sw i{width:10px;height:10px;display:inline-block;flex:none}
+.keys{bottom:12px}
+@media (max-width:600px){.pp{left:8px;right:52px;width:auto;bottom:8px;max-height:38%}.keys{bottom:8px;max-width:calc(100% - 70px)}.keys .sw{font-size:10px}}
+#keyTitle{cursor:pointer}#keyTitle::after{content:' \25BE';font-size:11px;color:#6E604E}.keys.mini #keyBody,.keys.mini .kx{display:none}.keys.mini #keyTitle::after{content:' \25B8'}
+@media (max-width:600px){.pp.on~.keys{display:none}}
+
+</style></head>
+<body>
+<div class="topbar">
+  <a class="tb-name" href="#mapWrap">What each constituency signs</a>
+  <span class="tb-k">Data study · 2026</span>
+  <nav class="tb-links"><a href="#essay">About</a><button class="theme" id="theme" aria-label="Toggle dark mode">◐</button><a href="https://doi.org/10.5281/zenodo.24104518">Paper</a><a class="x" href="https://github.com/Tristan-Hotham/petition-places">Data and code</a></nav>
+</div>
+<div class="mapband">
+  <div class="pane" id="mapWrap" data-fullscreen-map role="application" aria-label="Hexagon map of the 650 UK constituencies coloured by the petitions they sign">
+    <div id="map"></div>
+    <div class="nojs" id="nojs">Loading the map. It needs JavaScript and WebGL.</div>
+    <div class="cartouche" id="cartouche">
+      <button class="ct-toggle" id="ctToggle" aria-expanded="true">What each constituency signs ▾</button>
+      <button class="ct-fold" id="ctFold" title="Fold the title" aria-label="Fold the title">▴</button>
+      <div class="ct-body">
+        <div class="kicker"><b>Data study</b><span>2026</span></div>
+        <h1>What each constituency <span class="a">signs</span></h1>
+        <p class="dek">734 UK Parliament petitions with about 3,000 or more signatures, 2024 to 2026, counted in all 650 constituencies. Each hex is a seat. Colour shows the petition each seat over-signed most, or pick any petition to see its map. Tap a seat.</p>
+        <div class="byline">Dr Tristan Hotham · Independent researcher · 2026</div>
+      </div>
+    </div>
+    <div class="ov-top">
+      <div class="srch"><input type="search" id="q" placeholder="Find a seat or a petition" aria-label="Find a seat or a petition" autocomplete="off"><ul class="sug" id="sug" role="listbox"></ul></div>
+      <div class="chips"><button class="chip" data-m="top" aria-pressed="true">Top petition</button><button class="chip" data-m="pet" aria-pressed="false">One petition</button><button class="chip" data-m="pc1" aria-pressed="false">Personality</button><button class="chip" data-m="cl" aria-pressed="false">Seat groups</button><button class="chip" data-m="rate" aria-pressed="false">Signing rate</button><button class="chip lyr" id="lyrBtn" aria-expanded="false" aria-controls="lp">Layers</button></div>
+    </div>
+    <div class="lp" id="lp" role="dialog" aria-label="Map layers">
+      <h4>View</h4>
+      <label><input type="radio" name="view" id="vHex" checked> Hexagons (every seat the same size)</label>
+      <label><input type="radio" name="view" id="vGeo"> Real boundaries</label>
+      <h4 style="margin-top:8px">Layers</h4>
+      <label><input type="checkbox" id="lyS" checked> Seats coloured by the data</label>
+      <label><input type="checkbox" id="lyO" checked> Seat outlines</label>
+      <label><input type="checkbox" id="lyL" checked> Seat names (close in)</label>
+      <label><input type="checkbox" id="lyN" checked> Nation labels (hexagons)</label>
+      <label><input type="checkbox" id="lyB" checked> Base map (real boundaries)</label>
+    </div>
+    <div class="pp" id="pp" aria-live="polite"></div>
+    <div class="keys" id="keys"><b id="keyTitle">Topic of the most over-signed petition</b><div id="keyBody"></div><div class="row kx" style="color:#6E604E">All 650 UK constituencies (2024 boundaries); petitions 2024 to 2026</div></div>
+  </div>
+</div>
+<div class="wrap" id="essay">
+<p style="margin-top:6px">Any UK resident or British citizen can start or sign a petition to Parliament. When you sign, the site asks for your postcode, and it publishes a running count of signatures in every constituency. That makes each petition a little map of who cared. I took the 734 petitions of the current Parliament that had reached about 3,000 signatures by the time I collected the data, 30,882,864 signatures between them, and asked a simple question: what does each constituency sign more than the rest of the country does?</p>
+<div class="byline">Dr Tristan Hotham · Independent researcher · 2026 · Data: UK Parliament petitions site (Open Government Licence v3.0); 2024 results and Census 2021 shares via voteReproject (MIT); hexagons by Open Innovations (MIT) · Base map: OpenFreeMap Positron</div>
+<div class="stats">
+<div class="stat"><b>734</b><span>of the 734 petition maps are clustered: neighbouring seats sign alike</span></div>
+<div class="stat"><b>78%</b><span>of a typical local cause's signatures would have to move to match the national map, against 24% for the rest</span></div>
+<div class="stat"><b>30%</b><span>of all the variation between seats sits on two signature personalities</span></div>
+<div class="stat"><b>0.96</b><span>correlation of the main personality between the petitions of the first and second halves of the period</span></div>
+</div>
+
+<h2><span class="n">01 · Every petition has a map</span>Some are everywhere, some are somewhere</h2>
+<p>To compare petitions of very different sizes, I measure each seat against itself. A seat that gives a petition the same share of its signatures as the country as a whole scores one. Twice the usual share scores two. Some seats sign far more petitions than others overall, from 9,446 signatures in Na h-Eileanan an Iar to 65,942 in Rayleigh and Wickford, so this keeps the busiest seats from dominating every map. Small counts are pulled gently towards one, so a seat with a handful of signatures cannot top a list by chance.</p>
+<p>The biggest petition, "Call a General Election", with 3,084,711 signatures, is close to the national pattern everywhere: only 8% of its signatures would have to move for it to match the overall map exactly. At the other end, "Grant Cornwall nation status" drew 67 times the usual share in Truro and Falmouth and 64 times in St Ives, and 69% of its signatures would have to move. Between the two sit petitions with clear but broad geographies: "Don't change inheritance tax relief for working farms" is strongest in South Shropshire and North Herefordshire; "Ban driven grouse shooting" in Sheffield Hallam and Derbyshire Dales, both on the edge of the Peak District.</p>
+<div class="figure"><img src="img/cases.jpg" alt="Six hexagon maps of the UK, one per petition: Cornwall nation status is red only in Cornwall; farm inheritance tax is red in rural seats; rejoin the EU is red in university cities; offshore detention is pale red across much of England and blue in London; grouse shooting is red around Sheffield and the Lake District; call a general election is pale almost everywhere" loading="lazy"><p class="src">Six petitions on the same scale. Red: more than the seat's usual share; blue: less.</p></div>
+<p>Every one of the 734 maps is clustered: neighbouring seats sign alike far more than chance would give. The typical petition has a spatial correlation (Moran's I) of 0.48; shuffle the seats at random and it falls to -0.00.</p>
+
+<h2><span class="n">02 · Local causes</span>The most lopsided maps</h2>
+<p>Ten petitions are about a particular part of the UK, among them Cornwall's status, two about the rail link between Oxford and Cambridge, the Scottish Parliament, Northern Ireland veterans, the London Mayor. Their maps are far more lopsided than any other topic's. In the typical local petition 78% of signatures would have to move to match the national pattern, against 24% for all other petitions, and 45% of its signatures come from just ten seats. Allowing for petition size, local causes are 189% more uneven than national ones (95% interval 71% to 389%). "The Government must get the East West Rail Line passenger service running ASAP" was signed 298 times as heavily as usual in Buckingham and Bletchley.</p>
+<p>Among national topics, immigration petitions have the most uneven maps (a typical 38% would have to move) and petitions about elections and democracy the least (16%). Immigration petitions are uneven partly because they pull in opposite directions: in an exploratory split (section 04), petitions asking to keep or open routes to settlement were signed most in more diverse seats, and petitions asking for tighter rules most in whiter seats with a higher Reform UK vote.</p>
+<div class="figure"><img src="img/family.jpg" alt="Dot chart of how uneven each petition's map is, by topic: local causes far to the right, immigration and international affairs next, elections and democracy and Brexit petitions most even" loading="lazy"><p class="src">Each dot is a petition. Bars are medians.</p></div>
+<div class="figure"><img src="img/top.jpg" alt="Hexagon map of the UK coloured by the topic of each seat's most over-signed petition: Scotland mostly local causes, Cornwall local causes, a patchwork of health, environment and justice elsewhere" loading="lazy"><p class="src">The map's opening layer: the topic of each seat's most over-signed petition. 144 different petitions top at least one seat.</p></div>
+
+<h2><span class="n">03 · Signature personalities</span>Two ways seats differ</h2>
+<p>Put all 734 maps together and ask what they share. The first summary dimension (a principal component) holds 20% of the variation between seats, the second 10%. The first separates seats with more graduates, younger people and more ethnic diversity (correlation with the share holding a degree 0.79) from older and whiter seats with a higher Reform UK vote in 2024 (-0.67). The second separates seats held by Labour with poorer health from Conservative and Liberal Democrat seats with older populations. Neither is a party line: they are bundles of topics that tend to travel together.</p>
+<div class="figure"><img src="img/pca.jpg" alt="Two hexagon maps: the first personality is red in London and the big cities and blue across much of eastern and coastal England; the second is red in Scotland, Northern Ireland and northern English cities and blue across southern England" loading="lazy"><p class="src">Seat scores on the two main personalities.</p></div>
+<p>These personalities are stable. Split the petitions into the 367 created first and the 367 created later, and the seats line up almost identically: correlation 0.96 for the first personality and 0.96 for the second. Grouping seats by their whole profile gives 3 groups: 450 seats of towns, suburbs and countryside, 124 seats in diverse cities (68 in London), and 76 seats, almost all in Scotland and Northern Ireland, which probably partly reflects the many petitions about English schools and services that have little to do with them.</p>
+<div class="figure"><img src="img/clusters.jpg" alt="Hexagon map in three colours: gold for most of England and Wales, red for London and other cities, blue for Scotland and Northern Ireland" loading="lazy"><p class="src">Three groups of seats by petition profile.</p></div>
+
+<h2><span class="n">04 · Does it follow the vote?</span>Partly, and the census more</h2>
+<p>For each petition I asked how much of its seat map the 2024 general election vote shares can account for. The typical answer is 26% in Great Britain, about as much as knowing the region alone (26%). In England and Wales, four census shares (age, degrees, health and ethnicity) account for more (31%) than the vote (23%). The biggest petition, "Call a General Election", follows it closely: the vote accounts for 78% of its map, which correlates 0.69 with the Conservative share. Others hardly follow it at all, such as "Fund NHS access to Omaveloxolone for patients with Friedreich's Ataxia" (7%).</p>
+<p>Two planned tests looked at direction. Petitions about Brexit and the EU were signed less where Reform UK did well (-6.3% per standard deviation of the Reform UK share, 95% interval -9.3% to -3.1%), even after age, degrees, health, ethnicity and region, and that held in all 19 checks. They were signed more where the Greens did well (3.6%, held in 18 of 19 checks) and the Liberal Democrats did well (3.7%, held in 15). Immigration petitions as a whole were signed slightly more where Reform UK did well (3.6%, 0.4% to 7.0%), but that held in only 10 of 19 checks, so I do not treat it as solid. Splitting immigration petitions by what they ask for, which I did only after seeing that result, suggests why: those asking for tighter rules track the Reform UK vote (map correlation 0.64), while those asking to keep or open routes run the other way (-0.39).</p>
+<div class="figure"><img src="img/votes.jpg" alt="Left: histograms of how much of each petition's map is explained by region, vote shares and census shares. Right: dot and whisker chart showing EU petitions signed more where degrees are common and less where Reform UK is strong" loading="lazy"><p class="src">How much the vote and the census explain, and the planned directional tests.</p></div>
+
+<h2><span class="n">05 · Checks</span>Is it real?</h2>
+<p>Repeat petitions on the same subject, such as the 21 groups of near-identical petitions on a general election, the personal allowance or rejoining the EU, should have similar maps if the maps are real and not noise. They do: the typical correlation between two repeat petitions' maps is 0.63, against 0.01 for random pairs on different topics. The clustering result holds with other neighbour definitions, other denominators and raw counts. The most over-signed petition in each seat is the same with or without the gentle pull towards one in 98% of seats.</p>
+<div class="figure"><img src="img/moran.jpg" alt="Left: histogram of spatial correlation of petition maps, all well above the shuffled value of zero. Right: histogram of correlations between random petition pairs centred on zero, with repeat petitions far to the right" loading="lazy"><p class="src">Clustering against shuffled seats, and repeat petitions against random pairs.</p></div>
+<div class="figure"><img src="img/robust.jpg" alt="Four forest plots of the planned directional estimates across 19 checks: the EU and Reform UK estimate is below zero in every check, the immigration and Reform UK estimate crosses zero in about half" loading="lazy"><p class="src">Every planned check for the four directional estimates.</p></div>
+
+<h2><span class="n">06 · How I did this</span>Counts, shares and a written plan</h2>
+<p><b>Petitions.</b> The petitions site publishes every petition of the current Parliament (17,201 by the time I collected them, 9,057 of them rejected) and, for each, signatures by constituency. I used the 734 that had about 3,000 or more signatures, which hold 93% of all signatures. I sorted them into topics with keyword rules and then read every one, moving 123 by hand.</p>
+<p><b>Measures.</b> Each seat's share of a petition's signatures is compared with its share of all petition signatures. The 2023 boundary review gave nearly every seat an electorate within 5% of the same size, so raw counts are close to rates. I wrote the analysis plan down before computing any of these measures, and anything added later is labelled as exploratory.</p>
+<p><b>What this cannot say.</b> A seat is not a person: a petition signed heavily in a seat with a high Reform UK vote does not mean Reform UK voters signed it. Signing is a minority activity, people may give a postcode that is not where they live, and campaigns can push a petition hard in one place. Petitions still open were still collecting signatures. Northern Ireland and Scotland have no census shares in the data I used, and the vote tests leave out Northern Ireland, where different parties stand.</p>
+<details><summary>Sources and licences</summary>
+<ul class="plain">
+<li>UK Parliament petitions site, petition.parliament.uk: petition list and signatures by constituency, retrieved 2026. Contains public sector information licensed under the Open Government Licence v3.0.</li>
+<li>2024 general election vote shares (House of Commons Library results), Census 2021 shares and simplified 2024 boundaries (ONS, Open Government Licence) via the voteReproject package by Kevin Horan, Katarina Domijan and Chris Brunsdon (MIT).</li>
+<li>Constituency hexagon layout: Open Innovations, odileeds/hexmaps (MIT).</li>
+<li>Base map: OpenFreeMap Positron style (OpenStreetMap, ODbL). MapLibre GL JS 4.7.1 (BSD 3-Clause).</li>
+<li>Text and figures CC BY 4.0; code MIT; derived data CC BY 4.0 (petition data under the Open Government Licence v3.0).</li>
+</ul></details>
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.24104518">Read the paper</a><a href="https://github.com/Tristan-Hotham/petition-places">Data and code</a><a href="https://blog.tristanhotham.com/2026/10/31/petition-places/">Blog post</a></div>
+<footer>
+<p>Dr Tristan Hotham, Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+<p>Cite as: Hotham, T. (2026) What each constituency signs: the geography of UK Parliament petitions. Zenodo. <a href="https://doi.org/10.5281/zenodo.24104518">10.5281/zenodo.24104518</a></p>
+<p>Code: <a href="https://github.com/Tristan-Hotham/petition-places">github.com/Tristan-Hotham/petition-places</a> (MIT). Text, figures and data CC BY 4.0 (petition data Open Government Licence v3.0).</p>
+<p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="js/page.js?v=2026a"></script>
+<!-- map-fullscreen v1 -->
+<style id="mfs-style">
+.mfs-btn{position:absolute;top:10px;right:10px;z-index:1001;width:34px;height:34px;border:2px solid rgba(0,0,0,.25);border-radius:4px;background:#fff;color:#222;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.mfs-btn:hover{background:#f2f2f2}
+.mfs-btn svg{width:18px;height:18px}
+.mfs-host.mfs-btn-left .mfs-btn{right:auto;left:54px}
+.mfs-fake{position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;height:100dvh!important;max-width:none!important;max-height:none!important;margin:0!important;z-index:100000!important;border-radius:0!important}
+html.mfs-lock,html.mfs-lock body{overflow:hidden!important}
+:fullscreen.mfs-host{width:100vw!important;height:100vh!important;max-width:none!important;max-height:none!important;margin:0!important;border-radius:0!important}
+</style>
+<script id="mfs-script">
+(function(){
+  var ICON_OPEN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>';
+  var ICON_CLOSE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>';
+  function poke(){setTimeout(function(){window.dispatchEvent(new Event('resize'));},60);setTimeout(function(){window.dispatchEvent(new Event('resize'));},400);}
+  function realFS(){return document.fullscreenElement||document.webkitFullscreenElement;}
+  function add(el){
+    if(el.__mfs)return; el.__mfs=1;
+    var cs=getComputedStyle(el); if(cs.position==='static')el.style.position='relative';
+    el.classList.add('mfs-host');
+    // avoid clashing with a top-right Leaflet control (e.g. "Map layers")
+    var tr=el.querySelector('.leaflet-top.leaflet-right');
+    if(tr&&tr.children.length){ el.classList.add('mfs-btn-left'); }
+    var b=document.createElement('button'); b.type='button'; b.className='mfs-btn';
+    b.title='Full screen map'; b.setAttribute('aria-label','Full screen map'); b.innerHTML=ICON_OPEN;
+    ['click','dblclick','mousedown','touchstart','wheel'].forEach(function(t){b.addEventListener(t,function(e){e.stopPropagation();},{passive:t!=='click'});});
+    function setIcon(on){b.innerHTML=on?ICON_CLOSE:ICON_OPEN;b.title=on?'Exit full screen':'Full screen map';b.setAttribute('aria-label',b.title);}
+    function exitFake(){el.classList.remove('mfs-fake');document.documentElement.classList.remove('mfs-lock');setIcon(false);poke();}
+    b.addEventListener('click',function(e){
+      e.preventDefault();
+      if(el.classList.contains('mfs-fake')){exitFake();return;}
+      if(realFS()){(document.exitFullscreen||document.webkitExitFullscreen).call(document);return;}
+      var req=el.requestFullscreen||el.webkitRequestFullscreen;
+      if(req){ try{ var p=req.call(el); if(p&&p.catch)p.catch(function(){el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke();}); }catch(err){el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke();} }
+      else { el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke(); }
+    });
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&el.classList.contains('mfs-fake'))exitFake();});
+    ['fullscreenchange','webkitfullscreenchange'].forEach(function(t){document.addEventListener(t,function(){setIcon(realFS()===el);poke();});});
+    el.appendChild(b);
+  }
+  function scan(){
+    var els=document.querySelectorAll('[data-fullscreen-map], .leaflet-container, .maplibregl-map, .mapboxgl-map');
+    els.forEach(function(el){
+      if(el.closest('.mfs-host')&&!el.classList.contains('mfs-host'))return;
+      var r=el.getBoundingClientRect(); if(r.width<200||r.height<150)return;
+      add(el);
+    });
+  }
+  function start(){scan(); var n=0; var t=setInterval(function(){scan(); if(++n>20)clearInterval(t);},500);}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start); else start();
+})();
+</script>
+<!-- /map-fullscreen -->
+
+<script src="https://maps.tristanhotham.com/assets/site-nav.js" defer></script>
+</body>
+</html>

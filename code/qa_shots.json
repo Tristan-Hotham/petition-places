@@ -1,0 +1,11 @@
+[{"out": "qa/desktop.png", "w": 1280, "h": 800},
+ {"out": "qa/desktop_popup.png", "w": 1280, "h": 800, "eval": "document.querySelector('#q').value='Great Yarmouth';document.querySelector('#q').dispatchEvent(new Event('input'));document.querySelector('#sug li').dispatchEvent(new MouseEvent('mousedown'))"},
+ {"out": "qa/desktop_petition.png", "w": 1280, "h": 800, "eval": "document.querySelector('#q').value='Cornwall nation';document.querySelector('#q').dispatchEvent(new Event('input'));document.querySelector('#sug li').dispatchEvent(new MouseEvent('mousedown'))"},
+ {"out": "qa/desktop_geo_layers.png", "w": 1280, "h": 800, "eval": "document.querySelector('.chip[data-m=pc1]').click();document.getElementById('lyrBtn').click();document.getElementById('vGeo').checked=true;document.getElementById('vGeo').dispatchEvent(new Event('change'))"},
+ {"out": "qa/desktop_clusters.png", "w": 1280, "h": 800, "eval": "document.querySelector('.chip[data-m=cl]').click()"},
+ {"out": "qa/phone.png", "w": 390, "h": 800, "dpr": 2},
+ {"out": "qa/phone_popup.png", "w": 390, "h": 800, "dpr": 2, "eval": "document.querySelector('#q').value='Cambridge';document.querySelector('#q').dispatchEvent(new Event('input'));document.querySelector('#sug li').dispatchEvent(new MouseEvent('mousedown'))"},
+ {"out": "qa/phone_petition.png", "w": 390, "h": 800, "dpr": 2, "eval": "document.querySelector('.chip[data-m=pet]').click()"},
+ {"out": "qa/phone_full.png", "w": 390, "h": 800, "dpr": 1, "full": true},
+ {"out": "qa/desktop_full.png", "w": 1280, "h": 800, "full": true},
+ {"out": "qa/phone_zoom.png", "w": 390, "h": 800, "dpr": 2, "eval": "document.getElementById('vGeo').checked=true;document.getElementById('vGeo').dispatchEvent(new Event('change'));setTimeout(()=>window.__map.jumpTo({center:[-1.47,53.38],zoom:11}),800)"}]

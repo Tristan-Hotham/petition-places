@@ -1,0 +1,735 @@
+id,action,state,n,n_uk,n_seats,seats_with_any,created,opened,closed,debated,response,family_rule,family
+700143,Call a General Election,closed,3084711,3061223,3025918,650,2024-10-31,2024-11-20,2025-05-20,2025-01-07,1,democracy,democracy
+730194,Do not introduce Digital ID cards,closed,2984191,2964253,2938663,650,2025-06-12,2025-07-09,2026-01-09,2025-12-09,1,online,online
+727309,Call an immediate general election,closed,1059229,1051921,1044956,650,2025-05-12,2025-06-05,2025-12-05,2026-01-14,1,democracy,democracy
+737105,Introduce offshore detention/mass deportation for illegal migrants,closed,720772,713713,706980,650,2025-08-11,2025-09-12,2026-03-12,2026-07-14,1,immigration,immigration
+722903,Repeal the Online Safety Act,closed,550136,543528,537108,650,2025-03-20,2025-04-22,2025-10-22,2026-03-04,1,online,online
+705383,Stop financial and other support for asylum seekers,closed,427447,424535,421730,650,2024-11-27,2025-01-20,2025-07-20,2025-11-04,1,immigration,immigration
+702844,"Raise the income tax personal allowance from £12,570 to £20,000",closed,281793,280807,278289,650,2024-11-24,2024-12-20,2025-06-20,2025-05-16,1,money,money
+730605,Mandatory collection and publication of certain child sexual offender data,closed,260974,257593,255872,650,2025-06-17,2025-07-16,2026-01-16,2026-06-02,1,education,justice
+705384,Ban immediately the use of dogs in scientific and regulatory procedures,closed,257938,256035,252550,650,2024-11-27,2025-02-14,2025-08-14,2025-04-29,1,animals,animals
+718406,Shut the migrant hotels down now and deport illegal migrants housed there,closed,257442,255874,254038,650,2025-02-19,2025-04-01,2025-10-01,2025-11-04,1,immigration,immigration
+759783,Make a public animal abuser register & automatically ban ownership,closed,245469,238923,235382,650,2026-02-03,2026-03-12,2026-09-12,2026-06-30,1,animals,animals
+746363,Keep 5-Year ILR and Restrict Access to Benefits for New ILR Holders,closed,244451,242871,239950,650,2025-10-10,2025-11-18,2026-05-18,2026-02-03,1,immigration,immigration
+700824,Close the borders! Suspend ALL immigration for 5 years!,closed,229772,228032,225620,650,2024-11-05,2024-11-26,2025-05-26,2025-03-11,1,immigration,immigration
+750050,Dissolve Parliament and call a General Election now!,closed,221477,219851,217653,650,2025-11-08,2025-12-10,2026-06-10,2026-01-16,1,democracy,democracy
+757233,Do not ban social media for under 16s,closed,217682,216463,211022,650,2026-01-15,2026-02-11,2026-08-11,2026-11-03,1,online,online
+762640,Hold a referendum to bring the water industry into public ownership,closed,213751,212222,210900,650,2026-02-27,2026-04-01,2026-10-01,2026-09-15,1,democracy,environment
+725716,Protect Northern Ireland Veterans from Prosecutions,closed,209956,205871,204535,650,2025-04-22,2025-05-09,2025-11-09,2025-10-15,1,local,local
+759385,Ban anyone convicted of terrorism offences from standing for public office,closed,206808,204688,203416,650,2026-01-30,2026-03-06,2026-09-06,2026-07-07,1,justice,justice
+756036,Make all court and tribunal transcripts available free of charge,closed,204129,200881,199506,650,2026-01-05,2026-02-05,2026-08-05,2026-05-12,1,justice,justice
+700682,Urgently fulfil humanitarian obligations to Gaza,closed,198965,196522,195483,650,2024-11-04,2025-01-28,2025-07-28,2025-11-25,1,international,international
+732559,Limit the sale of fireworks to those running local council approved events only,closed,195930,195519,194402,650,2025-07-06,2025-08-20,2026-02-20,2026-01-20,1,animals,animals
+728715,"Review possible penalties for social media posts, including the use of prison",closed,191591,188761,187511,650,2025-05-27,2025-06-20,2025-12-20,2025-11-18,1,online,online
+702074,Prohibit publishers irrevocably disabling video games they have already sold,closed,189886,185352,184225,650,2024-11-17,2025-01-14,2025-07-14,2025-11-04,1,online,online
+750612,Legislate to require drivers to report collisions with cats,closed,189192,188254,187160,650,2025-11-13,2025-12-17,2026-06-17,2026-10-27,1,animals,animals
+727360,Keep the 5-Year ILR pathway for existing Skilled Worker visa holders,closed,188125,186984,185555,650,2025-05-12,2025-05-23,2025-11-23,2025-09-09,1,immigration,immigration
+738192,Reduce the maximum noise level for consumer fireworks from 120 to 90 decibels,closed,184376,183822,182772,650,2025-08-18,2025-09-04,2026-03-04,2026-01-20,1,animals,animals
+700047,Allow parents to take their children out of school for up to 10 days fine free.,closed,181597,181426,179738,650,2024-10-30,2024-11-28,2025-05-28,2025-10-30,1,education,education
+775267,Legislate to protect ILR applicants from retrospective changes,open,169871,169048,168130,650,2026-06-27,2026-07-30,,,0,immigration,immigration
+751174,Appoint a Maternity Commissioner to improve maternity care for mums and babies,closed,167092,166103,164947,650,2025-11-19,2026-01-07,2026-07-07,2026-04-21,1,health,health
+722377,Withdraw the Children's Wellbeing and Schools Bill,closed,166495,165682,164035,650,2025-03-16,2025-04-25,2025-10-25,2025-12-05,1,education,education
+700765,Introduce a compensation scheme for WASPI women,closed,161788,158913,157557,650,2024-11-04,2024-11-21,2025-05-21,2025-05-01,1,money,money
+701963,Make all forms of 'geo-engineering' affecting the environment illegal,closed,160631,158644,156687,650,2024-11-16,2024-12-23,2025-06-23,2025-06-24,1,environment,environment
+747234,Remove power to cancel local government elections,closed,154829,153851,152710,650,2025-10-17,2025-11-25,2026-05-25,2026-03-10,1,democracy,democracy
+700138,Don't change inheritance tax relief for working farms,closed,154005,152654,150353,650,2024-10-31,2024-11-13,2025-05-13,2025-02-25,1,money,money
+755980,Review the evidence and fund the addition of SMA to the Newborn Screening Test,closed,151321,150429,149454,650,2026-01-04,2026-02-09,2026-08-09,2026-07-15,1,health,health
+751839,Cancel the clinical trial into puberty blockers & safeguard vulnerable children,closed,150786,148574,147260,650,2025-11-24,2026-01-08,2026-07-08,2026-05-12,1,health,equality
+707189,Tighten the rules on political donations,closed,144783,143707,142115,650,2024-12-02,2025-01-22,2025-07-22,2025-05-02,1,democracy,democracy
+761127,Legislate to ban FPNs and prosecutions related to school attendance,closed,138457,138326,137325,650,2026-02-14,2026-03-24,2026-09-24,,1,education,education
+700005,Apply for the UK to join the European Union as a full member as soon as possible,closed,136650,130693,129511,650,2024-10-30,2024-10-31,2025-04-30,2025-04-17,1,eu,eu
+767687,Hold a UK-wide briefing on climate and nature risks,open,136190,134859,134388,650,2026-04-18,2026-05-20,,,1,environment,environment
+711021,Retain legal right to assessment and support in education for children with SEND,closed,132789,132426,131801,650,2024-12-22,2025-04-09,2025-10-09,2025-10-15,1,health,education
+700086,Introduce 16 as the minimum age for children to have social media,closed,132102,131455,130265,650,2024-10-30,2024-11-07,2025-05-07,2025-02-26,1,education,online
+769589,End the mandatory fortification of white flour with folic acid immediately,open,131034,129754,128859,650,2026-05-11,2026-06-08,,,1,health,health
+737660,By-elections to be called automatically when MPs defect to another party,closed,129335,127805,127124,650,2025-08-14,2025-09-04,2026-03-04,2026-03-17,1,democracy,democracy
+701159,Allow transgender people to self-identify their legal gender.,closed,128749,126960,125495,650,2024-11-07,2024-12-12,2025-06-12,2025-05-20,1,equality,equality
+727514,Reduce the school week to four days a week,closed,126014,125196,121283,650,2025-05-14,2025-06-04,2025-12-04,2026-01-06,1,education,education
+750236,Do not merge section 1 & 2 regulations on firearms licenses,closed,122952,122607,121749,650,2025-11-10,2025-12-11,2026-06-11,2026-03-10,1,justice,justice
+736578,End testing on dogs and other animals for development of products for human use,closed,121854,120105,118781,650,2025-08-07,2025-10-31,2026-04-30,2026-04-29,1,animals,animals
+728677,Funding so all infants are offered Type 1 Diabetes Testing in routine care,closed,121152,120357,119356,650,2025-05-27,2025-06-20,2025-12-20,2026-03-10,1,health,health
+734311,Give the British Public the Right to Vote No Confidence in the Government,closed,120817,120043,119189,650,2025-07-23,2025-08-06,2026-02-06,2026-03-10,1,democracy,democracy
+752646,Call a public inquiry into pro-Israel influence on politics & democracy,closed,119448,117144,115989,650,2025-11-29,2026-01-28,2026-07-28,2026-06-23,1,democracy,democracy
+740671,Introduce new tax code for state pensioners with double the personal allowance,closed,119206,118488,117711,650,2025-09-10,2025-10-01,2026-04-01,2026-06-16,1,money,money
+764268,Protect legal right to support for children with SEND,closed,117336,117044,116718,650,2026-03-13,2026-04-14,2026-10-14,,1,health,education
+737327,Require non-stunned and stunned meat to be labelled accordingly,closed,115954,114958,114020,650,2025-08-12,2025-09-01,2026-03-01,,1,animals,animals
+744215,Call a public inquiry into Russian influence on UK politics & democracy,closed,115853,112940,112148,650,2025-09-29,2025-11-10,2026-05-10,2026-02-10,1,democracy,democracy
+701268,"Don't apply VAT to independent school fees, or remove business rates relief.",closed,115560,115045,113590,650,2024-11-09,2024-12-02,2025-06-02,2025-03-12,1,education,education
+752673,Act to ensure Bills backed by MPs & public can complete all stages in Parliament,closed,114982,114014,113066,650,2025-11-29,2026-02-04,2026-08-04,2026-06-09,1,democracy,democracy
+746640,"Legislate crimes motivated by misogyny are hate crimes, fund support & training",closed,114927,112559,107176,650,2025-10-12,2025-12-02,2026-06-02,2026-09-08,1,justice,justice
+727356,Keep 5-year ILR terms to Hong Kong British National (Overseas) visas,closed,114605,112895,112020,650,2025-05-12,2025-06-25,2025-12-25,2025-09-09,1,local,immigration
+754432,Urge Israeli Government to stop law allowing execution of Palestinian prisoners,closed,114445,111587,110578,650,2025-12-13,2026-02-04,2026-08-04,,1,international,international
+780269,Reduce the state pension age to 65 for all,open,114194,113259,112882,650,2026-08-23,2026-09-16,,,1,money,money
+713714,"Increase funding for people with Parkinson's and implement the ""Parky Charter""",closed,113439,112138,111321,650,2025-01-11,2025-03-10,2025-09-10,2025-11-18,1,health,health
+763161,Change surrogacy law to recognise intended parents from birth,closed,113348,112483,111998,650,2026-03-04,2026-04-10,2026-10-10,2026-09-08,1,health,health
+749128,Apply to Rejoin the EU as soon as possible to increase growth in the UK,closed,111687,105694,104961,650,2025-11-02,2025-12-08,2026-06-08,2026-10-13,1,eu,eu
+764785,Support the Ceramics Industry and protect British manufacturing jobs and skills,closed,111258,110143,104406,650,2026-03-19,2026-04-17,2026-10-17,2026-07-07,1,money,money
+761186,Add gynaecological conditions e.g. Endometriosis to Equality Act 2010 Guidance,closed,110767,110175,109732,650,2026-02-15,2026-03-27,2026-09-27,,1,health,health
+700024,Ban fossil fuel advertising and sponsorship,closed,110519,109044,108206,650,2024-10-30,2024-11-12,2025-05-12,2025-07-08,1,environment,environment
+731497,New Disclosure and Safeguarding Mechanism for At-Risk Children,closed,110028,109685,109051,650,2025-06-25,2025-08-05,2026-02-05,2026-04-17,1,education,justice
+718660,Introduce Licensing and Regulation for Dog and Cat Rescues to Protect Welfare,closed,109647,108906,108265,650,2025-02-21,2025-04-08,2025-10-08,2026-01-27,1,animals,animals
+738881,"Invest in brain cancer and give rights, turn terminal into treatable",closed,109063,108176,107309,650,2025-08-23,2025-09-08,2026-03-08,2026-06-16,1,health,health
+732342,Introduce Statutory Menstrual Leave for People with Endometriosis & Adenomyosis,closed,109025,108662,107862,650,2025-07-03,2025-07-29,2026-01-29,2026-04-16,1,health,health
+700557,Ban non-stun slaughter in the UK,closed,109018,107696,106443,650,2024-11-03,2024-11-21,2025-05-21,2025-06-10,1,animals,animals
+752501,Raise Bereavement Support Payment and extend beyond 18 months,closed,108757,108069,107621,650,2025-11-28,2026-01-08,2026-07-08,,1,money,money
+706302,End the use of cages and crates for all farmed animals,closed,108277,106947,105651,650,2024-11-29,2025-01-24,2025-07-24,2025-06-17,1,animals,animals
+715292,Raise statutory maternity/paternity pay to match the National Living Wage,closed,107966,107793,107238,650,2025-01-24,2025-03-18,2025-09-18,2025-10-30,1,health,money
+764553,Remove sentence reductions for guilty pleas in controlling and coercive cases,closed,107159,106720,106347,650,2026-03-17,2026-04-21,2026-10-21,2026-10-20,1,justice,justice
+783252,Launch a public inquiry into the UK's role in Israeli operations in Gaza,open,106645,104434,103860,650,2026-09-29,2026-10-23,,,0,international,international
+727372,Protect Legal Migrants: do not implement the 10-Year ILR proposal,closed,106570,105955,104883,650,2025-05-12,2025-05-23,2025-11-23,2026-02-03,1,immigration,immigration
+742179,Lower the age for invites to regular mammograms to 40 & perform annually,closed,106212,105869,105192,650,2025-09-20,2025-10-09,2026-04-09,2026-07-15,1,health,health
+729440,Make Play and Continuous Provision statutory in England's Key Stage 1 Curriculum,closed,106082,105755,105260,650,2025-06-04,2025-07-03,2026-01-03,2026-01-27,1,education,education
+700036,Ban driven grouse shooting,closed,104341,103404,102346,650,2024-10-30,2024-11-22,2025-05-22,2025-10-15,1,animals,animals
+706513,Every school & college to be obliged to have an evacuation chair & training,closed,104197,103829,103335,650,2024-11-29,2025-02-18,2025-08-18,2025-12-05,1,education,education
+700014,Decriminalise Abortion,closed,103653,103150,102025,650,2024-10-30,2024-11-04,2025-05-04,2025-06-03,1,health,health
+760461,Fund NHS access to Omaveloxolone for patients with Friedreich's Ataxia,closed,103608,102784,102284,650,2026-02-08,2026-03-24,2026-09-24,,1,health,health
+700317,End the Badger cull and adopt other approaches to bovine TB control,closed,102458,100800,99782,650,2024-11-01,2024-11-28,2025-05-28,2025-10-14,1,animals,animals
+751472,"Introduce a screening programme for prostate cancer, starting with high-risk men",closed,101931,101627,101178,650,2025-11-22,2026-01-13,2026-07-13,2026-10-27,1,health,health
+766919,Review the law on unfit to plead & reform it to protect victims & public safety,closed,101914,101435,100911,650,2026-04-09,2026-05-08,2026-11-08,,1,justice,justice
+754331,Commission a full Independent Review of Council Tax and Stamp Duty,closed,101910,101788,101055,650,2025-12-12,2026-01-23,2026-07-23,,1,money,money
+702845,Extend free bus travel for people over 60 in England,closed,101204,101058,100431,649,2024-11-24,2024-12-27,2025-06-27,2026-01-06,1,transport,transport
+737513,"Raise the income tax personal allowance from £12,570 to £20,000",closed,94048,93704,93091,650,2025-08-13,2025-08-29,2026-02-28,,1,money,money
+725928,Support newly qualified nurses: Review barriers to NHS jobs,closed,90102,89720,89200,650,2025-04-24,2025-06-18,2025-12-18,,1,health,health
+773633,Launch a public inquiry into illegal migration in the UK,open,87949,87167,86698,650,2026-06-17,2026-07-15,,,1,immigration,immigration
+700013,Limit the sale and use of Fireworks to licence holders only,closed,87527,87246,86515,650,2024-10-30,2024-11-05,2025-05-05,2024-12-10,1,animals,animals
+762815,"Raise the personal tax allowance to £18,000",closed,86538,86205,85754,650,2026-03-01,2026-03-31,2026-09-30,,1,money,money
+730568,Set out a pro-innovation strategy for blockchain and stablecoins,closed,84278,83988,83310,650,2025-06-16,2025-09-03,2026-03-03,,1,money,online
+779259,Make statutory maternity pay 90% of wage for first 12 weeks & minimum wage after,open,84167,83979,83745,650,2026-08-10,2026-09-14,,,1,health,money
+710283,Ban social media for under-16s to protect children,closed,83242,82968,82365,650,2024-12-17,2025-08-29,2026-02-28,,1,education,online
+704793,Legally enshrine the right of adults to physically transition using NHS services,closed,83222,82167,81270,650,2024-11-26,2025-01-28,2025-07-28,,1,health,equality
+777710,Make catapult attacks against animals a standalone criminal offence,open,79295,77973,77606,650,2026-07-20,2026-08-20,,,1,animals,animals
+751929,Government apology and compensation for 1950s Women affected by pension changes,closed,71362,69937,69556,650,2025-11-25,2026-01-07,2026-07-07,,1,money,money
+723131,Prohibit the wearing of all full-face coverings in public spaces,closed,71144,70501,70045,650,2025-03-23,2025-05-02,2025-11-02,,1,justice,justice
+715511,Grant the vote for London Mayor to all UK Residents,closed,70906,70367,69939,650,2025-01-25,2025-05-09,2025-11-09,,1,local,local
+737923,Strengthen regulation of supported accommodations,closed,68937,68734,68314,647,2025-08-16,2025-10-17,2026-04-17,,1,other,other
+700918,Immediately stop all arms exports to Israel & seek ceasefire in Gaza,closed,67305,66567,66076,650,2024-11-05,2024-12-05,2025-06-05,,1,international,international
+754292,Fund Free TV licences for all pensioners.,closed,67060,66957,66722,650,2025-12-12,2026-01-21,2026-07-21,,1,money,money
+752400,Stop proposed changes to the Motability Scheme,closed,62790,62671,62055,650,2025-11-27,2026-01-15,2026-07-15,,1,money,money
+700074,Reverse changes to Winter Fuel Payment,closed,62034,61638,61093,650,2024-10-30,2024-11-05,2025-05-05,,1,money,money
+729597,Make it an offence for a person's dog to kill another pet and prosecute owners,closed,61701,61484,61130,650,2025-06-06,2025-07-02,2026-01-02,,1,animals,animals
+771401,Permanent driving ban on intoxicated drivers guilty of causing death,open,61330,61143,60964,650,2026-06-01,2026-07-06,,,1,transport,transport
+762116,Ban non-stun & recoverable stun slaughter of animals,closed,61131,60550,59957,650,2026-02-22,2026-03-30,2026-09-30,,1,animals,animals
+738421,The UK Government should not unilaterally recognise a Palestinian State,closed,59098,56565,55912,650,2025-08-19,2025-09-12,2026-03-12,,1,international,international
+724795,Protect hares and their young from shooting during the breeding season,closed,56427,55702,55343,650,2025-04-09,2025-04-29,2025-10-29,,1,animals,animals
+750999,Fund cardiac screening at age 14 years and cardiac awareness programme,closed,56041,55764,55469,650,2025-11-17,2026-01-14,2026-07-14,,1,health,health
+769616,Provide lifelong vet care and financial support for retired service animals,open,55744,55013,54756,650,2026-05-11,2026-06-12,,,1,animals,animals
+731016,Ban greyhound racing,closed,55580,55058,54691,650,2025-06-20,2025-07-30,2026-01-30,,1,animals,animals
+753568,Introduce 5yr Minimum Sentence for unlawfully carrying a Knife 3yrs Juveniles,closed,55481,55047,54675,650,2025-12-05,2026-01-16,2026-07-16,,1,justice,justice
+756814,Reduce Vehicle Excise Duty by 50% for vehicles aged 20 to 39 years,closed,54314,54181,53868,650,2026-01-12,2026-02-06,2026-08-06,,1,transport,transport
+700117,Fund free TV licences for all pensioners,closed,54270,54176,53728,650,2024-10-31,2024-11-26,2025-05-26,,1,money,money
+700035,Make breaking a manifesto against the law and trigger a General Election,closed,53787,53469,52946,650,2024-10-30,2024-11-07,2025-05-07,,1,democracy,democracy
+751443,Keep the 5-Year ILR route for refugees. Do not extend it to 10 or 20 years,closed,53155,52673,51831,649,2025-11-21,2025-12-22,2026-06-22,,1,immigration,immigration
+740004,Label ALL meat as Religiously Slaughtered or Non-Religiously Slaughtered,closed,52272,51911,51549,650,2025-09-03,2025-09-29,2026-03-29,,1,animals,animals
+763721,Ensure new sewage treatment infrastructure meets higher standards as in the EU,closed,50575,50412,50232,643,2026-03-09,2026-05-01,2026-11-01,,1,eu,environment
+734327,Make it statutory guidance not to remove break-times for neurodivergent children,closed,49483,49362,49139,650,2025-07-23,2025-08-06,2026-02-06,,1,health,education
+781048,Mandatory Prison for Drivers Who Conceal Accidents or Obstruct Investigations,open,48524,48412,48246,650,2026-09-04,2026-10-02,,,0,transport,transport
+728017,Use Proportional Representation at the next General Election,closed,47975,47798,47454,650,2025-05-19,2025-06-13,2025-12-13,,1,democracy,democracy
+700391,"Raise the standard tax-free Personal Allowance to £45,000",closed,47717,47561,47182,650,2024-11-02,2024-11-26,2025-05-26,,1,money,money
+707698,Reduce the ILR qualifying period from 5 years to 3 years for legal immigrants,closed,47087,46676,46142,650,2024-12-04,2025-01-23,2025-07-23,,1,immigration,immigration
+779519,Reduce the retirement age for the NHS pension scheme to 60,open,46832,46793,46663,650,2026-08-13,2026-09-17,,,1,health,money
+781598,Ban children & their likeness being used to promote pornography or adult-content,open,45329,44987,44838,650,2026-09-11,2026-10-07,,,1,education,online
+779299,Reinstate mandatory warning before seizing a vehicle for anti-social driving,open,44581,44486,44272,650,2026-08-10,2026-09-14,,,0,transport,transport
+758008,Ban atmospheric geoengineering in UK,closed,43755,43470,43096,650,2026-01-21,2026-02-24,2026-08-24,,1,environment,environment
+776949,Introduce urgent moratorium on AI Data Centres and BESS outside AI Growth Zones,open,43467,43183,42974,650,2026-07-13,2026-08-17,,,1,environment,environment
+700109,Referendum on changing the Electoral System To Proportional Representation (PR),closed,42329,41948,41544,650,2024-10-31,2024-11-06,2025-05-06,,1,democracy,democracy
+725558,Change the 'grey belt' definition in the National Planning Policy Framework,closed,42142,42049,41849,630,2025-04-20,2025-05-14,2025-11-14,,1,environment,environment
+744237,Make it an offence to carry a catapult in public without lawful defence,closed,41238,40891,40672,650,2025-09-29,2025-10-23,2026-04-23,,1,animals,animals
+716686,Recognise the production and serving of cask ale as Intangible Cultural Heritage,closed,41026,40375,40104,650,2025-02-04,2025-04-01,2025-10-01,,1,justice,other
+700080,Exempt all social care providers from the employer NIC increase,closed,40577,40499,40094,649,2024-10-30,2024-11-05,2025-05-05,,1,health,money
+702424,Enact measures to combat knife crime,closed,40254,39978,39486,650,2024-11-21,2024-12-20,2025-06-20,,1,justice,justice
+769319,"Fund £20,000 a year (term time) wage for Teaching Assistants",open,40143,40105,40007,650,2026-05-08,2026-06-08,,,1,education,education
+778680,Launch a public inquiry into the regulation of animal experimentation,open,39880,39482,39295,650,2026-08-01,2026-09-09,,,0,animals,animals
+714319,Allow Parliament to remove the London Mayor,closed,39231,38965,38720,650,2025-01-17,2025-03-11,2025-09-11,,1,local,local
+764063,Review the 2026 visa brake: Publish evidence & create transitional arrangements,closed,38273,37771,37552,650,2026-03-12,2026-04-13,2026-10-13,,1,immigration,immigration
+777325,Fund second stem cell transplants on NHS for relapse within 12 months,open,38218,37922,37762,650,2026-07-16,2026-08-12,,,1,health,health
+705287,Require labelling of beef & dairy from cows fed with additives to reduce methane,closed,38036,37792,37302,650,2024-11-27,2025-01-07,2025-07-07,,1,other,environment
+701068,Abolish the tv licence,closed,37663,37561,37258,650,2024-11-06,2024-11-28,2025-05-28,,1,money,money
+738484,Commission independent inquiry into delays in SEND education provision,closed,36383,36328,36152,650,2025-08-20,2025-09-25,2026-03-25,,1,health,education
+717065,End the Injustice: Grant British Nationals (Overseas) Full UK Citizenship,closed,36182,35411,35060,631,2025-02-06,2025-03-27,2025-09-27,,1,immigration,immigration
+700776,Create path to Settlement for Ukrainians in the UK,closed,35948,35617,35219,650,2024-11-04,2025-01-15,2025-07-15,,1,local,immigration
+701051,Abolish Non-Crime Hate Incidents,closed,35002,34482,34101,650,2024-11-06,2024-12-24,2025-06-24,,1,justice,justice
+730899,Add Sickle Cell Disease to NHS Prescription Charge Exemption List,closed,34448,34342,34096,643,2025-06-19,2025-07-14,2026-01-14,,1,health,health
+735586,Do not remove Sport England as a statutory consultee for planning applications,closed,34281,34205,33980,633,2025-07-31,2025-08-21,2026-02-21,,1,environment,environment
+748695,Hold an inquiry into CAMHS and NHS children's mental health delays,closed,33909,33836,33638,650,2025-10-30,2025-12-03,2026-06-03,,1,health,health
+752855,Introduce an NHS data opt-out & require a consultation for system expansions,closed,33183,32990,32706,650,2025-11-30,2026-01-14,2026-07-14,,1,health,health
+778453,Require asylum seekers & foreign criminals to be detained on remote UK islands,open,33099,32775,32634,649,2026-07-29,2026-09-03,,,0,immigration,immigration
+716515,Remove CWS Bill clauses and provide tangible support to home educating parents,closed,32576,32450,32203,650,2025-02-02,2025-04-01,2025-10-01,,1,education,education
+760061,"Ban foreign media ownership, enact a social media levy & new regulatory reform",closed,32234,31631,31458,650,2026-02-05,2026-03-18,2026-09-18,,1,online,online
+729708,Ban the non-stun slaughter of animals,closed,31900,31624,31379,650,2025-06-07,2025-09-01,2026-03-01,,1,animals,animals
+750545,Make it a crime to abandon someone in immediate danger without seeking help,closed,31622,31431,31068,650,2025-11-12,2025-12-22,2026-06-22,,1,justice,justice
+727359,Urgently regulate e-scooters,closed,31487,31393,31202,648,2025-05-12,2025-06-18,2025-12-18,,1,transport,transport
+721547,Protect Disabled people who cannot work from planned cuts to benefits,closed,31388,31246,31044,650,2025-03-07,2025-04-08,2025-10-08,,1,money,money
+757426,Nationalise water companies to make water a non profit publicly owned asset,closed,31367,31185,30976,650,2026-01-16,2026-02-25,2026-08-25,,1,environment,environment
+733797,Make the Armed Forces pension tax free,closed,31004,30377,30075,649,2025-07-19,2025-08-18,2026-02-18,,1,money,money
+776833,Require public bodies to achieve unqualified audit opinion before raising taxes,open,30897,30674,30529,650,2026-07-12,2026-08-12,,,1,money,money
+717817,Reverse guidance stopping refugees gaining citizenship,closed,30637,30330,29959,648,2025-02-13,2025-05-12,2025-11-12,,1,immigration,immigration
+724432,Make neurodiversity training mandatory for all education staff,closed,30556,30473,30334,650,2025-04-04,2025-04-29,2025-10-29,,1,health,education
+710663,Promote plant-based foods over meat and dairy for a healthier Britain,closed,30425,30157,29995,650,2024-12-19,2025-03-24,2025-09-24,,1,animals,environment
+711976,Launch a Public Inquiry into Grooming Gangs,closed,30259,29912,29616,650,2025-01-02,2025-03-04,2025-09-04,,1,justice,justice
+779197,"Mandate low noise fireworks, drone & laser displays instead of normal fireworks",open,30131,30069,29913,648,2026-08-09,2026-09-14,,,0,animals,animals
+739490,Pause UK offshore CO₂ storage projects and conduct full safety and legal review,closed,29587,29524,29346,559,2025-08-29,2025-09-19,2026-03-19,,1,environment,environment
+731574,Fund mandatory neurodevelopmental screening for all children,closed,29405,29348,29206,650,2025-06-26,2025-08-01,2026-02-01,,1,health,health
+775103,Minimum State Pension should equal the National Minimum Wage for under 18s.,open,29022,28662,28570,650,2026-06-25,2026-07-28,,,1,money,money
+760382,Review anti-discrimination laws to strengthen trans women & LGBTQ+ protections,closed,28300,28109,28001,650,2026-02-07,2026-03-30,2026-09-30,,1,equality,equality
+757251,Make it compulsory for children to wear gloves ice skating,closed,28178,28077,27759,649,2026-01-15,2026-02-17,2026-08-17,,1,education,education
+770527,Disapprove the draft Equality Act 2010 guidance laid on 21 May 2026,open,27805,27492,27375,650,2026-05-22,2026-06-19,,,1,equality,equality
+760231,Launch a public inquiry into the impact of Section 28 on LGBTQ people,closed,27515,27254,27137,650,2026-02-06,2026-03-24,2026-09-24,,1,equality,equality
+700113,Give State Pension to all at 60 and increase it to equal 48hrs at Living Wage,closed,27456,26758,26554,650,2024-10-31,2024-11-26,2025-05-26,,1,money,money
+703284,Ban large solar schemes on farmland/open countryside and promote solar on roofs,closed,27295,27199,26976,647,2024-11-24,2025-01-27,2025-07-27,,1,environment,environment
+712763,Allow motorcycles in bus lanes as default,closed,27090,27013,26817,650,2025-01-06,2025-02-28,2025-08-28,,1,transport,transport
+762149,Set up a National Commission on Electoral Reform to review the electoral system,closed,27036,26655,26582,650,2026-02-22,2026-03-30,2026-09-30,,1,democracy,democracy
+758497,"Improve funding, pay & professional recognition for the Early Years workforce",closed,26931,26883,26719,650,2026-01-23,2026-03-06,2026-09-06,,1,education,education
+726413,Apply for the UK to rejoin the EU fully - do not just 'reset' the relationship,closed,26756,25168,25011,650,2025-04-30,2025-05-13,2025-11-13,,1,eu,eu
+748648,Introduce a Central Microchip Portal to help reunite missing pets without delay,closed,26755,26586,26446,650,2025-10-30,2025-12-05,2026-06-05,,1,animals,animals
+703861,Do not stop transgender people from receiving care in mainstream hospital wards,closed,26750,26287,26041,650,2024-11-25,2025-01-09,2025-07-09,,1,health,equality
+756775,"Sever UK-Iran ties, withdraw recognition of Iran's regime & expel all diplomats",closed,26574,25013,24321,649,2026-01-11,2026-02-10,2026-08-10,,1,international,international
+781255,Keep 10-year Long Residence Route for people already living in the UK,open,26485,26369,26148,650,2026-09-06,2026-10-16,,,0,immigration,immigration
+736504,Inquiry into sexual violence in NHS hospitals,closed,25944,25484,25269,650,2025-08-07,2025-09-08,2026-03-08,,1,health,health
+734090,Stop the double tax (IHT & Income Tax) of pension funds & death benefits,closed,25904,25769,25613,650,2025-07-22,2025-08-07,2026-02-07,,1,money,money
+777752,Stop plans to use MoD sites for asylum seekers without full local consultation,open,24839,24639,24525,649,2026-07-21,2026-08-19,,,1,immigration,immigration
+756832,Abolish interest charges on student loans,closed,24663,24512,24336,650,2026-01-12,2026-02-11,2026-08-11,,1,education,education
+768395,Make carbon monoxide alarms mandatory in all holiday accommodation,open,24522,24479,24379,650,2026-04-26,2026-05-27,,,1,health,other
+701064,Make the sale of catapults/ammunition and carrying catapults in public illegal.,closed,24521,24431,24202,649,2024-11-06,2024-11-27,2025-05-27,,1,animals,animals
+703827,Stop DWP repeating PIP assessments for disabled people,closed,24442,24415,24147,650,2024-11-25,2024-12-23,2025-06-23,,1,money,money
+751401,Ensure access to non-whole meal flour without folic acid fortification,closed,24140,23906,23728,650,2025-11-21,2025-12-24,2026-06-24,,1,health,health
+734246,Hold a referendum on introducing mandatory identity cards in the UK,closed,24137,23934,23775,650,2025-07-23,2025-08-13,2026-02-13,,1,democracy,online
+747448,Withdraw the Children's Wellbeing and Schools Bill immediately,closed,24121,24054,23842,650,2025-10-19,2025-11-25,2026-05-25,,1,education,education
+700189,Run a public information campaign on the climate crisis,closed,24114,23789,23531,650,2024-10-31,2024-11-08,2025-05-08,,1,environment,environment
+755123,Stop the ban on trail hunting,closed,24071,23956,23826,639,2025-12-22,2026-02-02,2026-08-02,,1,animals,animals
+711355,Grant Cornwall nation status,closed,24011,23618,23478,641,2024-12-27,2025-03-11,2025-09-11,,1,local,local
+764375,Codify rules for MPs' attendance in Parliament & their constituency in statute,closed,23936,23482,21516,649,2026-03-15,2026-04-15,2026-10-15,,1,democracy,democracy
+729027,Leave the European Convention on Human Rights (ECHR),closed,23671,23440,23259,650,2025-05-31,2025-07-09,2026-01-09,,1,other,justice
+717489,Hold a UK referendum before joining any defence and security pact with the EU.,closed,23529,23268,23023,650,2025-02-10,2025-04-15,2025-10-15,,1,eu,eu
+700186,Create a public consultation on freedom of speech and disinformation,closed,23426,23024,22839,650,2024-10-31,2024-11-08,2025-05-08,,1,democracy,democracy
+740486,Introduce a Pension Tax Lock to help protect retirement savings and incentives,closed,23299,23191,22993,650,2025-09-08,2025-10-01,2026-04-01,,1,money,money
+746353,Allow charities to rescue dogs with docked tails under the Animal Welfare Bill,closed,23257,22721,22520,650,2025-10-10,2025-11-17,2026-05-17,,1,animals,animals
+745717,Protect the Right to Live Without a Digital ID,closed,23067,22907,22693,650,2025-10-05,2026-01-02,2026-07-02,,1,online,online
+701850,Require parliamentary scrutiny of any proposal to amend the Royal Mail USO,closed,22922,22835,22633,650,2024-11-15,2024-12-23,2025-06-23,,1,democracy,democracy
+735949,Fund vouchers for people with coeliac disease,closed,22677,22546,22321,650,2025-08-02,2025-08-27,2026-02-27,,1,health,health
+763011,Public Vote Required on Overseas Aid Spending,closed,22576,22423,22331,650,2026-03-03,2026-04-01,2026-10-01,,1,democracy,international
+770200,Ban on sale of disposable BBQs,open,22536,22439,22357,649,2026-05-18,2026-06-15,,,1,environment,environment
+755534,Introduce prison sentences for deliberate cruelty to wild birds including pigeon,closed,22501,22295,22127,650,2025-12-29,2026-01-30,2026-07-30,,1,animals,animals
+761192,Stop taxing Longer Separation Allowance on British armed forces,closed,22230,22126,21946,648,2026-02-15,2026-04-09,2026-10-09,,1,transport,money
+727534,Formal support framework for families of murdered British citizens overseas,closed,22092,21931,21815,641,2025-05-14,2025-06-25,2025-12-25,,1,justice,justice
+777945,Introduce a national strategy to tackle the cat overpopulation and rescue crisis,open,22062,21991,21924,649,2026-07-23,2026-08-19,,,1,animals,animals
+767590,"Increase the personal tax allowance threshold to £20,000",open,21964,21906,21801,650,2026-04-17,2026-05-14,,,0,money,money
+700614,Hold a referendum to decide if the UK should leave the ECHR.,closed,21730,21524,21319,650,2024-11-03,2024-12-11,2025-06-11,,1,democracy,justice
+720491,Strengthen the Animal Welfare Act 2006,closed,21392,21286,21157,650,2025-03-01,2025-04-22,2025-10-22,,1,animals,animals
+701600,Repeal the Climate Change Act 2008 and Net Zero targets,closed,21323,21096,20822,650,2024-11-12,2024-12-06,2025-06-06,,1,environment,environment
+759571,Automatically remove parental responsibility for parents convicted of abuse,closed,21252,21036,20935,650,2026-02-01,2026-03-11,2026-09-11,,1,education,justice
+706884,Postural Tachycardia Syndrome: fund training and facilities,closed,21228,21107,20930,650,2024-11-30,2025-01-30,2025-07-30,,1,health,health
+771833,"General election now, and always call one if a PM is replaced",open,21014,20879,20792,650,2026-06-04,2026-07-01,,,1,democracy,democracy
+768851,Ensure fair and transparent faith security funding for all faith communities,open,20977,20881,20786,611,2026-05-01,2026-06-18,,,1,money,equality
+772026,Raise Human Rights Issues in Azad Kashmir with the Government of Pakistan,open,20825,20325,20168,516,2026-06-07,2026-07-03,,,1,local,international
+702341,"Change the law, so that UK citizens can force an immediate General Election",closed,20762,20651,20412,649,2024-11-20,2024-12-24,2025-06-24,,1,democracy,democracy
+700623,Update the dangerous dogs act to specifically protect horses,closed,20712,20527,20254,650,2024-11-03,2024-11-22,2025-05-22,,1,animals,animals
+762214,"Pause housebuilding targets imposed on councils, review and identify local need",closed,20402,20385,20286,594,2026-02-23,2026-03-30,2026-09-30,,1,money,environment
+768417,Ban the sale and consumption of alcohol in House of Commons venues,open,20366,20147,20059,650,2026-04-26,2026-05-26,,,1,money,democracy
+761817,Mandatory suicide risk assessment for adolescents in hospital who express intent,closed,20344,20273,20205,643,2026-02-19,2026-04-10,2026-10-10,,0,health,health
+752959,Ban the use of netting on roofs and outdoor structures,closed,20273,20089,19897,650,2025-12-01,2026-02-03,2026-08-03,,1,animals,animals
+734243,Continue Parental Responsibility Automatically when disabled children turn 18,closed,20147,20062,19963,650,2025-07-23,2025-08-11,2026-02-11,,1,education,education
+729235,Stop HMRC implementing making tax digital and enforcing quarterly submissions,closed,20086,20042,19926,650,2025-06-03,2025-07-02,2026-01-02,,1,money,money
+719124,Transfer UK Warrior Infantry Fighting Vehicles to Ukraine,closed,20067,19315,19142,650,2025-02-24,2025-04-04,2025-10-04,,1,transport,international
+728656,Give State Pension to all at 60 and increase it to equal 48hrs of Living Wage,closed,19992,19655,19533,650,2025-05-26,2025-06-24,2025-12-24,,1,money,money
+754843,Do not remove the 10% wear and tear allowance for childminders from April 2026,closed,19980,19950,19866,650,2025-12-18,2026-01-27,2026-07-27,,1,education,education
+750817,Allow small pets to travel in the cabin on flights entering the UK,closed,19853,19362,18629,650,2025-11-15,2026-02-02,2026-08-02,,1,animals,animals
+762177,Introduce same pension age for ambulance workers as for Police and Firefighters,closed,19787,19739,19675,646,2026-02-22,2026-04-02,2026-10-02,,1,health,money
+756958,Fund free female sanitary products for all women and girls,closed,19773,19576,19371,650,2026-01-13,2026-02-09,2026-08-09,,1,health,health
+731355,Require schools to let children use the toilet at all times in the school day,closed,19728,19705,19585,650,2025-06-24,2025-07-18,2026-01-18,,1,education,education
+769762,Do not extend the BBC licence fee to streaming services,open,19651,19603,19497,650,2026-05-12,2026-06-11,,,1,money,money
+766093,Remove the grey belt planning rules,closed,19541,19512,19451,569,2026-03-31,2026-04-30,2026-10-30,,1,environment,environment
+700285,Provide day 1 financial support to parents caring for a seriously ill child,closed,19396,19329,19137,650,2024-11-01,2025-01-29,2025-07-29,,1,education,education
+759084,Treat non-fatal strangulation as equivalent offence to attempted murder,closed,19336,19251,19153,650,2026-01-28,2026-03-06,2026-09-06,,1,justice,justice
+783905,Hold a UK-wide public consultation before further expansion of AI data centres,open,19154,18971,18887,650,2026-10-06,2026-10-26,,,0,environment,environment
+765360,Mandate standardised cancer training for all GPs in England,closed,19147,19068,19006,650,2026-03-25,2026-05-01,2026-11-01,,1,health,health
+732221,Criminalise & legally require schools to tackle bullying in & out of school,closed,18892,18828,18693,650,2025-07-02,2025-09-17,2026-03-17,,1,education,education
+742843,Require online platforms to remove misinformation targeting bereaved families,closed,18804,18632,18500,650,2025-09-23,2025-11-04,2026-05-04,,1,online,online
+707685,Allow families with SEN children 10 days term-time holiday without being fined,closed,18610,18594,18523,637,2024-12-04,2025-01-28,2025-07-28,,1,health,education
+743021,"Cut VAT for local hospitality, for Pubs, Cafes & Restaurants",closed,18502,18458,18340,650,2025-09-24,2025-10-16,2026-04-16,,1,health,money
+716157,Make the Tour de France a Category A event so it is free-to-air,closed,18471,18277,18123,648,2025-01-30,2025-04-01,2025-10-01,,1,other,other
+715800,Allow Veterans who left before 1987 to claim compensation for hearing loss.,closed,18429,18236,18137,648,2025-01-27,2025-05-07,2025-11-07,,1,justice,other
+770977,Lower the State Pension age to free up jobs for young adults,open,18346,18264,18225,650,2026-05-28,2026-06-25,,,1,money,money
+757502,Introduce national support standards for autistic children with PDA,closed,18227,18167,17907,650,2026-01-17,2026-02-20,2026-08-20,,1,health,health
+739014,Fix Our Roads: National Plan on Dangerous Potholes Now,closed,18110,18092,17993,627,2025-08-24,2025-09-04,2026-03-04,,1,transport,transport
+768687,Amend standards for PIP to clearly include type 1 diabetics,open,18071,18029,17975,650,2026-04-29,2026-06-02,,,1,money,money
+769850,Ban balloon releases,open,17916,17816,17750,649,2026-05-13,2026-06-11,,,1,animals,animals
+727717,Recognise Palestine as a State and seek immediate ceasefire in Gaza,closed,17800,17587,17457,650,2025-05-15,2025-06-13,2025-12-13,,1,international,international
+769805,Hold a referendum on abolishing the Scottish Parliament & Government,open,17762,17665,17586,565,2026-05-13,2026-06-12,,,1,local,local
+737761,Introduce product-specific safety regulations for tampons,closed,17662,17534,17382,650,2025-08-15,2025-09-18,2026-03-18,,1,health,health
+702712,Review decision to cede sovereignty of the Chagos Islands to Mauritius,closed,17647,16825,16643,650,2024-11-24,2024-12-30,2025-06-30,,1,international,international
+755446,Expand statutory SEN allowance entitlement to Teaching Assistants in SEN schools,closed,17602,17581,17507,644,2025-12-28,2026-02-10,2026-08-10,,1,health,education
+763401,"Stop pilot scheme giving up to £40,000 to failed asylum seeker families",closed,17583,17439,17334,650,2026-03-06,2026-04-10,2026-10-10,,1,immigration,immigration
+700217,An independent evaluation of the Cass review on child gender services,closed,17353,16977,16853,650,2024-10-31,2024-12-12,2025-06-12,,1,health,equality
+727063,"Fund better Functional Neurological Disorder care, treatment and support",closed,17266,17152,17042,648,2025-05-08,2025-06-13,2025-12-13,,1,health,health
+744397,Restore the Electoral Commission's Independence,closed,17259,17170,17003,649,2025-09-29,2025-11-05,2026-05-05,,1,democracy,democracy
+701379,Impose economic sanctions on Israel.,closed,17167,16993,16902,647,2024-11-10,2024-12-09,2025-06-09,,1,international,international
+710017,Make the state pension tax exempt,closed,17129,16981,16867,650,2024-12-15,2025-02-07,2025-08-07,,1,money,money
+700404,Require all businesses and public services to accept cash payments,closed,17106,16912,16723,650,2024-11-02,2024-11-15,2025-05-15,,1,money,money
+701884,Reverse Cadet Forces Funding Cuts by Min of Defence and the Dept of Education.,closed,17098,16959,16785,650,2024-11-15,2024-12-12,2025-06-12,,1,education,education
+713798,Ensure plurality of political coverage across UK broadcast media at all times,closed,17051,16725,16625,649,2025-01-12,2025-03-13,2025-09-13,,1,democracy,democracy
+738567,Change laws regarding abuse of multiple animals,closed,17006,16858,16777,650,2025-08-20,2026-01-13,2026-07-13,,1,animals,animals
+764402,Deport all foreign-born criminals & individuals on the terror watchlist,closed,16885,16710,16632,650,2026-03-15,2026-04-27,2026-10-27,,1,immigration,immigration
+710486,Ban new waste incinerators and revoke permits where building has not begun,closed,16882,16849,16656,564,2024-12-18,2025-03-07,2025-09-07,,1,environment,environment
+731994,Legislate to mandate offer of electronic pension transfers and higher standards,closed,16729,16558,16461,650,2025-06-30,2025-07-24,2026-01-24,,1,money,money
+741677,Make impersonating military service/wearing unearned medals a criminal offence,closed,16710,16213,16039,650,2025-09-18,2025-10-07,2026-04-07,,1,justice,justice
+765849,Require meat to be labelled if religiously slaughtered & stunned or not stunned,open,16612,16474,16393,650,2026-03-29,2026-05-12,,,1,animals,animals
+700041,Hold a referendum on re-joining the European Union,closed,16594,15717,15583,650,2024-10-30,2024-11-06,2025-05-06,,1,eu,eu
+781821,Ban supermarkets from throwing away food and drink that is safe to consume,open,16570,16464,16393,650,2026-09-13,2026-10-09,,,0,environment,environment
+760546,Investigate the failures in the administration of Civil Service Pensions,closed,16445,16321,16193,649,2026-02-09,2026-03-20,2026-09-20,,1,money,money
+763294,Ensure people whose parent had breast cancer under 45 can access genetic testing,closed,16428,16361,16271,650,2026-03-05,2026-04-08,2026-10-08,,1,health,health
+729231,Deport all illegal migrants in the United Kingdom,closed,16427,16316,16207,650,2025-06-03,2025-07-03,2026-01-03,,1,immigration,immigration
+754639,"Require faster eviction process, and improve protections for landlords in PRS",closed,16368,16243,16138,645,2025-12-16,2026-01-26,2026-07-26,,1,money,money
+700262,Ban animal testing for human products and medicines,closed,16302,16057,15882,650,2024-11-01,2024-11-19,2025-05-19,,1,animals,animals
+705772,Impose a lifetime ban on animal ownership for anyone convicted of animal cruelty,closed,16283,16128,16000,650,2024-11-27,2025-01-20,2025-07-20,,1,animals,animals
+746707,Fund pay for student nurses and midwives for placement hours,closed,16122,16088,15971,650,2025-10-13,2025-11-20,2026-05-20,,1,health,health
+759116,"Reduce VAT on hospitality to 10%: protect jobs, communities & UK competitiveness",closed,16111,16060,15980,650,2026-01-28,2026-03-12,2026-09-12,,1,health,money
+728658,Fund Free TV licences for all pensioners.,closed,15986,15949,15840,650,2025-05-26,2025-06-11,2025-12-11,,1,money,money
+768378,Stop a single Minister having the final say on national infrastructure projects,open,15985,15945,15876,635,2026-04-26,2026-05-26,,,1,democracy,democracy
+770199,Introduce weekend access to death certification for burials,open,15898,15869,15823,525,2026-05-18,2026-06-18,,,0,health,health
+771307,Add fish-eating birds to Schedule 2.1 of the Wildlife and Countryside Act 1981,open,15793,15757,15689,649,2026-05-31,2026-06-26,,,1,animals,animals
+750566,Abolish Ground Rent for Existing Residential Leasehold Properties,closed,15650,15493,15358,618,2025-11-13,2026-01-06,2026-07-06,,1,money,money
+728920,Increase regulation of parking signage,closed,15649,15409,15279,650,2025-05-30,2025-07-07,2026-01-07,,1,transport,transport
+749752,Introduce an independent appeals panel for school absences,closed,15635,15618,15532,646,2025-11-06,2025-12-08,2026-06-08,,1,education,education
+705918,Pay pensioners the equivalent of the living wage of a 35 hour week.,closed,15606,15374,15134,650,2024-11-28,2025-01-20,2025-07-20,,1,money,money
+771102,Start negotiations now to Rejoin the EU,open,15604,14596,14520,650,2026-05-29,2026-06-24,,,1,eu,eu
+701290,Ban wind farms on protected peat land in England,closed,15437,15338,15231,629,2024-11-09,2025-01-24,2025-07-24,,1,environment,environment
+765400,Coeliac disease awareness training to be mandatory for all catering industries,closed,15400,15333,15280,650,2026-03-25,2026-04-24,2026-10-24,,1,health,health
+784405,Increase the maximum sentence for serious animal cruelty offences to 20 years,open,15388,15138,15053,650,2026-10-12,2026-10-29,,,0,animals,animals
+757849,Government ban on social media to be for under 13s only,closed,15288,15254,14915,650,2026-01-20,2026-02-19,2026-08-19,,1,online,online
+760517,Increase funding for veteran-led organisation supporting veterans into work,closed,15180,14995,14887,650,2026-02-09,2026-03-17,2026-09-17,,1,justice,other
+780004,Review & amend immigration rules for Hongkongers with political convictions,open,15098,14787,14678,584,2026-08-19,2026-09-28,,,1,local,immigration
+709054,Add hedgehogs to schedule 5 of the Wildlife & Countryside Act 1981,closed,14993,14917,14821,646,2024-12-09,2025-01-31,2025-07-31,,1,animals,animals
+755710,Ban all supermarkets from throwing away edible food & require their donation,closed,14969,14829,14773,650,2026-01-01,2026-02-11,2026-08-11,,1,environment,environment
+781934,Require all schools to teach ADHD & neurodiversity education,open,14907,14855,14803,650,2026-09-15,2026-10-14,,,0,health,education
+760199,The removal or death of a PM should trigger a general election,closed,14839,14716,14658,650,2026-02-06,2026-03-16,2026-09-16,,1,democracy,democracy
+760485,Require all emergency services to record staff suicides,closed,14723,14651,14588,650,2026-02-08,2026-03-24,2026-09-24,,1,health,health
+766887,Reform regulation through the GMC to put patient safety and fairness first,open,14711,14673,14601,650,2026-04-09,2026-05-21,,,1,health,health
+764140,Review discharge of mental health patients,closed,14679,14645,14601,636,2026-03-12,2026-04-24,2026-10-24,,1,health,health
+705403,Fully Repeal the Gender Recognition Act,closed,14646,14389,14231,649,2024-11-27,2025-02-12,2025-08-12,,1,equality,equality
+730292,Change the DDA 1991 to stop breed bans and focus on behaviour,closed,14623,14476,14330,649,2025-06-13,2025-09-23,2026-03-23,,1,animals,animals
+751635,"Ban the use of AI for image, video and audio creation",closed,14606,14511,14352,650,2025-11-23,2025-12-19,2026-06-19,,1,online,online
+700120,Stop Means Testing Pensioners and increase the State Pension,closed,14563,14399,14263,649,2024-10-31,2024-11-11,2025-05-11,,1,money,money
+700029,"Embed food, farming, and sustainability education into the national curriculum",closed,14480,14395,14188,649,2024-10-30,2024-11-01,2025-05-01,,1,education,education
+770812,Review and refund overcharged UK Student and Child Student visa fees,open,14413,13712,13406,335,2026-05-26,2026-06-19,,,0,immigration,immigration
+728751,Review and fund improved detection and diagnosis of prostate cancer,closed,14374,14315,14257,650,2025-05-28,2025-06-24,2025-12-24,,1,health,health
+702538,Lift restrictions on prescribing puberty blockers to trans children.,closed,14272,14019,13886,650,2024-11-22,2025-02-05,2025-08-05,,1,health,equality
+701769,Change requirements for ILR for those who have graduated and worked for 3 years,closed,14189,14104,13934,624,2024-11-14,2024-12-06,2025-06-06,,1,immigration,immigration
+775071,Review and reform laws on keeping wild animals as pets,open,14165,13971,13917,650,2026-06-25,2026-07-27,,,1,animals,animals
+726174,Stop the Planning and Infrastructure Bill 2025 to Protect Nature,closed,14151,14089,14033,647,2025-04-27,2025-05-13,2025-11-13,,1,environment,environment
+700168,Remove the 28 day time limit from the unduly lenient sentence scheme for murder,closed,14062,13986,13876,648,2024-10-31,2024-11-06,2025-05-06,,1,justice,justice
+765199,Protect creators' rights: require AI firms to disclose training data,closed,14048,13770,13711,650,2026-03-24,2026-04-29,2026-10-29,,1,online,online
+728067,Introduce a 'School Allergy Safety Bill' to Protect School Pupils with Allergies,closed,13967,13926,13870,649,2025-05-20,2025-06-30,2025-12-30,,1,health,education
+763675,Introduce legislation to make it possible to renumerate emergency volunteers,closed,13823,13761,13691,629,2026-03-08,2026-04-13,2026-10-13,,1,other,other
+710067,Grant automatic visa extension and ILR for Ukrainians after 5 years,closed,13713,13583,13398,650,2024-12-15,2025-02-17,2025-08-17,,1,local,immigration
+734441,Ban payment processors stopping services based on objections to legal content,closed,13556,13327,13212,650,2025-07-24,2025-08-26,2026-02-26,,1,online,online
+760827,Require NHS to offer routine third trimester pregnancy ultrasound scan,closed,13515,13500,13447,650,2026-02-11,2026-03-23,2026-09-23,,1,health,health
+751009,"NHS funding for egg freezing, for those suffering from endometriosis.",closed,13335,13266,13159,650,2025-11-17,2025-12-16,2026-06-16,,1,health,health
+737608,Change law around box junctions to give drivers more leniency,closed,13298,13265,13154,642,2025-08-14,2025-10-06,2026-04-06,,1,transport,transport
+700413,Make GCSE exams free for home educated children under 18,closed,13235,13188,13081,650,2024-11-02,2024-11-15,2025-05-15,,1,education,education
+734493,Require service stations to provide motorhome waste and water facilities,closed,13145,13081,12987,641,2025-07-25,2025-08-11,2026-02-11,,1,transport,transport
+779981,Review legal rights to wheelchair spaces on buses and coaches,open,13145,13030,12973,650,2026-08-18,2026-09-15,,,1,transport,transport
+757758,Disregard compensation paid to injured service personnel from UC calculation,closed,13126,12864,12805,650,2026-01-19,2026-02-26,2026-08-26,,1,money,money
+736720,Review and centrally Record Pet Euthanasia Data,closed,13099,12936,12844,649,2025-08-08,2025-10-07,2026-04-07,,1,animals,animals
+711368,Don't abandon the Chalk Stream recovery pack,closed,13081,13000,12901,625,2024-12-27,2025-02-25,2025-08-25,,1,local,environment
+751315,Call for Parliamentary inquiry into potential systemic discrimination of BNOs,closed,13055,12835,12662,575,2025-11-20,2026-01-09,2026-07-09,,1,local,immigration
+751177,"Ban Government bodies from describing taxpayer-funded services as ""free""",closed,13050,12939,12804,649,2025-11-19,2025-12-18,2026-06-18,,1,money,money
+700860,Introduce 'Grow Your Own' Laws for Legal Medical Cannabis Patients (CBPM),closed,13029,12916,12745,650,2024-11-05,2024-11-20,2025-05-20,,1,health,health
+761984,"Detain, detect and deport all illegal immigrants",closed,13004,12890,12811,650,2026-02-20,2026-03-26,2026-09-26,,1,immigration,immigration
+775876,The North Of England A1 Safety Guarantee: Action Immediate Protection.,open,12943,12894,12836,564,2026-07-02,2026-08-06,,,0,local,local
+716399,Stop benefits and free healthcare for immigrants who have not worked in the UK,closed,12936,12869,12789,649,2025-02-01,2025-03-24,2025-09-24,,1,immigration,immigration
+758164,Review NHS lipoedema care,closed,12933,12862,12804,650,2026-01-22,2026-02-20,2026-08-20,,1,health,health
+713128,Do not restrict vape flavours,closed,12887,12857,12760,644,2025-01-08,2025-03-07,2025-09-07,,1,democracy,health
+708806,Reduce minimum retirement age for ambulance staff to 55,closed,12741,12697,12595,646,2024-12-07,2025-02-14,2025-08-14,,1,health,money
+725069,Reduce the minimum retirement age for Prison Officers to 60,closed,12713,12664,12600,647,2025-04-14,2025-05-06,2025-11-06,,1,money,money
+770872,Review access to NHS treatment for Retrograde Cricopharyngeal Dysfunction,open,12695,12638,12588,650,2026-05-26,2026-06-22,,,1,health,health
+760799,"Provide a legal pathway to ""de-exempt"" XL Bully dogs exempted as a precaution",closed,12541,12413,12335,650,2026-02-11,2026-04-07,2026-10-07,,1,animals,animals
+761058,"Ban and stop the ""15 minute cities"" initiative in the UK",closed,12509,12452,12328,650,2026-02-13,2026-04-08,2026-10-08,,1,environment,environment
+721825,Review and support the continued operation of pubs to prevent more closures,closed,12488,12427,12333,637,2025-03-10,2025-04-08,2025-10-08,,1,money,money
+716935,Put the dangers of methanol poisoning on the school curriculum,closed,12442,12086,11966,650,2025-02-05,2025-04-15,2025-10-15,,1,education,education
+775393,Dedicated funding for Epidermolysis Bullosa and rare skin conditions research,open,12404,12306,12256,650,2026-06-28,2026-07-27,,,1,health,health
+705154,Reinstate release of certain serious offenders half-way through their sentence,closed,12370,12316,12144,612,2024-11-26,2025-01-14,2025-07-14,,1,justice,justice
+779105,"Require sex specific language in government, NHS, education, and public bodies",open,12309,12134,12074,650,2026-08-07,2026-09-09,,,0,health,equality
+725909,Lower bowel cancer screening age to 30 & funding for investigation of symptoms,closed,12286,12238,12187,649,2025-04-24,2025-06-02,2025-12-02,,1,health,health
+738923,"Increase funding for PMDD, PME and menopause screening in mental health services",closed,12215,12145,12063,650,2025-08-23,2025-09-26,2026-03-26,,1,health,health
+700387,Allow BN(O)s ETA-free entry,closed,12186,11581,11445,580,2024-11-02,2024-11-22,2025-05-22,,1,local,immigration
+716553,Require the use of sexed language in government-funded health communications,closed,12139,11933,11861,650,2025-02-02,2025-04-01,2025-10-01,,1,health,equality
+722303,Require by law all sports netting to be tied up when not in use,closed,12131,11993,11917,650,2025-03-15,2025-04-15,2025-10-15,,1,animals,animals
+701479,Create a new body to regulate landlord and freeholder service charges,closed,12125,12058,11951,614,2024-11-11,2024-12-19,2025-06-19,,1,money,money
+762993,Invest in and support insulin production in the UK to ensure self-sufficiency,closed,12124,12056,12009,649,2026-03-02,2026-04-07,2026-10-07,,1,health,health
+750576,"Halt proposed NHS redundancies affecting 18,000 staff pending impact assessment",closed,12100,12068,11977,626,2025-11-13,2025-12-16,2026-06-16,,1,health,health
+750121,Make assaulting a security worker a standalone offence,closed,12079,12064,11978,647,2025-11-09,2025-12-09,2026-06-09,,1,justice,justice
+761652,Mandatory 15-year minimum sentence for all child sexual offences,open,11987,11949,11872,650,2026-02-19,2026-05-13,,,1,education,justice
+776310,Detain undocumented asylum seekers and review and strengthen background checks,open,11964,11900,11864,646,2026-07-06,2026-08-25,,,0,immigration,immigration
+767644,Make seizure training mandatory in all child and vulnerable adult work settings,open,11922,11901,11862,629,2026-04-18,2026-05-14,,,1,health,health
+776517,Ban the construction of new AI data centres,open,11854,11806,11745,650,2026-07-08,2026-08-11,,,0,environment,environment
+701517,Fund Awareness and Training Regarding Functional Neurological Disorders (FND),closed,11818,11734,11635,649,2024-11-11,2024-12-03,2025-06-03,,1,health,health
+763785,Require accessible changing benches for disabled children in public venues,closed,11764,11722,11650,649,2026-03-09,2026-04-09,2026-10-09,,1,education,equality
+702760,Review process for booking driving tests and ban the resale at inflated prices,closed,11762,11751,11642,638,2024-11-24,2025-01-09,2025-07-09,,1,transport,transport
+783423,End the religious slaughter exemption and require irreversible stunning,open,11751,11635,11562,648,2026-10-01,2026-10-21,,,0,animals,animals
+732726,Review protections for important trees: amend Forestry Act & list heritage trees,closed,11714,11636,11571,648,2025-07-08,2025-08-04,2026-02-04,,1,environment,environment
+743337,Fund free dental care for head & neck cancer patients,closed,11694,11626,11545,649,2025-09-26,2025-10-30,2026-04-30,,1,health,health
+754013,Fund more British Sign Language (BSL) interpreters in the emergency services,closed,11670,11627,11576,650,2025-12-09,2026-01-20,2026-07-20,,1,justice,equality
+764706,Make it illegal to walk dogs during extreme heat to prevent suffering and death.,closed,11669,11652,11607,648,2026-03-18,2026-04-24,2026-10-24,,1,animals,animals
+722730,Make the sex offender's registry publicly available to view for everyone.,closed,11666,11623,11414,650,2025-03-19,2025-04-22,2025-10-22,,1,justice,justice
+765464,Protect raced greyhounds from exports by introducing spay/neuter laws,closed,11638,11075,11018,650,2026-03-26,2026-04-24,2026-10-24,,1,animals,animals
+758713,Legally require all councillors & mayors to speak proficient English,closed,11632,11550,11449,650,2026-01-25,2026-02-27,2026-08-27,,1,democracy,democracy
+764882,Stop megasheds being built & operated 24/7 close to homes and communities,closed,11618,11580,11546,598,2026-03-20,2026-04-20,2026-10-20,,1,environment,environment
+729212,Hold a referendum on leaving the European Court of Human Rights,closed,11583,11494,11417,647,2025-06-02,2025-07-02,2026-01-02,,1,democracy,justice
+781311,Pause military support for Ukraine and hold a referendum,open,11550,11258,11159,650,2026-09-07,2026-10-06,,,0,democracy,international
+719429,Funding for Hyperemesis Gravidarum care,closed,11548,11474,11320,650,2025-02-27,2025-04-07,2025-10-07,,1,health,health
+701137,Allow carers already in UK on sponsored visa to work for any CQC care provider,closed,11542,11482,11385,628,2024-11-07,2024-11-28,2025-05-28,,1,immigration,immigration
+765130,"Fund permanent, 24-hour police patrols in Jewish communities",closed,11527,11337,11264,502,2026-03-23,2026-04-29,2026-10-29,,1,local,justice
+728765,"Review all trade ties with Israel, suspend 2030 roadmap & impose trade sanctions",closed,11502,11384,11316,650,2025-05-28,2025-07-10,2026-01-10,,1,international,international
+748663,Fund research into desexed language in women's health,closed,11413,11130,11050,650,2025-10-30,2025-12-24,2026-06-24,,1,health,equality
+701838,We are petitioning for a National Referendum on Assisted Dying,closed,11385,11257,11138,650,2024-11-14,2025-01-09,2025-07-09,,1,democracy,health
+700028,Increase Carer's Allowance to equal minimum wage,closed,11299,11267,11191,650,2024-10-30,2024-11-05,2025-05-05,,1,money,money
+741293,Allow license holders to drive motorhomes up to 4250kg on UK Category B License,closed,11265,11225,11157,628,2025-09-16,2025-10-09,2026-04-09,,1,transport,transport
+700292,Fund more CAR T Cell Therapy for eligible patients,closed,11234,11191,11073,650,2024-11-01,2024-11-28,2025-05-28,,1,health,health
+750741,"Review and reform legal status of pets, and rules on animal control equipment",closed,11203,11124,11055,649,2025-11-14,2026-01-08,2026-07-08,,1,animals,animals
+706707,Legislate for a council tax discount for all pensioners,closed,11201,11185,11134,643,2024-11-30,2025-02-06,2025-08-06,,1,money,money
+758752,Review and increase expense rates for employees traveling outside the UK,closed,11126,11073,10980,646,2026-01-25,2026-02-27,2026-08-27,,1,money,money
+754152,Create one-off amnesty with extra tax obligation for undocumented people,closed,11122,10981,10781,602,2025-12-10,2026-01-23,2026-07-23,,1,immigration,immigration
+751622,"Reform pay, working conditions and national standards for TA's and SEN LSA's.",closed,11118,11112,11077,619,2025-11-23,2026-01-15,2026-07-15,,1,health,education
+782415,Extend the NHS Graduate Guarantee to newly qualified paramedics,open,11056,11018,10980,649,2026-09-19,2026-10-14,,,0,health,health
+756424,Create a national database of convicted animal abusers,closed,11048,10947,10868,650,2026-01-08,2026-02-06,2026-08-06,,1,animals,animals
+732993,Review decision to abolish independent local Healthwatch,closed,11042,11020,10951,577,2025-07-11,2025-08-07,2026-02-07,,1,health,health
+723991,Abandon DWP Pathways to Work Green Paper & create National Disability Strategy,closed,11036,10992,10943,650,2025-03-31,2025-04-28,2025-10-28,,1,money,money
+764510,Hold a public inquiry to review the use of dopamine agonists,closed,11008,10943,10897,649,2026-03-16,2026-04-22,2026-10-22,,1,health,health
+714927,Stop airport expansion: halt all airport expansion plans across the UK,closed,10998,10941,10842,622,2025-01-22,2025-03-24,2025-09-24,,1,transport,transport
+780321,Suspend Climate Change Act targets & undertake a full national impact assessment,open,10981,10875,10807,648,2026-08-24,2026-09-21,,,0,environment,environment
+728011,Require drivers to stop and take cats to the vets if they hit them in their car,closed,10959,10906,10827,650,2025-05-19,2025-06-04,2025-12-04,,1,animals,animals
+759478,Abolish the Casey Commission into adult social care,closed,10941,10880,10766,649,2026-01-31,2026-03-13,2026-09-13,,1,health,health
+725049,Provide a legal right to access certain services without a digital device,closed,10911,10786,10698,650,2025-04-14,2025-05-20,2025-11-20,,1,online,online
+708358,Introduce a distinct attendance code for flexischooling (Code F).,closed,10869,10848,10763,650,2024-12-06,2025-01-24,2025-07-24,,1,education,education
+711892,Provide funding to preserve and protect cemeteries around the UK.,closed,10857,10802,10722,646,2025-01-01,2025-02-21,2025-08-21,,1,other,other
+730062,Fund a National Climate Resilience Plan: protect communities from climate impact,closed,10850,10732,10674,638,2025-06-11,2025-07-02,2026-01-02,,1,environment,environment
+782771,Commission review of NICE guidelines on optimal TSH target & thyroid shared care,open,10841,10814,10789,649,2026-09-23,2026-10-21,,,0,health,health
+733380,"Protect babies lives once heartbeat detectable, except in extreme cases",closed,10827,10735,10651,650,2025-07-15,2025-09-19,2026-03-19,,1,health,health
+768480,Fund culturally appropriate retirement support for Polish veterans and families,open,10791,10637,10610,648,2026-04-27,2026-05-27,,,1,local,other
+732869,Require public consultation before airfields and aerodromes can be closed,closed,10783,10684,10611,630,2025-07-10,2025-08-01,2026-02-01,,1,justice,transport
+762586,Require Government to co-design better NHS care pathways and to employ more GPs,closed,10761,10739,10683,646,2026-02-26,2026-04-14,2026-10-14,,1,health,health
+755755,Fund a new government-backed animal cruelty policing unit,closed,10752,10689,10617,650,2026-01-01,2026-02-10,2026-08-10,,1,animals,animals
+736891,Review CMS safeguards to prevent financial abuse and coercive control,closed,10720,10697,10616,650,2025-08-10,2025-09-24,2026-03-24,,1,justice,justice
+702270,Don't introduce unique child identifier and increased home education regulation,closed,10693,10666,10579,644,2024-11-20,2025-02-11,2025-08-11,,1,education,education
+738976,Require female CPR manikins in all certified first aid training programs,closed,10660,10456,10363,650,2025-08-24,2025-09-10,2026-03-10,,1,health,health
+700184,Commission a public inquiry into the impact of the UK exiting the European Union,closed,10653,10222,10138,650,2024-10-31,2024-11-08,2025-05-08,,1,eu,eu
+780527,"Teach severe autism, non-verbal needs and sensory crises in PSHE",open,10651,10553,10510,650,2026-08-26,2026-09-18,,,0,health,education
+764909,Ban default service charges and pre-set digital tip screens in hospitality,closed,10647,10568,10532,650,2026-03-20,2026-04-22,2026-10-22,,1,health,money
+736164,Fund a National Endometriosis Registry and Audit to Help Improve NHS Care,closed,10644,10613,10534,650,2025-08-04,2025-08-27,2026-02-27,,1,health,health
+769206,Introduce an immediate ban on the sale and promotion of smart glasses,open,10639,10486,10452,649,2026-05-07,2026-06-09,,,0,online,online
+771831,Strengthen copyright laws on our voices,open,10627,10456,10424,649,2026-06-04,2026-07-06,,,0,online,online
+728912,"Ban ""small-scale fracking"" for onshore oil and gas",closed,10626,10580,10519,647,2025-05-30,2025-07-04,2026-01-04,,1,environment,environment
+763034,Ratify the Indigenous and Tribal Peoples Convention 1989 (ILO Convention 169),closed,10623,10382,10316,650,2026-03-03,2026-04-01,2026-10-01,,1,international,international
+701540,Seek to Rejoin the EU Pet Passport Scheme,closed,10612,10499,10387,644,2024-11-12,2025-02-11,2025-08-11,,1,eu,eu
+707101,Restart issuing oil and gas licenses in the North Sea,closed,10565,10465,10387,644,2024-12-01,2025-01-21,2025-07-21,,1,environment,environment
+730757,Stop the Chagos Deal,closed,10560,10404,10338,650,2025-06-18,2025-09-18,2026-03-18,,1,international,international
+747281,Require DBS Checks for Tattoo Artists in England,closed,10551,10522,10437,645,2025-10-17,2025-11-21,2026-05-21,,1,justice,justice
+729478,Transparency and Review of the free zones and ports impacts,closed,10486,10310,10233,646,2025-06-05,2025-06-30,2025-12-30,,1,money,money
+751480,Do not remove trial by jury for certain cases,closed,10478,10384,10304,650,2025-11-22,2025-12-18,2026-06-18,,1,justice,justice
+757792,Do Not Scrap the 1265 Directed Time Provision for Teachers,closed,10474,10462,10400,606,2026-01-19,2026-02-19,2026-08-19,,1,education,education
+740313,Introduce legally enforceable safe nurse-to-patient staffing ratios in the NHS,closed,10439,10410,10345,646,2025-09-06,2025-09-25,2026-03-25,,1,health,health
+727016,"Provide funding for a nationwide, nature-rich river corridor network.",closed,10420,10361,10308,641,2025-05-08,2025-06-04,2025-12-04,,1,environment,environment
+766482,Require tracking of companion animal euthanasia to prevent unnecessary deaths,closed,10417,10329,10291,648,2026-04-04,2026-05-01,2026-11-01,,1,animals,animals
+708393,The UK should start talks on forming a CANZUK union,closed,10407,9969,9871,650,2024-12-06,2025-01-24,2025-07-24,,1,international,international
+718797,Fund more staff training and better facilities in psychiatric hospitals,closed,10400,10367,10299,583,2025-02-21,2025-03-31,2025-09-30,,1,health,health
+782018,Require safety assessments and support for children at risk of elopement/ danger,open,10391,10386,10358,647,2026-09-15,2026-10-09,,,0,education,education
+770114,Automatic extension for Non- Molestation order when it is breached,open,10390,10370,10336,631,2026-05-17,2026-06-15,,,1,justice,justice
+705601,Make it a crime to purposely delay ringing the emergency services,closed,10385,10318,10245,638,2024-11-27,2025-01-10,2025-07-10,,1,justice,justice
+745599,Keep the 5-Year ILR pathway for existing ECAA visa holders,closed,10355,10303,10166,598,2025-10-05,2025-11-04,2026-05-04,,1,immigration,immigration
+757141,Require social workers to use body-worn cameras during statutory visits,closed,10335,10269,10207,649,2026-01-15,2026-02-16,2026-08-16,,1,education,education
+761287,Return Royal Mail to public ownership,closed,10325,10313,10274,650,2026-02-16,2026-03-25,2026-09-25,,1,environment,other
+700273,Require landfills that cause smells and toxins near residential areas to close,closed,10322,10310,10264,476,2024-11-01,2024-11-13,2025-05-13,,1,environment,environment
+766182,New legislation for ponds to have safety measures to prevent access by children,closed,10319,10291,10262,646,2026-04-01,2026-04-30,2026-10-30,,0,education,other
+757624,"Reduce roadside littering: penalty points, increase fines, fund litter picks",closed,10298,10281,10233,639,2026-01-18,2026-02-23,2026-08-23,,1,environment,environment
+767467,Urgently review & adjust steel import quota & tariff changes - effective 01/07,open,10295,10276,10205,639,2026-04-16,2026-05-15,,,1,money,money
+742653,Recognise circus and fairgrounds in the UK inventory of ICH,closed,10242,10179,10109,645,2025-09-22,2025-10-15,2026-04-15,,1,other,other
+762405,Make one-to-one mentoring a statutory right for children in care & care leavers,closed,10230,10191,10108,649,2026-02-24,2026-04-01,2026-10-01,,1,education,education
+700161,Require MPs proven to mislead public to resign and create 'fact check' committee,closed,10205,10120,10039,650,2024-10-31,2024-11-07,2025-05-07,,1,democracy,democracy
+762304,Pass house building reforms for construction of 1.4 million approved houses,closed,10201,10186,10140,518,2026-02-23,2026-03-30,2026-09-30,,1,money,environment
+700482,Legally Require All Job Listings to Show Salaries Upfront,closed,10199,10128,10044,650,2024-11-02,2025-01-09,2025-07-09,,1,money,money
+766454,Fully fund Specialist Palliative Care provided by hospices,closed,10197,10144,10107,635,2026-04-04,2026-05-01,2026-11-01,,0,health,health
+756494,Publish a decision on the Park Home Sales Commission in 2026,closed,10117,10085,9960,555,2026-01-09,2026-02-13,2026-08-13,,1,money,money
+782464,Remove all accrual of interest from student loans and recalculate the balances,open,9937,9885,9862,644,2026-09-20,2026-10-19,,,0,education,education
+783963,Give endangered red squirrels the same legal protection as beavers and bats,open,9461,9413,9370,642,2026-10-07,2026-10-26,,,0,animals,animals
+700357,Abolish whole life orders and reintroduce the death penalty,closed,9085,9016,8936,645,2024-11-01,2024-11-29,2025-05-29,,0,justice,justice
+730639,Require all social media platforms to verify identity of accounts,closed,9058,9002,8934,647,2025-06-17,2025-07-17,2026-01-17,,0,online,online
+712057,Protect Railway Workers Against Violent Crime,closed,8967,8950,8896,636,2025-01-02,2025-02-26,2025-08-26,,0,transport,transport
+739659,Amend the Planning & Infrastructure Bill to ban wind farms on protected peatland,closed,8829,8779,8715,619,2025-08-30,2025-10-13,2026-04-13,,0,environment,environment
+777837,Make admissions to children's indoor play centres zero-rated for VAT,open,8777,8763,8737,621,2026-07-22,2026-08-28,,,0,education,education
+712741,"Stop ""gender critical beliefs"" being protected under the Equality Act",closed,8642,8537,7302,646,2025-01-06,2025-03-20,2025-09-20,,0,equality,equality
+716001,Abolish tuition fees for healthcare courses and pay students on NHS placements,closed,8588,8572,8516,644,2025-01-29,2025-03-24,2025-09-24,,0,health,health
+731219,"Set the income tax personal allowance to £15,597 & higher rate to £62,379.02",closed,8562,8525,8479,649,2025-06-22,2025-07-18,2026-01-18,,0,money,money
+743406,Rescind recognition of a Palestinian state and respect the Montevideo Convention,closed,8507,8300,8210,647,2025-09-26,2025-11-10,2026-05-10,,0,international,international
+748841,"Give UK citizens legal ownership of their face, voice, and likeness",closed,8425,8366,8284,650,2025-11-01,2025-12-03,2026-06-03,,0,online,online
+728891,Make CCTV mandatory in all taxis and private hire vehicles,closed,8421,8355,8306,648,2025-05-29,2025-06-13,2025-12-13,,0,transport,transport
+700435,Change the law so those on life sentence for murder are not eligible for release,closed,8400,8357,8289,648,2024-11-02,2024-11-14,2025-05-14,,0,justice,justice
+759700,Launch a review into airport terminal drop-off charges,closed,8389,8375,8323,640,2026-02-02,2026-03-17,2026-09-17,,0,transport,transport
+724330,Prohibit and stop any building on our Green Belt Land,closed,8382,8357,8309,606,2025-04-03,2025-04-25,2025-10-25,,0,environment,environment
+700312,Legally recognise Non-Binary as a gender,closed,8290,8169,8091,649,2024-11-01,2024-11-29,2025-05-29,,0,equality,equality
+753095,Require shelters & temporary housing providers to allow pets for homeless people,closed,8246,8185,8131,648,2025-12-02,2026-01-14,2026-07-14,,0,animals,animals
+765949,"Revoke the BBC Royal Charter, abolish the TV Licence Fee & privatise the BBC",closed,8239,8222,8178,650,2026-03-30,2026-05-05,2026-11-05,,0,money,money
+770754,Negotiate visa-free stays over 90 days for Britons in Spain,open,8178,7847,7791,639,2026-05-25,2026-06-19,,,0,local,eu
+736599,Exempt all pensioners from council tax,closed,8128,8098,8043,640,2025-08-07,2025-08-29,2026-02-28,,0,money,money
+775259,Referendum to reinstate death penalty for most serious crimes against children,open,8118,8055,8013,648,2026-06-26,2026-07-27,,,0,education,justice
+770354,Create a legally enforceable maximum working temperature,open,8079,8056,8025,645,2026-05-20,2026-06-16,,,0,money,money
+772101,Make performing a Nazi salute a criminal offence in the UK,open,8056,7952,7916,648,2026-06-08,2026-07-06,,,0,justice,justice
+758408,Write law that a referendum is required for the UK to be able to leave the ECHR,closed,7981,7798,7748,648,2026-01-23,2026-02-24,2026-08-24,,0,democracy,justice
+772597,Require Dating Apps to Verify Users and Prevent Abuse,open,7973,7937,7902,647,2026-06-14,2026-07-14,,,0,online,online
+744396,Ban publication of police officer names in misconduct hearings if not sacked,closed,7941,7885,7827,635,2025-09-29,2025-11-17,2026-05-17,,0,justice,justice
+729459,Keep the 2 child benefit cap,closed,7915,7885,7837,647,2025-06-05,2025-07-04,2026-01-04,,0,education,money
+700304,Introduce new air quality and PPE rules for health and social care settings,closed,7911,7728,7663,648,2024-11-01,2024-11-11,2025-05-11,,0,health,health
+703195,Deport all immigrants that arrive illegally from safe countries,closed,7875,7829,7779,650,2024-11-24,2025-01-07,2025-07-07,,0,immigration,immigration
+729428,No tax or national insurance on overtime for emergency service workers,closed,7837,7829,7786,633,2025-06-04,2025-06-30,2025-12-30,,0,money,money
+755283,Give State Pension to all at 60 and increase it to equal 48hrs of Living Wage.,closed,7792,7697,7676,649,2025-12-25,2026-02-10,2026-08-10,,0,money,money
+734603,Allow people to be eligible for both state pension and full carer's allowance,closed,7769,7741,7710,650,2025-07-26,2025-08-06,2026-02-06,,0,money,money
+751919,Recognise 'Veteran' as a protected characteristic in law.,closed,7763,7576,7523,635,2025-11-25,2026-01-06,2026-07-06,,0,equality,other
+700076,Hold a Public Inquiry into the state pension age change for 1950s women,closed,7724,7559,7499,645,2024-10-30,2024-11-08,2025-05-08,,0,money,money
+701337,"RAAC Homeowners Justice: National Fund, Legislative Reform & Public Inquiry Now!",closed,7655,7626,7562,362,2024-11-10,2024-12-17,2025-06-17,,0,other,other
+729482,Close the Borders! Suspend ALL immigration for 5 years!,closed,7616,7574,7521,644,2025-06-05,2025-07-11,2026-01-11,,0,immigration,immigration
+764248,Make additional autism-specific training mandatory for all speech therapists,closed,7532,7506,7472,644,2026-03-13,2026-04-21,2026-10-21,,0,health,health
+771561,Criminalise unauthorised development & ban retrospective permission,open,7514,7491,7459,517,2026-06-02,2026-06-30,,,0,justice,environment
+727365,Scrap the BBC TV Licence & replace funding with adverts or paywall,closed,7471,7445,7402,648,2025-05-12,2025-07-01,2026-01-01,,0,money,money
+746473,Ensure annual pension increase apply to all pensioners living abroad,closed,7392,1818,1780,585,2025-10-11,2025-11-24,2026-05-24,,0,money,money
+721014,Introduce a 12-month amnesty on APR and BPR policy proposals,closed,7323,7292,7259,613,2025-03-03,2025-05-06,2025-11-06,,0,other,money
+757794,"Fund improvement to PCOS, Endometriosis, and Fertility Health care and treatment",closed,7296,7284,7247,648,2026-01-19,2026-02-19,2026-08-19,,0,health,health
+701663,Legally require all secondary schools in England to teach financial education,closed,7231,7188,7117,619,2024-11-13,2024-12-17,2025-06-17,,0,education,education
+702450,Implement a strategy to protect motorcyclists from imports of unsafe clothing,closed,7155,7106,7060,640,2024-11-21,2025-01-06,2025-07-06,,0,transport,transport
+701455,Introduce statutory provision for independence referendums in Scotland & Wales.,closed,7101,6980,6937,313,2024-11-11,2024-12-16,2025-06-16,,0,local,local
+772060,Fund routine screening for bacterial vaginosis (BV) during pregnancy.,open,7085,7067,7042,642,2026-06-07,2026-07-03,,,0,health,health
+737772,Cap price hikes for privately prescribed essential medicines,closed,7054,7023,6974,649,2025-08-15,2025-09-24,2026-03-24,,0,health,health
+701342,Hold a referendum on achieving net zero goals.,closed,7041,6975,6887,645,2024-11-10,2024-11-27,2025-05-27,,0,democracy,environment
+703329,Amend the Recall of MPs Act 2015 for MPs who have misled voters,closed,7015,6967,6898,638,2024-11-24,2024-12-31,2025-06-30,,0,democracy,democracy
+760570,Remove all interest from Plan 2 student loans and recalculate balances,closed,6964,6948,6932,619,2026-02-09,2026-03-19,2026-09-19,,0,education,education
+768759,Review support for ARFID and fund national treatment pathways,open,6928,6908,6888,630,2026-04-30,2026-06-01,,,0,health,health
+733336,Introduce an automatic 2-year sentence for carrying a knife & fund prevention,closed,6887,6853,6822,526,2025-07-15,2025-08-15,2026-02-15,,0,justice,justice
+746674,Grant interim exemptions to all seized dogs with no prior history of aggression,closed,6848,6791,6755,647,2025-10-13,2025-12-17,2026-06-17,,0,animals,animals
+705093,Deport all foreign criminals with effect immediately.,closed,6846,6800,6736,642,2024-11-26,2025-01-14,2025-07-14,,0,immigration,immigration
+742673,Legalise pepper spray in England,closed,6829,6774,6715,648,2025-09-22,2025-11-03,2026-05-03,,0,justice,justice
+759563,"UK to mandate ""zero plastic pellet loss"" in line with new EU law ASAP",closed,6820,6796,6770,611,2026-02-01,2026-03-13,2026-09-13,,0,eu,environment
+709059,Give police stronger powers to tackle motorcycle theft & increase penalties,closed,6820,6809,6733,641,2024-12-09,2025-02-13,2025-08-13,,0,transport,transport
+723981,Add Assault of a Roadworker to the Crime and Policing Bill,closed,6800,6794,6728,628,2025-03-31,2025-04-24,2025-10-24,,0,justice,justice
+755706,Legislate for the statutory regulation of 'Counsellor' and 'Psychotherapist',closed,6783,6752,6719,647,2026-01-01,2026-02-03,2026-08-03,,0,health,health
+773314,Ban trades unions from donating money to political parties,open,6771,6725,6691,632,2026-06-16,2026-07-15,,,0,democracy,democracy
+764594,Fund a medical cannabis trial for children left without NHS access since 2018,closed,6750,6720,6693,640,2026-03-17,2026-04-21,2026-10-21,,0,health,health
+714028,Review the police response to assaults on mental health nurses,closed,6727,6703,6654,608,2025-01-14,2025-03-12,2025-09-12,,0,health,health
+705814,Don't send troops to Ukraine to support peacekeeping,closed,6702,6652,6564,649,2024-11-28,2025-02-14,2025-08-14,,0,health,international
+744650,Ban 20mph speed limits with limited exceptions,closed,6574,6562,6525,625,2025-09-30,2025-10-24,2026-04-24,,0,transport,transport
+732224,Abolish the Working Group on Anti-Muslim Hatred/Islamophobia Definition,closed,6557,6498,6446,645,2025-07-02,2025-08-05,2026-02-05,,0,equality,equality
+768063,Make it a criminal offence if tenants don't pay rent,open,6540,6501,6472,629,2026-04-22,2026-05-28,,,0,money,money
+771372,Abolish early release for sex offenders and murderers,open,6469,6433,6410,646,2026-06-01,2026-07-06,,,0,justice,justice
+739884,Petition for Parent/Child Parking Badges for children up to age 13,closed,6454,6450,6385,646,2025-09-02,2025-09-17,2026-03-17,,0,transport,transport
+770818,Reform UK Bail Law: Require Passport Surrender for Serious Criminal Charges,open,6430,6305,6277,637,2026-05-26,2026-06-22,,,0,justice,justice
+746235,Pause and review the use of EdTech in schools and early years settings,closed,6428,6383,6310,621,2025-10-09,2025-11-20,2026-05-20,,0,education,education
+747335,Extend the NHS Learning Support Fund to fully include pharmacy students,closed,6407,6400,6346,609,2025-10-18,2025-12-02,2026-06-02,,0,health,health
+779114,Introduce the Right to Breastfeed and Express at Work,open,6401,6356,6337,644,2026-08-07,2026-09-14,,,0,other,money
+700436,Nationalise the UK water industry,closed,6369,6325,6281,632,2024-11-02,2024-11-29,2025-05-29,,0,environment,environment
+705870,Increase funding for transgender healthcare to reduce waiting times & train GPs,closed,6318,6225,6164,649,2024-11-28,2025-01-14,2025-07-14,,0,health,equality
+733542,Make Carbohydrate content mandatory on restaurant and pub menus.,closed,6296,6274,6247,638,2025-07-17,2025-08-04,2026-02-04,,0,health,health
+701233,Ban LED headlights,closed,6268,6253,6196,647,2024-11-08,2024-12-05,2025-06-05,,0,transport,transport
+762060,Add Crohn's & Colitis to the NHS prescription exemption list,closed,6248,6230,6215,630,2026-02-21,2026-03-30,2026-09-30,,0,health,health
+733300,Allow parents to take their children out of school for up to 10 days fine free.,closed,6231,6218,6176,581,2025-07-14,2025-08-12,2026-02-12,,0,education,education
+714335,Require social housing providers to allow XL bullies with exemption certificate,closed,6220,6178,6140,647,2025-01-17,2025-03-11,2025-09-11,,0,animals,animals
+776851,Fund & mandate early intervention plans for minors who deliberately harm animals,open,6177,6111,6076,646,2026-07-12,2026-08-07,,,0,animals,animals
+772686,Require local authorities to provide 90 minutes of free parking in town centres,open,6161,6154,6127,604,2026-06-15,2026-07-23,,,0,transport,transport
+761116,"Add a tick box for ""Cornish"" in the 2031 census for national identity question",closed,6060,5979,5951,477,2026-02-14,2026-03-24,2026-09-24,,0,local,local
+757864,Allow mortgage interest to be deducted when calculating taxable rental income.,closed,5939,5915,5887,645,2026-01-20,2026-02-19,2026-08-19,,0,money,money
+767079,Hold a national referendum on introducing Digital ID,closed,5922,5876,5851,637,2026-04-11,2026-05-08,2026-11-08,,0,democracy,online
+777738,Create a National Disability Hate Strategy for the UK,open,5922,5900,5885,648,2026-07-21,2026-08-17,,,0,justice,equality
+748305,Mandate independently-monitored CCTV in all dairy farms and slaughterhouses,closed,5917,5835,5795,645,2025-10-26,2025-12-02,2026-06-02,,0,animals,animals
+716992,Specify China under Enhanced Tier of the Foreign Influence Registration Scheme,closed,5914,5790,5737,544,2025-02-06,2025-04-08,2025-10-08,,0,democracy,international
+740633,Create an independent early years funding review,closed,5912,5906,5875,612,2025-09-10,2025-09-25,2026-03-25,,0,education,education
+771177,Establish an independent Veterinary Ombudsman for pet owners,open,5898,5863,5843,640,2026-05-30,2026-06-25,,,0,animals,animals
+700122,"Abolish the basic State Pension, increase the new State Pension and pay to all.",closed,5892,5757,5711,639,2024-10-31,2024-11-25,2025-05-25,,0,money,money
+730827,Mandate that free roaming pet cats must be neutered,closed,5887,5870,5847,621,2025-06-18,2025-07-14,2026-01-14,,0,animals,animals
+701132,Secure the release and return of British nationals arbitrarily detained in India,closed,5862,5798,5703,482,2024-11-07,2024-12-16,2025-06-16,,0,international,international
+721225,Fund more Physician Associates roles in the NHS,closed,5842,5831,5779,615,2025-03-05,2025-04-16,2025-10-16,,0,health,health
+727899,End concurrent sentencing for heinous crimes,closed,5840,5803,5755,619,2025-05-18,2025-07-24,2026-01-24,,0,money,justice
+712636,Ban prisoner segregation for periods of more than 15 days,closed,5838,5667,5591,646,2025-01-05,2025-02-28,2025-08-28,,0,justice,justice
+717298,Require candidates for MP to be registered to vote and residents of the UK,closed,5806,5712,5675,642,2025-02-09,2025-03-27,2025-09-27,,0,democracy,democracy
+743040,Extend the kinship care allowance pilot to all local authorities,closed,5775,5760,5737,620,2025-09-24,2025-10-15,2026-04-15,,0,education,education
+706535,Review traditional and social media regulation,closed,5753,5666,5623,646,2024-11-29,2025-01-20,2025-07-20,,0,online,online
+754408,Do not ban children from using virtual private networks,closed,5752,5681,5624,647,2025-12-13,2026-01-23,2026-07-23,,0,education,online
+733320,Fund access to tirzepatide on the NHS to help people with PCOS,closed,5741,5735,5683,649,2025-07-15,2025-08-15,2026-02-15,,0,health,health
+769583,Stop DWP additional spouse payments in overseas-registered polygamous marriages,open,5652,5582,5550,638,2026-05-11,2026-06-09,,,0,money,money
+713567,Decide on any change to the commission payable on the sale of a Park Home,closed,5644,5633,5573,475,2025-01-10,2025-03-11,2025-09-11,,0,money,money
+778285,Write off Armed Forces Pension overpayments.,open,5623,5466,5440,624,2026-07-27,2026-08-27,,,0,money,money
+745409,Include British Citizens Studying Medicine Abroad in NHS Training Prioritisation,closed,5614,5530,5494,542,2025-10-04,2025-11-12,2026-05-12,,0,health,health
+735371,Urgently review NHS approach to shared care agreements for ADHD,closed,5588,5538,5501,641,2025-07-29,2025-08-21,2026-02-21,,0,health,health
+700320,Ban all forms of hunting and introduce harsher penalties,closed,5583,5518,5464,645,2024-11-01,2024-11-13,2025-05-13,,0,animals,animals
+751548,Create a Ukrainian ILR route & ensure time on Ukraine visa schemes count to ILR,closed,5527,5484,5421,617,2025-11-22,2025-12-19,2026-06-19,,0,local,immigration
+765364,Reform Carer's Allowance rules so carers can earn more without losing support,closed,5506,5475,5463,647,2026-03-25,2026-04-24,2026-10-24,,0,money,money
+700385,Reassess the classification of Cannabis and decriminalize it.,closed,5494,5472,5415,650,2024-11-02,2024-11-14,2025-05-14,,0,health,health
+724897,Increase funding for co-operatives in the UK International Development Budget,closed,5445,5426,5395,644,2025-04-11,2025-04-29,2025-10-29,,0,money,international
+712650,Remove all sanctions on Syria,closed,5408,5265,5200,551,2025-01-06,2025-03-18,2025-09-18,,0,international,international
+766448,Outlaw fireworks for the general public,closed,5408,5400,5384,627,2026-04-04,2026-05-01,2026-11-01,,0,animals,animals
+747668,Commit to not deploying British Troops to Ukraine,closed,5386,5326,5276,636,2025-10-21,2025-11-27,2026-05-27,,0,international,international
+736312,Higher minimum penalties for death by dangerous driving,closed,5374,5343,5302,577,2025-08-06,2025-09-05,2026-03-05,,0,transport,transport
+775310,End the ban of care workers bringing dependants to the UK,open,5373,5352,5327,560,2026-06-27,2026-07-29,,,0,immigration,immigration
+724575,Publish updated statistics on Armed Forces Veteran suicides annually,closed,5360,5202,5168,631,2025-04-07,2025-05-16,2025-11-16,,0,health,health
+701471,Ban wind farm onshore asset development on green belt land,closed,5289,5276,5235,467,2024-11-11,2024-12-12,2025-06-12,,0,environment,environment
+752170,Stop mileage tax on electric & plug-in hybrid cars & reduce public charging VAT,closed,5287,5278,5237,638,2025-11-26,2026-01-08,2026-07-08,,0,transport,transport
+750144,Ban technology that enables pharmacies to auto renominate EPS patients in bulk,closed,5271,5270,5228,527,2025-11-09,2025-12-19,2026-06-19,,0,health,health
+781858,Create a legal right to ADHD or Autism assessment within 3 months,open,5258,5247,5228,634,2026-09-14,2026-10-08,,,0,health,health
+748359,Reduce national speed limits on single carriageways,closed,5255,5227,5202,619,2025-10-27,2026-01-05,2026-07-05,,0,transport,transport
+731397,Grant Rivers and Rias in England Legal Personhood,closed,5236,5174,5142,592,2025-06-24,2025-07-22,2026-01-22,,0,environment,environment
+700226,Do not reduce the Right to Buy discount,closed,5218,5211,5172,589,2024-10-31,2024-11-08,2025-05-08,,0,money,money
+779805,Scrap the planned 2029 to 2039 Asylum Support and Accommodation programme,open,5214,5183,5161,632,2026-08-16,2026-09-14,,,0,immigration,immigration
+776778,Mandate monthly welfare updates and photos for owners of all seized dogs,open,5199,5139,5109,637,2026-07-11,2026-08-06,,,0,animals,animals
+727321,Issue new guidance on teachers' early retirement rights,closed,5198,5187,5161,634,2025-05-12,2025-06-26,2025-12-26,,0,education,education
+733157,"Fund NHS COVID boosters for Clinically Vulnerable people, keep covid boosters",closed,5181,5119,5089,640,2025-07-13,2025-08-27,2026-02-27,,0,health,health
+765232,Repeal the Hong Kong Economic Trade Office Act 1996,closed,5180,4987,4945,517,2026-03-24,2026-04-27,2026-10-27,,0,local,international
+714902,Distinguish pets from other types of property in civil and family proceedings,closed,5147,5114,5061,635,2025-01-22,2025-03-27,2025-09-27,,0,animals,animals
+727294,Make it Law for Water Companies to Object When Sewage Systems Are Over Capacity,closed,5136,5126,5106,595,2025-05-11,2025-07-10,2026-01-10,,0,money,environment
+725223,Amend Equality Act to define the terms woman and man not based on biological sex,closed,5135,5087,3913,631,2025-04-16,2025-05-12,2025-11-12,,0,equality,equality
+701780,Create a fast-track system for benefit claims for cancer patients,closed,5124,5068,5030,633,2024-11-14,2024-12-20,2025-06-20,,0,health,health
+746900,Adjust the £10 DWP Christmas Bonus introduced in 1972 to reflect inflation,closed,5118,5073,5043,648,2025-10-15,2025-11-20,2026-05-20,,0,money,money
+767402,Introduce Full Statutory Regulation of the Funeral Industry by Spring 2027,open,5115,5101,5066,602,2026-04-15,2026-05-14,,,0,other,other
+757772,Government to advise monarch to refuse/cancel state visits with hostile powers,closed,5042,4871,4821,636,2026-01-19,2026-02-20,2026-08-20,,0,democracy,international
+767461,Ban access to legal aid funds for illegal migrant appeals,open,5036,4996,4976,625,2026-04-16,2026-05-14,,,0,immigration,immigration
+700119,Recognise Palestine as a State and seek immediate ceasefire in Gaza,closed,5034,4937,4883,645,2024-10-31,2024-11-15,2025-05-15,,0,international,international
+731554,Review family court system to help prevent post-separation abuse,closed,5022,4995,4952,641,2025-06-25,2025-07-29,2026-01-29,,0,justice,justice
+716576,Define Anti-Palestinian Racism (APR) & launch an inquiry into APR,closed,5017,4962,4913,619,2025-02-03,2025-03-24,2025-09-24,,0,international,international
+710061,Reverse decision to pause decisions on asylum applications from Syrians,closed,4998,4918,4530,504,2024-12-15,2025-03-17,2025-09-17,,0,immigration,immigration
+758784,Ban all e-bikes & electric scooters in public,closed,4996,4987,4965,611,2026-01-25,2026-03-02,2026-09-02,,0,transport,transport
+767033,Add specific content on men's mental health to RSE & health guidance for schools,open,4991,4935,4914,616,2026-04-11,2026-05-13,,,0,health,education
+773133,Mandate anti-racism training for all staff in nurseries & primary schools,open,4955,4928,4902,608,2026-06-16,2026-07-15,,,0,health,equality
+731835,"Retain 5 Year ILR & Citizenship Route, Delay Public Funds Access Until Year 10",closed,4938,4896,4852,582,2025-06-28,2025-07-24,2026-01-24,,0,immigration,immigration
+700451,Introduce presumed liability for civil cases from road traffic collisions,closed,4916,4888,4832,613,2024-11-02,2024-11-18,2025-05-18,,0,transport,transport
+727458,Require Independent Scrutiny Before Passing any Education Laws Affecting Rights,closed,4881,4845,4820,629,2025-05-13,2025-06-12,2025-12-12,,0,education,education
+715520,Allocate annual funding to accelerate breakthroughs in MND research,closed,4848,4805,4772,615,2025-01-25,2025-03-25,2025-09-25,,0,health,health
+766283,Make it a criminal offence for MPs to deliberately mislead the public,closed,4814,4720,4697,643,2026-04-02,2026-05-08,2026-11-08,,0,democracy,democracy
+700062,Fund Breast Cancer Screening from Age 40 & Alternative Screening Options,closed,4802,4773,4736,636,2024-10-30,2024-11-11,2025-05-11,,0,health,health
+731608,Require a trained FLO to be assigned to families bereaved by suicide,closed,4801,4764,4722,570,2025-06-26,2025-08-05,2026-02-05,,0,health,health
+766798,Introduce new penalties for repeated breaches of SEND law,closed,4795,4787,4777,624,2026-04-08,2026-05-08,2026-11-08,,0,health,education
+766378,We call for harsher sentencing for causing death by careless driving.,closed,4787,4764,4747,505,2026-04-03,2026-05-08,2026-11-08,,0,transport,transport
+714695,Remove people on the terror watch list from the UK,closed,4758,4724,4684,631,2025-01-20,2025-05-30,2025-11-30,,0,justice,justice
+702202,Introduce a Statutory Levy on Bookmakers to Fund Greyhound Welfare,closed,4753,4729,4673,632,2024-11-19,2025-01-02,2025-07-02,,0,animals,animals
+704797,"Require all meat to be labelled to indicate the method of slaughter, as such",closed,4693,4642,4597,631,2024-11-26,2025-02-11,2025-08-11,,0,animals,animals
+763857,Allow up to 10 days authorised school leave per year without fines,closed,4664,4658,4640,565,2026-03-10,2026-04-10,2026-10-10,,0,education,education
+701693,Increase funding for Early years providers.,closed,4649,4647,4609,566,2024-11-13,2024-12-06,2025-06-06,,0,education,education
+719292,Ban restrictions on overnight parking for motorhomes and campervans,closed,4636,4623,4587,600,2025-02-26,2025-04-07,2025-10-07,,0,transport,transport
+702003,Stop giving homework to primary and secondary school students,closed,4621,4580,4390,496,2024-11-16,2024-12-13,2025-06-13,,0,education,education
+700067,Introduce a Long-Term Visit Visa for Parents of British Citizens and ILR Holders,closed,4611,4577,4519,597,2024-10-30,2024-11-06,2025-05-06,,0,immigration,immigration
+779449,"Fund improved aftercare, support & advice for mothers after caesarean sections",open,4605,4584,4571,627,2026-08-12,2026-09-11,,,0,health,health
+756133,Expel all US military personnel and close all US military bases in the UK,closed,4596,4530,4496,642,2026-01-06,2026-02-05,2026-08-05,,0,international,international
+777660,Act on UN Commission findings of Genocide of Palestinian Children,open,4539,4495,4467,582,2026-07-20,2026-09-21,,,0,education,international
+739674,Reduce the sound of fireworks to under 80 decibels for humans and animals,closed,4533,4526,4503,629,2025-08-31,2025-09-24,2026-03-24,,0,animals,animals
+704291,Ban the use of generative 'AI' in all creative sectors,closed,4509,4463,4416,637,2024-11-25,2025-01-28,2025-07-28,,0,online,online
+712680,Change the oath of military and the police,closed,4507,4399,4341,646,2025-01-06,2025-03-07,2025-09-07,,0,justice,other
+711621,Increase funding for IVF & fertility treatments to increase access.,closed,4495,4476,4447,624,2024-12-30,2025-02-20,2025-08-20,,0,health,health
+714242,Make assaulting a security worker a standalone offence,closed,4492,4478,4435,633,2025-01-16,2025-03-07,2025-09-07,,0,justice,justice
+700991,Offer healthcare workers on tier2 visa ILR after 2 years instead of 5 years,closed,4475,4445,4402,573,2024-11-06,2024-11-21,2025-05-21,,0,immigration,immigration
+751825,Stop social media posts being shown with dogs that have cropped ears,closed,4447,4417,4370,618,2025-11-24,2026-01-07,2026-07-07,,0,animals,animals
+762088,Introduce the death penalty for certain child sex offences,closed,4444,4399,4380,630,2026-02-21,2026-03-27,2026-09-27,,0,education,justice
+762940,Ensure schools inform families about all recognised Level 2 options beyond GCSEs,closed,4425,4415,4336,586,2026-03-02,2026-04-01,2026-10-01,,0,education,education
+756811,Pause Children's Wellbeing and Schools Bill for consultation with children,closed,4399,4393,4359,604,2026-01-12,2026-02-16,2026-08-16,,0,education,education
+727296,Increase full-time Carer's Allowance to at least £800 per week,closed,4377,4368,4337,633,2025-05-11,2025-05-28,2025-11-28,,0,money,money
+701546,"Pause plans for Bedford - Cambridge rail link pending a full, independent review",closed,4346,4334,4280,322,2024-11-12,2024-12-11,2025-06-11,,0,local,local
+774004,"legislation for accountability within NHS, Police, CPS and findings of Inquiries",open,4330,4299,4280,633,2026-06-19,2026-07-15,,,0,health,justice
+709592,Exempt all nurseries from Employer NI Contributions,closed,4310,4308,4272,604,2024-12-12,2025-03-26,2025-09-26,,0,health,money
+776894,Do not require tech manufacturers to detect nudity content on devices,open,4304,4259,4228,642,2026-07-13,2026-08-17,,,0,online,online
+754489,Protect the Function of the Architect in UK Law,closed,4301,4267,4228,584,2025-12-14,2026-01-23,2026-07-23,,0,other,other
+751258,Stop driverless cars coming to UK,closed,4297,4291,4278,504,2025-11-20,2025-12-17,2026-06-17,,0,transport,transport
+748837,Review implementation of Public Service Pensions and Judicial Offices Act 2022,closed,4273,4251,4228,634,2025-11-01,2025-12-09,2026-06-09,,0,money,money
+710218,Ensure that student nurses are paid for their placement hours,closed,4247,4235,4212,591,2024-12-16,2025-02-11,2025-08-11,,0,health,health
+721918,Stop PIP Cuts: Protect Support for Disabled People,closed,4234,4223,4200,638,2025-03-11,2025-04-14,2025-10-14,,0,money,money
+777004,No 'Pay per Mile' on EVs and Hybrids in 2028 - just £200 VED,open,4223,4219,4211,622,2026-07-14,2026-08-11,,,0,transport,transport
+752650,Allow UK Hospitality Businesses to Reclaim 10% Food Costs Against quarterly VAT,closed,4221,4210,4185,623,2025-11-29,2026-01-13,2026-07-13,,0,health,money
+770298,Require NHS to offer base line X-rays for children born with a limb difference,open,4215,4193,4184,574,2026-05-19,2026-06-16,,,0,health,health
+700049,Reduce the maximum decibel limit on fireworks from 120 to 90,closed,4197,4187,4152,639,2024-10-30,2024-11-04,2025-05-04,,0,animals,animals
+700037,Rights Beyond Borders: Improve employment policies for international students,closed,4181,4129,4075,477,2024-10-30,2024-11-05,2025-05-05,,0,immigration,immigration
+729126,Fund a National NHS Railcard for Healthcare Staff,closed,4158,4150,4127,557,2025-06-01,2025-06-24,2025-12-24,,0,health,health
+701729,Review the Vaccine Damage Payment Scheme,closed,4140,4071,4018,631,2024-11-14,2024-12-09,2025-06-09,,0,health,health
+731518,Require restaurants to offer a non-religiously slaughtered meat option,closed,4078,4040,4016,631,2025-06-25,2025-07-25,2026-01-25,,0,animals,animals
+768000,Allow Charities to continue to re-home adult dogs with historic injuries,open,4078,3972,3956,620,2026-04-22,2026-05-20,,,0,animals,animals
+721125,Set up an independent inquiry into the UK's involvement in the war in Gaza,closed,4070,4013,3996,601,2025-03-04,2025-04-08,2025-10-08,,0,international,international
+759233,Provide funding for body armour for frontline operational ambulance staff,closed,4050,4033,4019,604,2026-01-29,2026-03-11,2026-09-11,,0,health,health
+704957,Abolish the deadline for the purchase of new petrol and diesel cars,closed,4043,4029,3992,629,2024-11-26,2025-01-08,2025-07-08,,0,transport,transport
+762730,Honour maintenance loans and childcare grants for existing weekend students,closed,3968,3962,3706,437,2026-02-28,2026-04-10,2026-10-10,,0,education,education
+735447,Legalise Cannabis Use and Sales for Adults over 18,closed,3962,3941,3896,644,2025-07-30,2025-08-19,2026-02-19,,0,health,health
+773096,"Extend Statutory Maternity Pay and Leave for Twins, Triplets and Multiple Births",open,3958,3945,3937,637,2026-06-16,2026-07-13,,,0,health,money
+762232,Statutory paid leave for parents whose child is undergoing cancer treatment,closed,3934,3920,3848,433,2026-02-23,2026-03-30,2026-09-30,,0,health,money
+764623,Offer MenB vaccine to under 22s born before 2015,closed,3930,3920,3913,425,2026-03-17,2026-04-22,2026-10-22,,0,health,health
+707958,Review care for sickle cell patients within the NHS,closed,3898,3874,3837,444,2024-12-05,2025-02-25,2025-08-25,,0,health,health
+734043,Pass a law which bans the reselling of practical driving tests,closed,3897,3889,3877,610,2025-07-21,2025-08-15,2026-02-15,,0,transport,transport
+725341,Launch a public inquiry into UK arms exports to Israel and suspend all licences,closed,3873,3835,3802,582,2025-04-17,2025-06-02,2025-12-02,,0,international,international
+782764,Abolish the BBC TV Licence and Introduce a Subscription-Only BBC,open,3852,3835,3813,638,2026-09-23,2026-10-16,,,0,money,money
+751384,Stop the cancellation of Local Elections to help uphold democracy,closed,3847,3824,3795,611,2025-11-21,2025-12-19,2026-06-19,,0,democracy,democracy
+726409,"Do not house illegal migrants in private rentals, deport them immediately",closed,3839,3817,3801,635,2025-04-30,2025-06-25,2025-12-25,,0,immigration,immigration
+756697,Set a maximum 6‑month diagnosis target for endometriosis,closed,3839,3822,3795,596,2026-01-11,2026-02-10,2026-08-10,,0,health,health
+748450,Instruct NHS England to revoke adoption of the IHRA definition of antisemitism,closed,3832,3783,3749,613,2025-10-28,2025-12-09,2026-06-09,,0,health,equality
+765652,Ban the sale of helium balloons,closed,3812,3797,3783,528,2026-03-28,2026-05-05,2026-11-05,,0,animals,animals
+719194,Regularly assess & consider the economic benefits of EU Customs Union membership,closed,3769,3496,3473,626,2025-02-25,2025-04-04,2025-10-04,,0,eu,eu
+769305,Require every primary school to have a published plan for outdoor free play,open,3768,3761,3742,511,2026-05-08,2026-06-05,,,0,education,education
+704472,Ban the wearing of face-coverings during marches and protests,closed,3767,3707,3683,584,2024-11-25,2025-01-03,2025-07-03,,0,justice,justice
+775284,Increase funding and review children's mental health system,open,3728,3722,3705,473,2026-06-27,2026-07-27,,,0,health,health
+747226,Make mental health support standard for parents of seriously ill children,closed,3711,3692,3672,610,2025-10-17,2025-11-21,2026-05-21,,0,health,health
+780979,"Raise income tax threshold to £18,000",open,3690,3680,3676,644,2026-09-03,2026-10-06,,,0,money,money
+732141,Review 5-year residency limit for Moldovans to exchange their driving licences,closed,3685,3665,3635,376,2025-07-01,2025-08-08,2026-02-08,,0,local,transport
+760883,"Exempt all military families from school fines, let them be with family.",closed,3682,3673,3634,499,2026-02-12,2026-03-20,2026-09-20,,0,education,education
+700190,"Review how to turn the MHRA into a fully transparent, patient first regulator",closed,3680,3614,3579,638,2024-10-31,2024-12-06,2025-06-06,,0,health,health
+757859,Introduce Romanian into the GCSE Curriculum,closed,3679,3627,3582,539,2026-01-20,2026-02-19,2026-08-19,,0,local,education
+779341,Fund free GCSE exams for all home-educated children,open,3670,3664,3656,618,2026-08-11,2026-09-14,,,0,education,education
+762625,Cap Academy Trust CEO Pay and Protect School Funding for Children,closed,3669,3663,3596,446,2026-02-27,2026-04-16,2026-10-16,,0,education,education
+752201,Amend the 28-day rule for the Carer's Allowance for carers giving hospital care,closed,3668,3654,3634,637,2025-11-26,2026-01-15,2026-07-15,,0,health,money
+756774,Make a dog injuring or killing a cat a specific offence,closed,3649,3636,3618,600,2026-01-11,2026-02-19,2026-08-19,,0,animals,animals
+751580,Keep 5-year Indefinite Leave to Remain (ILR) for those already granted asylum.,closed,3629,3621,3554,481,2025-11-23,2025-12-24,2026-06-24,,0,immigration,immigration
+733679,We call for a referendum before extending voting rights to 16 & 17-year-olds,closed,3623,3598,3586,622,2025-07-17,2025-08-01,2026-02-01,,0,democracy,democracy
+767906,Seek agreement with the EU to accept pet passports for UK-EU travel,open,3621,3589,3565,611,2026-04-21,2026-05-27,,,0,eu,eu
+762755,The Government must get the East West Rail Line passenger service running ASAP,closed,3615,3611,3588,266,2026-02-28,2026-04-01,2026-10-01,,0,local,local
+782318,Launch an inquiry into the psychiatric care and diagnoses of child abuse victims,open,3604,3529,3503,641,2026-09-18,2026-10-14,,,0,education,health
+768086,"Establish a single, powerful, independent statutory regulator for all news media",open,3590,3536,3524,624,2026-04-22,2026-05-19,,,0,democracy,democracy
+717925,Establish a bank holiday on the Monday after Remembrance Sunday,closed,3566,3547,3520,601,2025-02-14,2025-03-28,2025-09-28,,0,justice,other
+714124,Deport people with dual nationality who are found guilty of raping children,closed,3562,3539,3502,626,2025-01-15,2025-03-18,2025-09-18,,0,immigration,immigration
+723001,Penalties for Local Authorities if their EHCP decision is overturned at Tribunal,closed,3562,3554,3533,585,2025-03-21,2025-04-25,2025-10-25,,0,health,education
+755675,Allow radio operators to install antennas & masts without planning permission,closed,3555,3539,3519,601,2025-12-31,2026-02-10,2026-08-10,,0,environment,environment
+702908,Remove illegal immigrants from UK hotels and set up temporary camping sites,closed,3555,3540,3510,632,2024-11-24,2024-12-17,2025-06-17,,0,immigration,immigration
+727961,"Require a vote and consultation before implementing the new UK, EU Reset Deal",closed,3540,3488,3469,624,2025-05-19,2025-06-16,2025-12-16,,0,eu,eu
+706847,Repeal the 2000 and 2006 Terrorism Acts and review other legislation,closed,3535,3450,3401,618,2024-11-30,2025-01-21,2025-07-21,,0,justice,justice
+758025,Increase HMRC Mileage Allowance to 70p per mile,closed,3499,3487,3436,585,2026-01-21,2026-03-11,2026-09-11,,0,transport,transport
+766037,Apologise for the Balfour Declaration and fund the teaching of its legacy,closed,3497,3422,3401,577,2026-03-31,2026-05-08,2026-11-08,,0,education,international
+782810,Make it mandatory to offer late 3rd trimester pregnancy scan,open,3476,3473,3461,379,2026-09-24,2026-10-21,,,0,health,health
+701925,Introduce stricter minimum penalties for acts of animal cruelty.,closed,3470,3443,3428,612,2024-11-16,2024-12-11,2025-06-11,,0,animals,animals
+701023,Fund a scheme for 20 Years' service Medals for PCSOs.,closed,3461,3458,3429,458,2024-11-06,2024-11-28,2025-05-28,,0,money,justice
+714914,Grant free British citizenship to Europeans with settled status,closed,3429,3405,3381,569,2025-01-22,2025-03-28,2025-09-28,,0,immigration,immigration
+781114,Expand home university fee eligibility to UK residents without settled status,open,3428,3420,3409,538,2026-09-05,2026-10-06,,,0,immigration,immigration
+706650,A2 motorcycle licences to upgrade to an A license automatically after 2 years,closed,3412,3409,3379,627,2024-11-30,2025-01-24,2025-07-24,,0,transport,transport
+716397,Stop building solar/wind farms until a cost-benefit analysis is made public,closed,3396,3341,3302,604,2025-02-01,2025-04-03,2025-10-03,,0,money,environment
+724838,"Review & Reform the Probation Service, apologise & enshrine Victims Code in law",closed,3389,3374,3359,379,2025-04-10,2025-05-13,2025-11-13,,0,justice,justice
+765387,Mandate diabetes awareness training for all childcare professionals & educators,open,3384,3377,3369,602,2026-03-25,2026-05-11,,,0,health,health
+709930,"Reduce the home building targets to 200,000 houses per year.",closed,3383,3380,3355,387,2024-12-14,2025-02-12,2025-08-12,,0,money,environment
+770448,Ban service charges on inherited retirement properties while vacant,open,3378,3356,3338,527,2026-05-21,2026-07-03,,,0,money,money
+777510,"Legalise cannabis for adults, take action on past convictions, fund compensation",open,3375,3367,3349,602,2026-07-18,2026-08-13,,,0,health,health
+761751,Reinstate Post 16 transport for disabled young adults,closed,3366,3355,3344,490,2026-02-19,2026-03-25,2026-09-25,,0,equality,education
+761358,Fund more permanent NHS roles for newly qualified student nurses,closed,3352,3349,3302,518,2026-02-17,2026-03-30,2026-09-30,,0,health,health
+758666,Legislate to enforce timely payment of workplace pensions,closed,3346,3317,3302,599,2026-01-24,2026-02-27,2026-08-27,,0,money,money
+771473,Repeal all religious exemptions,open,3334,3303,3280,619,2026-06-02,2026-07-06,,,0,justice,equality
+743810,Allow test-free A2 to A motorcycle licence upgrades after two years,closed,3310,3302,3278,620,2025-09-27,2025-11-07,2026-05-07,,0,transport,transport
+702277,Provide funding to support Breast & Cervical Cancer Screening for Disabled Women,closed,3294,3276,3244,601,2024-11-20,2025-01-20,2025-07-20,,0,health,health
+774768,Make child maintenance evasion a criminal offence,open,3290,3282,3270,629,2026-06-23,2026-07-23,,,0,education,justice
+747038,Government to fund vorasidenib for NHS patients,closed,3288,3259,3236,494,2025-10-16,2025-11-27,2026-05-27,,0,health,health
+776839,Increase penalties for motorbike and e-bike theft & enable self-defence,open,3274,3266,3252,580,2026-07-12,2026-08-06,,,0,transport,transport
+716095,Ban the residential use of artificial grass,closed,3274,3243,3214,626,2025-01-29,2025-03-26,2025-09-26,,0,environment,environment
+700333,Remove Permitted Development Rights for all additional telecoms infrastructure.,closed,3270,3265,3248,196,2024-11-01,2025-01-10,2025-07-10,,0,online,online
+715835,Fund a full bursary and maintenance fund to train Learning Disability Nurses,closed,3266,3257,3227,609,2025-01-27,2025-04-01,2025-10-01,,0,health,health
+776196,"Define ""Significant NHS Experience"" as 2-3 years for Training Prioritisation",open,3263,3253,3231,509,2026-07-05,2026-08-05,,,0,health,health
+759631,"Ban puppy yoga, puppy Pilates and other ""puppy cuddle therapy""",closed,3259,3237,3012,600,2026-02-01,2026-03-10,2026-09-10,,0,animals,animals
+759341,"Introduce a higher, sector-specific Minimum Wage for HGV Drivers (C, C+E).",closed,3254,3247,3236,586,2026-01-30,2026-03-06,2026-09-06,,0,transport,transport
+752160,Stop Charging Early Years Nurseries Full Business Rates,closed,3239,3237,3219,546,2025-11-26,2026-01-07,2026-07-07,,0,health,money
+779844,Require all owned cats to be neutered by six months of age unless exempted,open,3239,3219,3212,541,2026-08-17,2026-09-28,,,0,animals,animals
+739068,Conduct a review of political news regulation by Ofcom,closed,3236,3194,3171,620,2025-08-25,2025-11-28,2026-05-28,,0,democracy,democracy
+745665,Introduce British Sign Language (BSL) to all primary school children,closed,3218,3202,3182,604,2025-10-05,2025-11-07,2026-05-07,,0,education,education
+736690,Require generative AI watermarks & ban using people's likeness without consent,closed,3206,3153,3134,630,2025-08-08,2025-09-04,2026-03-04,,0,online,online
+761070,Reform the Dangerous Dogs Act 1991 to remove breed bans and introduce licensing,closed,3178,3157,3149,620,2026-02-13,2026-03-24,2026-09-24,,0,animals,animals
+745684,Keep 5-year ILR for Health and Care visa holders to protect the NHS,closed,3158,3146,3116,555,2025-10-05,2025-11-04,2026-05-04,,0,immigration,immigration
+727553,Allow licences to be issued to wildlife rehabilitators to release grey squirrels,closed,3130,3095,3075,606,2025-05-14,2025-06-04,2025-12-04,,0,animals,animals
+759212,Review medical testing standards & process: use optimal ranges & cellular tests,closed,3120,3103,3092,620,2026-01-29,2026-03-11,2026-09-11,,0,health,health
+737266,Require care workers to have advanced level of English language proficiency,closed,3114,3101,3072,590,2025-08-12,2025-09-16,2026-03-16,,0,money,other
+759240,Fund a trial for children and young people denied NHS access to medical cannabis,closed,3109,3087,3078,632,2026-01-29,2026-03-06,2026-09-06,,0,health,health
+713909,Allow British Citizens by Descent to upgrade their citizenship,closed,3106,1706,1696,529,2025-01-13,2025-05-16,2025-11-16,,0,immigration,immigration
+701809,Introduce a legal right to paid bereavement leave,closed,3101,3090,3066,595,2024-11-14,2024-12-04,2025-06-04,,0,money,money
+760868,Increase Statutory Paternity Leave to a minimum 12 weeks paid leave for fathers,closed,3091,3089,3073,617,2026-02-12,2026-03-20,2026-09-20,,0,health,money
+703953,Fund post-surgery bras/breast protheses voucher scheme for all women post cancer,closed,3072,3060,3035,454,2024-11-25,2025-01-03,2025-07-03,,0,health,health
+768880,Review slaughterhouse regulation and welfare protections,open,3057,3017,2999,610,2026-05-02,2026-06-03,,,0,animals,animals
+719451,Create a trauma-informed task force to develop a strategy to address trauma,closed,3054,3046,3003,586,2025-02-27,2025-04-08,2025-10-08,,0,health,health
+701461,Fund screening for neurodivergent conditions in schools & teacher training,closed,3052,3019,2983,592,2024-11-11,2025-01-06,2025-07-06,,0,health,health

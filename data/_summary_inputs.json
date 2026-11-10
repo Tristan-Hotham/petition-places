@@ -1,0 +1,18 @@
+{
+ "all_petitions": 17201,
+ "states": {
+  "rejected": 9057,
+  "closed": 5977,
+  "open": 2167
+ },
+ "first_created": "2024-10-30",
+ "last_created": "2026-11-08",
+ "all_signatures": 33067479,
+ "detail_petitions": 734,
+ "detail_min_n": 3052,
+ "largest_not_detailed": 3033,
+ "detail_signatures": 30882864,
+ "detail_seat_signatures": 30338613,
+ "seat_share_of_n_median": 0.986711507473394,
+ "detail_share_of_all": 0.9339346371097718
+}

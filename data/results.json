@@ -1,0 +1,3771 @@
+{
+ "inputs": {
+  "all_petitions": 17201,
+  "states": {
+   "rejected": 9057,
+   "closed": 5977,
+   "open": 2167
+  },
+  "first_created": "2024-10-30",
+  "last_created": "2026-11-08",
+  "all_signatures": 33067479,
+  "detail_petitions": 734,
+  "detail_min_n": 3052,
+  "largest_not_detailed": 3033,
+  "detail_signatures": 30882864,
+  "detail_seat_signatures": 30338613,
+  "seat_share_of_n_median": 0.986711507473394,
+  "detail_share_of_all": 0.9339346371097718,
+  "n_overrides": 123,
+  "overrides_pc": 16.7574931880109,
+  "n_seats": 650,
+  "detail_share_pc": 93.39346371097717,
+  "seat_share_pc": 98.6711507473394,
+  "largest": 3084711,
+  "n_over_100k": 89,
+  "n_over_10k": 450,
+  "first_year": "2024",
+  "last_year": "2026"
+ },
+ "families": {
+  "local": {
+   "name": "Local causes",
+   "n": 10,
+   "signatures": 395931
+  },
+  "immigration": {
+   "name": "Immigration and asylum",
+   "n": 54,
+   "signatures": 3171577
+  },
+  "eu": {
+   "name": "Brexit and the EU",
+   "n": 12,
+   "signatures": 371193
+  },
+  "animals": {
+   "name": "Animals and fireworks",
+   "n": 82,
+   "signatures": 3142530
+  },
+  "health": {
+   "name": "Health and care",
+   "n": 121,
+   "signatures": 2786530
+  },
+  "transport": {
+   "name": "Transport and roads",
+   "n": 42,
+   "signatures": 624039
+  },
+  "education": {
+   "name": "Schools and children",
+   "n": 66,
+   "signatures": 1934901
+  },
+  "money": {
+   "name": "Money, work and pensions",
+   "n": 100,
+   "signatures": 2960754
+  },
+  "democracy": {
+   "name": "Elections and democracy",
+   "n": 34,
+   "signatures": 5694690
+  },
+  "international": {
+   "name": "International affairs",
+   "n": 33,
+   "signatures": 827828
+  },
+  "environment": {
+   "name": "Environment, energy and planning",
+   "n": 51,
+   "signatures": 1416363
+  },
+  "online": {
+   "name": "Online life and technology",
+   "n": 30,
+   "signatures": 4724526
+  },
+  "justice": {
+   "name": "Crime, justice and rights",
+   "n": 55,
+   "signatures": 1890404
+  },
+  "equality": {
+   "name": "Equality and identity",
+   "n": 25,
+   "signatures": 652655
+  },
+  "other": {
+   "name": "Other",
+   "n": 19,
+   "signatures": 288943
+  }
+ },
+ "H1": {
+  "median_I": 0.479255,
+  "q25_I": 0.36880749999999995,
+  "q75_I": 0.59579,
+  "min_I": 0.04237,
+  "max_I": 0.91842,
+  "share_sig": 1.0,
+  "n_sig": 734,
+  "n": 734,
+  "median_I_knn6": 0.451585,
+  "median_D": 0.24040499999999998,
+  "median_D_excess": 0.136065,
+  "median_top10": 0.06459999999999999,
+  "placebo_median_I": -0.00046531869376615546,
+  "median_I_raw": 0.49537139490230925,
+  "median_I_petition_weighted": 0.4820760080064379,
+  "median_I_valid_votes": 0.5065519530467372,
+  "median_D_pc": 24.040499999999998,
+  "median_D_excess_pc": 13.606499999999999,
+  "median_top10_pc": 6.459999999999999,
+  "top10_even_pc": 1.5384615384615385
+ },
+ "H2": {
+  "local": {
+   "pc": 189.40428448726396,
+   "lo": 71.43365251821932,
+   "hi": 388.5554186666126,
+   "p": 6.96252390000372e-05,
+   "n": 734
+  },
+  "n_local": 10,
+  "strict": {
+   "pc": 151.78976551385236,
+   "lo": 91.67374495639177,
+   "hi": 230.76040764969989,
+   "p": 3.257005068969271e-11,
+   "n": 734
+  },
+  "strict_n_local": 25,
+  "n10k": {
+   "pc": 110.47826263436829,
+   "lo": -4.81540201674272,
+   "hi": 365.42297787899,
+   "p": 0.06605163071281571,
+   "n": 448
+  },
+  "n10k_n_local": 6,
+  "pw": {
+   "pc": 106.98781661253749,
+   "lo": 45.46402324210925,
+   "hi": 194.5330073451652,
+   "p": 5.292394000488644e-05,
+   "n": 734
+  },
+  "I_local": 0.6116250000000001,
+  "I_national": 0.479065,
+  "D_local_pc": 77.9375,
+  "D_national_pc": 23.9785,
+  "top10_local_pc": 44.8255,
+  "top10_national_pc": 6.412000000000001,
+  "fam": {
+   "local": {
+    "geo_pc": 41.19820985527139,
+    "lo_pc": 24.064553443433415,
+    "hi_pc": 70.53081202062062,
+    "n": 10,
+    "median_D_pc": 77.9375,
+    "median_I": 0.6116250000000001,
+    "median_top10_pc": 44.8255
+   },
+   "immigration": {
+    "geo_pc": 18.193479484087952,
+    "lo_pc": 14.424919488589538,
+    "hi_pc": 22.94658878337313,
+    "n": 54,
+    "median_D_pc": 37.902,
+    "median_I": 0.43429,
+    "median_top10_pc": 8.716
+   },
+   "eu": {
+    "geo_pc": 8.394487421361067,
+    "lo_pc": 7.425443630246711,
+    "hi_pc": 9.489994480645986,
+    "n": 12,
+    "median_D_pc": 17.375,
+    "median_I": 0.43857,
+    "median_top10_pc": 3.6790000000000003
+   },
+   "animals": {
+    "geo_pc": 10.811127093111395,
+    "lo_pc": 9.475997376352804,
+    "hi_pc": 12.334371188734236,
+    "n": 82,
+    "median_D_pc": 19.386,
+    "median_I": 0.49538499999999996,
+    "median_top10_pc": 5.3735
+   },
+   "health": {
+    "geo_pc": 15.851641445707143,
+    "lo_pc": 14.046160083093321,
+    "hi_pc": 17.889197833200505,
+    "n": 121,
+    "median_D_pc": 27.237000000000002,
+    "median_I": 0.43581,
+    "median_top10_pc": 8.261000000000001
+   },
+   "transport": {
+    "geo_pc": 17.92642611725513,
+    "lo_pc": 14.498636540400781,
+    "hi_pc": 22.16461888964103,
+    "n": 42,
+    "median_D_pc": 31.398000000000003,
+    "median_I": 0.5267,
+    "median_top10_pc": 9.4795
+   },
+   "education": {
+    "geo_pc": 16.604156164381397,
+    "lo_pc": 14.583815030449578,
+    "hi_pc": 18.904381422524512,
+    "n": 66,
+    "median_D_pc": 24.967,
+    "median_I": 0.513585,
+    "median_top10_pc": 7.35
+   },
+   "money": {
+    "geo_pc": 11.407555467073571,
+    "lo_pc": 10.020355995144453,
+    "hi_pc": 12.986796257280492,
+    "n": 100,
+    "median_D_pc": 21.634999999999998,
+    "median_I": 0.48250000000000004,
+    "median_top10_pc": 5.119
+   },
+   "democracy": {
+    "geo_pc": 8.37541824052436,
+    "lo_pc": 7.01463259026497,
+    "hi_pc": 10.000186011318723,
+    "n": 34,
+    "median_D_pc": 15.7525,
+    "median_I": 0.5365850000000001,
+    "median_top10_pc": 3.8645
+   },
+   "international": {
+    "geo_pc": 16.978976834521525,
+    "lo_pc": 12.424390670951931,
+    "hi_pc": 23.20320263441384,
+    "n": 33,
+    "median_D_pc": 32.702999999999996,
+    "median_I": 0.44093,
+    "median_top10_pc": 7.446
+   },
+   "environment": {
+    "geo_pc": 23.763418616842483,
+    "lo_pc": 19.291444789854122,
+    "hi_pc": 29.27204626251148,
+    "n": 51,
+    "median_D_pc": 32.394,
+    "median_I": 0.50935,
+    "median_top10_pc": 11.634
+   },
+   "online": {
+    "geo_pc": 10.169659336324735,
+    "lo_pc": 7.804967438824447,
+    "hi_pc": 13.250788273944911,
+    "n": 30,
+    "median_D_pc": 19.674,
+    "median_I": 0.482885,
+    "median_top10_pc": 5.22
+   },
+   "justice": {
+    "geo_pc": 14.702796288679426,
+    "lo_pc": 11.853567360840035,
+    "hi_pc": 18.23689123500166,
+    "n": 55,
+    "median_D_pc": 24.823,
+    "median_I": 0.47388,
+    "median_top10_pc": 6.986000000000001
+   },
+   "equality": {
+    "geo_pc": 13.036098897061258,
+    "lo_pc": 10.481306736561068,
+    "hi_pc": 16.21361522234386,
+    "n": 25,
+    "median_D_pc": 22.652,
+    "median_I": 0.42796,
+    "median_top10_pc": 6.051
+   },
+   "other": {
+    "geo_pc": 18.681851742273974,
+    "lo_pc": 12.923185733397219,
+    "hi_pc": 27.006621410567444,
+    "n": 19,
+    "median_D_pc": 30.728,
+    "median_I": 0.47528,
+    "median_top10_pc": 12.606
+   }
+  },
+  "most_geo_national": "immigration",
+  "least_geo_national": "democracy"
+ },
+ "H3": {
+  "pc1_pc": 20.165647921281128,
+  "pc2_pc": 9.832232313449875,
+  "pc3_pc": 8.048683296200627,
+  "pc12_pc": 29.997880234731,
+  "pc15_pc": 44.03163351641309,
+  "stab1": 0.9569716547653556,
+  "stab2": 0.9587245241988608,
+  "stab3": 0.9440161664649185,
+  "split_date_year": "2025",
+  "n_early": 367,
+  "n_late": 367,
+  "k": 3,
+  "sil": 0.3668683705435455,
+  "sil_all": {
+   "3": 0.3668683705435455,
+   "4": 0.2973494642865142,
+   "5": 0.282366003402026,
+   "6": 0.2788951299288971,
+   "7": 0.2879117920481458,
+   "8": 0.27276427220900035
+  },
+  "corr": {
+   "PC1": {
+    "degree": 0.787652863091959,
+    "over65": -0.7246781391728958,
+    "notgoodhealth": -0.6870490302295245,
+    "white": -0.7577844238627899,
+    "con": -0.3091650468827202,
+    "lab": 0.21243668410374245,
+    "ld": 0.1069230899321512,
+    "ruk": -0.6654764038569239,
+    "green": 0.49491849800997767,
+    "nat": -0.07102410087547552,
+    "signatures_per_vote": -0.5471831113472998
+   },
+   "PC2": {
+    "degree": -0.4288102678487826,
+    "over65": -0.5514692172001374,
+    "notgoodhealth": 0.39485755668444644,
+    "white": -0.49238029370323905,
+    "con": -0.5398622728203929,
+    "lab": 0.5516102944923392,
+    "ld": -0.5551383792766988,
+    "ruk": 0.14938530444295356,
+    "green": -0.03568835922641918,
+    "nat": 0.2137033531590668,
+    "signatures_per_vote": 0.19262148568649315
+   },
+   "PC3": {
+    "degree": 0.25695097964057506,
+    "over65": 0.27596830606353984,
+    "notgoodhealth": 0.1407731661976396,
+    "white": 0.3648327173181395,
+    "con": -0.3829436252924767,
+    "lab": 0.004904507762900221,
+    "ld": 0.05121231015282066,
+    "ruk": -0.41659269948749766,
+    "green": -0.020195184046023804,
+    "nat": 0.832318078899327,
+    "signatures_per_vote": -0.36054501835559416
+   },
+   "PC4": {
+    "degree": 0.14896546150468642,
+    "over65": 0.1416323829122468,
+    "notgoodhealth": -0.32474203841678595,
+    "white": -0.08359072662530885,
+    "con": 0.423065667592237,
+    "lab": -0.3798468610061811,
+    "ld": 0.13663164132272695,
+    "ruk": 0.008676064544770223,
+    "green": -0.34755894658371483,
+    "nat": 0.1315915829191239,
+    "signatures_per_vote": -0.2024562652878222
+   },
+   "PC5": {
+    "degree": -0.016832991077117852,
+    "over65": 0.14515214332650261,
+    "notgoodhealth": 0.3261974109051079,
+    "white": -0.1205393066389375,
+    "con": -0.0010472178662924037,
+    "lab": -0.029471651840989578,
+    "ld": -0.03470323148625078,
+    "ruk": 0.044333266340379755,
+    "green": 0.180206522730563,
+    "nat": -0.24264090353874038,
+    "signatures_per_vote": 0.16460279491524743
+   }
+  },
+  "corr_n": 575,
+  "clusters": {
+   "Towns, suburbs and countryside": {
+    "n": 450,
+    "col": "#C9A227",
+    "id": 0,
+    "degree": 31.432524444444446,
+    "over65": 19.660162222222223,
+    "white": 89.35012666666667,
+    "ruk": 17.74254666666667,
+    "lab": 33.70483111111111,
+    "con": 26.60368888888889,
+    "nations": {
+     "England": 422,
+     "Wales": 28
+    },
+    "london": 0,
+    "typical": [
+     "Sefton Central",
+     "Ribble Valley",
+     "Corby and East Northamptonshire",
+     "East Thanet",
+     "The Wrekin",
+     "North West Leicestershire"
+    ],
+    "top": [
+     {
+      "id": 761127,
+      "a": "Legislate to ban FPNs and prosecutions related to school attendance",
+      "x": 1.1206561277165916
+     },
+     {
+      "id": 747234,
+      "a": "Remove power to cancel local government elections",
+      "x": 1.115348587721292
+     },
+     {
+      "id": 734311,
+      "a": "Give the British Public the Right to Vote No Confidence in the Government",
+      "x": 1.101924519926909
+     },
+     {
+      "id": 750050,
+      "a": "Dissolve Parliament and call a General Election now!",
+      "x": 1.1001885106222096
+     },
+     {
+      "id": 769319,
+      "a": "Fund £20,000 a year (term time) wage for Teaching Assistants",
+      "x": 1.0983956415872584
+     },
+     {
+      "id": 727309,
+      "a": "Call an immediate general election",
+      "x": 1.087891089284566
+     }
+    ]
+   },
+   "Diverse cities": {
+    "n": 124,
+    "col": "#B4442E",
+    "id": 1,
+    "degree": 45.90104098360656,
+    "over65": 11.716196721311476,
+    "white": 60.14372950819672,
+    "ruk": 7.756967741935485,
+    "lab": 42.16018548387096,
+    "con": 17.972403225806456,
+    "nations": {
+     "England": 121,
+     "Scotland": 2,
+     "Wales": 1
+    },
+    "london": 68,
+    "typical": [
+     "Lewisham East",
+     "Bermondsey and Old Southwark",
+     "Brentford and Isleworth",
+     "Greenwich and Woolwich",
+     "Reading Central",
+     "Mitcham and Morden"
+    ],
+    "top": [
+     {
+      "id": 781255,
+      "a": "Keep 10-year Long Residence Route for people already living in the UK",
+      "x": 2.733194568466976
+     },
+     {
+      "id": 701379,
+      "a": "Impose economic sanctions on Israel.",
+      "x": 2.616944011011097
+     },
+     {
+      "id": 754432,
+      "a": "Urge Israeli Government to stop law allowing execution of Palestinian prisoners",
+      "x": 2.421561655216131
+     },
+     {
+      "id": 700918,
+      "a": "Immediately stop all arms exports to Israel & seek ceasefire in Gaza",
+      "x": 2.3812427803144725
+     },
+     {
+      "id": 730899,
+      "a": "Add Sickle Cell Disease to NHS Prescription Charge Exemption List",
+      "x": 2.326361589987833
+     },
+     {
+      "id": 727360,
+      "a": "Keep the 5-Year ILR pathway for existing Skilled Worker visa holders",
+      "x": 2.325774941967131
+     }
+    ]
+   },
+   "Scotland and Northern Ireland": {
+    "n": 76,
+    "col": "#2F6A9E",
+    "id": 2,
+    "degree": 36.849000000000004,
+    "over65": 15.164666666666667,
+    "white": 82.616,
+    "ruk": 5.717473684210525,
+    "lab": 27.15965789473685,
+    "con": 9.416355263157893,
+    "nations": {
+     "Scotland": 55,
+     "Northern Ireland": 18,
+     "Wales": 3
+    },
+    "london": 0,
+    "typical": [
+     "Cowdenbeath and Kirkcaldy",
+     "Aberdeen North",
+     "Inverclyde and Renfrewshire West",
+     "East Kilbride and Strathaven",
+     "Dunfermline and Dollar",
+     "Arbroath and Broughty Ferry"
+    ],
+    "top": [
+     {
+      "id": 769805,
+      "a": "Hold a referendum on abolishing the Scottish Parliament & Government",
+      "x": 3.4500732951285884
+     },
+     {
+      "id": 701455,
+      "a": "Introduce statutory provision for independence referendums in Scotland & Wales.",
+      "x": 3.065746321494894
+     },
+     {
+      "id": 721125,
+      "a": "Set up an independent inquiry into the UK's involvement in the war in Gaza",
+      "x": 2.643916886919302
+     },
+     {
+      "id": 713128,
+      "a": "Do not restrict vape flavours",
+      "x": 2.4502625999767296
+     },
+     {
+      "id": 705403,
+      "a": "Fully Repeal the Gender Recognition Act",
+      "x": 2.3905733430480995
+     },
+     {
+      "id": 772101,
+      "a": "Make performing a Nazi salute a criminal offence in the UK",
+      "x": 2.2621475752177003
+     }
+    ]
+   }
+  },
+  "load": {
+   "PC1": {
+    "pos": [
+     {
+      "id": 764063,
+      "a": "Review the 2026 visa brake: Publish evidence & create transitional arrangements",
+      "l": 0.07321897744803585
+     },
+     {
+      "id": 700682,
+      "a": "Urgently fulfil humanitarian obligations to Gaza",
+      "l": 0.07115522214498662
+     },
+     {
+      "id": 700918,
+      "a": "Immediately stop all arms exports to Israel & seek ceasefire in Gaza",
+      "l": 0.06872490712349243
+     },
+     {
+      "id": 764909,
+      "a": "Ban default service charges and pre-set digital tip screens in hospitality",
+      "l": 0.06862030614991961
+     },
+     {
+      "id": 761186,
+      "a": "Add gynaecological conditions e.g. Endometriosis to Equality Act 2010 Guidance",
+      "l": 0.06854601251617548
+     },
+     {
+      "id": 707189,
+      "a": "Tighten the rules on political donations",
+      "l": 0.06851544126719222
+     },
+     {
+      "id": 781255,
+      "a": "Keep 10-year Long Residence Route for people already living in the UK",
+      "l": 0.06842727614515028
+     },
+     {
+      "id": 750817,
+      "a": "Allow small pets to travel in the cabin on flights entering the UK",
+      "l": 0.06780251340092257
+     }
+    ],
+    "neg": [
+     {
+      "id": 750050,
+      "a": "Dissolve Parliament and call a General Election now!",
+      "l": -0.07546896916661346
+     },
+     {
+      "id": 737105,
+      "a": "Introduce offshore detention/mass deportation for illegal migrants",
+      "l": -0.07470451430860003
+     },
+     {
+      "id": 734311,
+      "a": "Give the British Public the Right to Vote No Confidence in the Government",
+      "l": -0.07463658224458876
+     },
+     {
+      "id": 730605,
+      "a": "Mandatory collection and publication of certain child sexual offender data",
+      "l": -0.07424568212429376
+     },
+     {
+      "id": 728715,
+      "a": "Review possible penalties for social media posts, including the use of prison",
+      "l": -0.07422147448266972
+     },
+     {
+      "id": 763011,
+      "a": "Public Vote Required on Overseas Aid Spending",
+      "l": -0.07316668224445315
+     },
+     {
+      "id": 756036,
+      "a": "Make all court and tribunal transcripts available free of charge",
+      "l": -0.07267134190964225
+     },
+     {
+      "id": 773633,
+      "a": "Launch a public inquiry into illegal migration in the UK",
+      "l": -0.07174633426098996
+     }
+    ]
+   },
+   "PC2": {
+    "pos": [
+     {
+      "id": 750121,
+      "a": "Make assaulting a security worker a standalone offence",
+      "l": 0.0722239733378908
+     },
+     {
+      "id": 732221,
+      "a": "Criminalise & legally require schools to tackle bullying in & out of school",
+      "l": 0.0710808633515458
+     },
+     {
+      "id": 737772,
+      "a": "Cap price hikes for privately prescribed essential medicines",
+      "l": 0.06968412986649244
+     },
+     {
+      "id": 730194,
+      "a": "Do not introduce Digital ID cards",
+      "l": 0.06848808250300503
+     },
+     {
+      "id": 779519,
+      "a": "Reduce the retirement age for the NHS pension scheme to 60",
+      "l": 0.06846129759314294
+     },
+     {
+      "id": 717817,
+      "a": "Reverse guidance stopping refugees gaining citizenship",
+      "l": 0.0682955738714223
+     },
+     {
+      "id": 757233,
+      "a": "Do not ban social media for under 16s",
+      "l": 0.06653310905392754
+     },
+     {
+      "id": 727296,
+      "a": "Increase full-time Carer's Allowance to at least £800 per week",
+      "l": 0.06623753708932992
+     }
+    ],
+    "neg": [
+     {
+      "id": 724795,
+      "a": "Protect hares and their young from shooting during the breeding season",
+      "l": -0.10558304535187309
+     },
+     {
+      "id": 767687,
+      "a": "Hold a UK-wide briefing on climate and nature risks",
+      "l": -0.09460531514619223
+     },
+     {
+      "id": 706302,
+      "a": "End the use of cages and crates for all farmed animals",
+      "l": -0.0944344228813079
+     },
+     {
+      "id": 700024,
+      "a": "Ban fossil fuel advertising and sponsorship",
+      "l": -0.09252334450590126
+     },
+     {
+      "id": 732726,
+      "a": "Review protections for important trees: amend Forestry Act & list heritage trees",
+      "l": -0.09234454534009232
+     },
+     {
+      "id": 762640,
+      "a": "Hold a referendum to bring the water industry into public ownership",
+      "l": -0.09217809908375602
+     },
+     {
+      "id": 727016,
+      "a": "Provide funding for a nationwide, nature-rich river corridor network.",
+      "l": -0.09175539852834687
+     },
+     {
+      "id": 700036,
+      "a": "Ban driven grouse shooting",
+      "l": -0.09063073004567601
+     }
+    ]
+   },
+   "PC3": {
+    "pos": [
+     {
+      "id": 705403,
+      "a": "Fully Repeal the Gender Recognition Act",
+      "l": 0.10070334812884343
+     },
+     {
+      "id": 701455,
+      "a": "Introduce statutory provision for independence referendums in Scotland & Wales.",
+      "l": 0.09432636205290718
+     },
+     {
+      "id": 769805,
+      "a": "Hold a referendum on abolishing the Scottish Parliament & Government",
+      "l": 0.08767580355775118
+     },
+     {
+      "id": 748663,
+      "a": "Fund research into desexed language in women's health",
+      "l": 0.0859706291606026
+     },
+     {
+      "id": 772101,
+      "a": "Make performing a Nazi salute a criminal offence in the UK",
+      "l": 0.08571600351769844
+     },
+     {
+      "id": 729478,
+      "a": "Transparency and Review of the free zones and ports impacts",
+      "l": 0.08370076872412374
+     },
+     {
+      "id": 736504,
+      "a": "Inquiry into sexual violence in NHS hospitals",
+      "l": 0.08318678768438954
+     },
+     {
+      "id": 716553,
+      "a": "Require the use of sexed language in government-funded health communications",
+      "l": 0.08285608769011349
+     }
+    ],
+    "neg": [
+     {
+      "id": 700047,
+      "a": "Allow parents to take their children out of school for up to 10 days fine free.",
+      "l": -0.11562604285726179
+     },
+     {
+      "id": 761127,
+      "a": "Legislate to ban FPNs and prosecutions related to school attendance",
+      "l": -0.10449995418477172
+     },
+     {
+      "id": 764268,
+      "a": "Protect legal right to support for children with SEND",
+      "l": -0.10296305371746797
+     },
+     {
+      "id": 707685,
+      "a": "Allow families with SEN children 10 days term-time holiday without being fined",
+      "l": -0.10176001376590472
+     },
+     {
+      "id": 711021,
+      "a": "Retain legal right to assessment and support in education for children with SEND",
+      "l": -0.1007923535192251
+     },
+     {
+      "id": 729440,
+      "a": "Make Play and Continuous Provision statutory in England's Key Stage 1 Curriculum",
+      "l": -0.09742837582094921
+     },
+     {
+      "id": 702845,
+      "a": "Extend free bus travel for people over 60 in England",
+      "l": -0.09544040130713809
+     },
+     {
+      "id": 751622,
+      "a": "Reform pay, working conditions and national standards for TA's and SEN LSA's.",
+      "l": -0.08952882237514738
+     }
+    ]
+   }
+  }
+ },
+ "H4a": {
+  "median_r2_votes": 0.26324849189272587,
+  "share_r2_votes_over_half": 0.09128065395095368,
+  "n_over_half": 67,
+  "q25": 0.14623734809974215,
+  "q75": 0.3819864489708017,
+  "median_r2_region": 0.25662343585505853,
+  "median_r2_votes_region": 0.39600372938964623,
+  "median_r2_census_ew": 0.31229242919322847,
+  "median_r2_votes_ew": 0.2317733027944452,
+  "median_r2_votes_census_ew": 0.36248254662598484,
+  "placebo_median_r2": 0.008637672623252973,
+  "n_gb": 632,
+  "n_ew": 575,
+  "share_votes_beat_census": 0.16893732970027248,
+  "best_party_counts": {
+   "ruk": 345,
+   "con": 169,
+   "green": 85,
+   "lab": 81,
+   "ld": 54
+  },
+  "best_abs_r_over_half": 121,
+  "median_r2_votes_pc": 26.324849189272587,
+  "median_r2_region_pc": 25.66234358550585,
+  "median_r2_votes_region_pc": 39.600372938964625,
+  "median_r2_census_ew_pc": 31.229242919322846,
+  "median_r2_votes_ew_pc": 23.17733027944452,
+  "median_r2_votes_census_ew_pc": 36.248254662598484,
+  "placebo_median_r2_pc": 0.8637672623252972,
+  "share_r2_votes_over_half_pc": 9.128065395095367,
+  "share_votes_beat_census_pc": 16.893732970027248,
+  "q25_pc": 14.623734809974215,
+  "q75_pc": 38.19864489708017,
+  "top_r2": [
+   {
+    "id": 700047,
+    "a": "Allow parents to take their children out of school for up to 10 days fine free.",
+    "r2": 0.7924258245019726,
+    "party": "ruk",
+    "r": 0.4014737423762677
+   },
+   {
+    "id": 729440,
+    "a": "Make Play and Continuous Provision statutory in England's Key Stage 1 Curriculum",
+    "r2": 0.7863333584374222,
+    "party": "con",
+    "r": 0.4379091950116144
+   },
+   {
+    "id": 700143,
+    "a": "Call a General Election",
+    "r2": 0.7772319401560289,
+    "party": "con",
+    "r": 0.6860848822036764
+   },
+   {
+    "id": 761127,
+    "a": "Legislate to ban FPNs and prosecutions related to school attendance",
+    "r2": 0.7727035063974705,
+    "party": "ruk",
+    "r": 0.5905855197287353
+   },
+   {
+    "id": 711021,
+    "a": "Retain legal right to assessment and support in education for children with SEND",
+    "r2": 0.743854725070629,
+    "party": "con",
+    "r": 0.3378223578279905
+   },
+   {
+    "id": 783252,
+    "a": "Launch a public inquiry into the UK's role in Israeli operations in Gaza",
+    "r2": 0.7157368356044466,
+    "party": "ruk",
+    "r": -0.7085942665712577
+   },
+   {
+    "id": 752646,
+    "a": "Call a public inquiry into pro-Israel influence on politics & democracy",
+    "r2": 0.7156357132771005,
+    "party": "ruk",
+    "r": -0.7285737631820931
+   },
+   {
+    "id": 707189,
+    "a": "Tighten the rules on political donations",
+    "r2": 0.7095241122508043,
+    "party": "ruk",
+    "r": -0.6719534175317583
+   }
+  ],
+  "low_r2": [
+   {
+    "id": 760461,
+    "a": "Fund NHS access to Omaveloxolone for patients with Friedreich's Ataxia",
+    "r2": 0.07016852257393791,
+    "party": "lab",
+    "r": 0.2143459611605158
+   },
+   {
+    "id": 742179,
+    "a": "Lower the age for invites to regular mammograms to 40 & perform annually",
+    "r2": 0.1121191401154027,
+    "party": "con",
+    "r": 0.26436137717888686
+   },
+   {
+    "id": 737513,
+    "a": "Raise the income tax personal allowance from £12,570 to £20,000",
+    "r2": 0.1299533803113142,
+    "party": "green",
+    "r": -0.25037478617349496
+   },
+   {
+    "id": 736578,
+    "a": "End testing on dogs and other animals for development of products for human use",
+    "r2": 0.1446094580912758,
+    "party": "con",
+    "r": 0.20650930010857527
+   },
+   {
+    "id": 750999,
+    "a": "Fund cardiac screening at age 14 years and cardiac awareness programme",
+    "r2": 0.172748281679159,
+    "party": "green",
+    "r": -0.22279320353559795
+   },
+   {
+    "id": 764785,
+    "a": "Support the Ceramics Industry and protect British manufacturing jobs and skills",
+    "r2": 0.17472568149772894,
+    "party": "con",
+    "r": 0.3560607370923482
+   },
+   {
+    "id": 738421,
+    "a": "The UK Government should not unilaterally recognise a Palestinian State",
+    "r2": 0.17650797762933956,
+    "party": "ruk",
+    "r": -0.3236131913885004
+   },
+   {
+    "id": 700013,
+    "a": "Limit the sale and use of Fireworks to licence holders only",
+    "r2": 0.17857661746117093,
+    "party": "con",
+    "r": -0.2279901521581111
+   }
+  ],
+  "by_family": {
+   "local": {
+    "r2_pc": 21.427338734456054,
+    "r2c_pc": 11.132123295947899
+   },
+   "immigration": {
+    "r2_pc": 29.161895696454028,
+    "r2c_pc": 47.84342804113339
+   },
+   "eu": {
+    "r2_pc": 34.98707500118135,
+    "r2c_pc": 40.50710551610511
+   },
+   "animals": {
+    "r2_pc": 19.17902647703426,
+    "r2c_pc": 27.19116285712182
+   },
+   "health": {
+    "r2_pc": 17.2748281679159,
+    "r2c_pc": 22.059257418035074
+   },
+   "transport": {
+    "r2_pc": 19.889895194867748,
+    "r2c_pc": 27.35443235218388
+   },
+   "education": {
+    "r2_pc": 26.324849189272587,
+    "r2c_pc": 21.736793553179375
+   },
+   "money": {
+    "r2_pc": 27.889206954309,
+    "r2c_pc": 34.48688068966954
+   },
+   "democracy": {
+    "r2_pc": 40.110733593034546,
+    "r2c_pc": 47.56206852253889
+   },
+   "international": {
+    "r2_pc": 33.0820650210663,
+    "r2c_pc": 45.31449727388031
+   },
+   "environment": {
+    "r2_pc": 28.726005594388837,
+    "r2c_pc": 30.091080902185485
+   },
+   "online": {
+    "r2_pc": 31.600690788377538,
+    "r2c_pc": 41.48654764071603
+   },
+   "justice": {
+    "r2_pc": 27.78157784086881,
+    "r2c_pc": 29.48755171448303
+   },
+   "equality": {
+    "r2_pc": 39.67372357746013,
+    "r2c_pc": 40.92937586942573
+   },
+   "other": {
+    "r2_pc": 17.18524696803985,
+    "r2c_pc": 21.70209450966849
+   }
+  }
+ },
+ "H4b": {
+  "local": {
+   "con_pct": {
+    "pc": 7.276150977046458,
+    "lo": 2.596680180288047,
+    "hi": 12.1690540885663,
+    "p": 0.0020252719146072753,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": -6.316079583826051,
+    "lo": -11.332630359763352,
+    "hi": -1.015706452611198,
+    "p": 0.02015015773923523,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": -5.405813624648359,
+    "lo": -10.921909900563909,
+    "hi": 0.45186292191738975,
+    "p": 0.06984830456251083,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": 4.09209751020807,
+    "lo": 0.4571108699601645,
+    "hi": 7.858614191090751,
+    "p": 0.027005317714258396,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": -6.663116734476482,
+    "lo": -11.648109123295402,
+    "hi": -1.3968609921515052,
+    "p": 0.01380568894805848,
+    "n": 575
+   },
+   "over65": {
+    "pc": 3.9583347145339953,
+    "lo": -1.986732915892031,
+    "hi": 10.264004844823727,
+    "p": 0.1963373589818479,
+    "n": 575
+   },
+   "degree": {
+    "pc": 3.481141204293303,
+    "lo": -2.4979076406772327,
+    "hi": 9.826838848540852,
+    "p": 0.2597824329151751,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": 2.42795156333393,
+    "lo": -3.443434191677164,
+    "hi": 8.656362968496856,
+    "p": 0.4257358700353773,
+    "n": 575
+   },
+   "white": {
+    "pc": 13.609556542306201,
+    "lo": 8.67349195799818,
+    "hi": 18.769822384358626,
+    "p": 1.8013140744321228e-08,
+    "n": 575
+   },
+   "r2_pc": 55.921871413318534,
+   "n": 575
+  },
+  "immigration": {
+   "con_pct": {
+    "pc": 4.844867747911752,
+    "lo": 0.3868150238158341,
+    "hi": 9.500897009923559,
+    "p": 0.03283377210703745,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 5.025328002252416,
+    "lo": -0.7331721653140888,
+    "hi": 11.117880590987127,
+    "p": 0.08834470477989535,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 6.052866056790318,
+    "lo": 0.6862494603129043,
+    "hi": 11.705525423238416,
+    "p": 0.026548416405414166,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": 3.6156145177071997,
+    "lo": 0.3517334106020398,
+    "hi": 6.985651438162699,
+    "p": 0.029632079229087845,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": -0.1880625530149893,
+    "lo": -2.7053239729578404,
+    "hi": 2.3943268401642515,
+    "p": 0.8851554223112265,
+    "n": 575
+   },
+   "over65": {
+    "pc": -10.400247251935724,
+    "lo": -13.451584685475915,
+    "hi": -7.2413323416793185,
+    "p": 5.229944409727184e-10,
+    "n": 575
+   },
+   "degree": {
+    "pc": -6.458907225371258,
+    "lo": -10.089062985894381,
+    "hi": -2.68218385824438,
+    "p": 0.0009455335078178584,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": 1.2691479699359354,
+    "lo": -2.345731198324741,
+    "hi": 5.017839531259138,
+    "p": 0.49648037052310634,
+    "n": 575
+   },
+   "white": {
+    "pc": -19.67877622542109,
+    "lo": -23.168765405101887,
+    "hi": -16.030257451122807,
+    "p": 4.104379750420625e-22,
+    "n": 575
+   },
+   "r2_pc": 69.20722195583184,
+   "n": 575
+  },
+  "eu": {
+   "con_pct": {
+    "pc": -6.56850130515677,
+    "lo": -9.344974753587298,
+    "hi": -3.706993356003474,
+    "p": 1.0139499861571455e-05,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 7.011874947009522,
+    "lo": 3.636229253151413,
+    "hi": 10.497472381996964,
+    "p": 3.413432673834925e-05,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 3.7186875112332762,
+    "lo": 0.5055251795284876,
+    "hi": 7.0345746647968,
+    "p": 0.022964911593827835,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": -6.264375672199673,
+    "lo": -9.301688601085267,
+    "hi": -3.125348944173967,
+    "p": 0.00011846402963226947,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": 3.5677083721666447,
+    "lo": 1.608034058065111,
+    "hi": 5.5651781564094005,
+    "p": 0.00032230325617171407,
+    "n": 575
+   },
+   "over65": {
+    "pc": 11.57696489174731,
+    "lo": 8.137454640466979,
+    "hi": 15.125875080431372,
+    "p": 7.031590737684892e-12,
+    "n": 575
+   },
+   "degree": {
+    "pc": 23.621360118498693,
+    "lo": 19.50278114522124,
+    "hi": 27.881883008031206,
+    "p": 1.379462198138598e-34,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": 2.417680194647165,
+    "lo": -1.0379273106203013,
+    "hi": 5.99395234350939,
+    "p": 0.17251463868877226,
+    "n": 575
+   },
+   "white": {
+    "pc": 3.862917436014568,
+    "lo": 0.11386426642754355,
+    "hi": 7.752364743530227,
+    "p": 0.043317745766393086,
+    "n": 575
+   },
+   "r2_pc": 79.69650594502522,
+   "n": 575
+  },
+  "animals": {
+   "con_pct": {
+    "pc": -1.134379610369507,
+    "lo": -2.9465510985475007,
+    "hi": 0.7116285475995854,
+    "p": 0.22678024824868748,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 0.25807725810060855,
+    "lo": -1.3609756243274762,
+    "hi": 1.9037051421844087,
+    "p": 0.7563414815047045,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": -0.032835671529518606,
+    "lo": -1.6149578037554013,
+    "hi": 1.5747284423777597,
+    "p": 0.9678156037152676,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": 0.17245177062514827,
+    "lo": -0.9967317572926238,
+    "hi": 1.3554428237511074,
+    "p": 0.7736167518844692,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": 0.3298027504267331,
+    "lo": -0.7038365464333229,
+    "hi": 1.3742018808881484,
+    "p": 0.5331777227474724,
+    "n": 575
+   },
+   "over65": {
+    "pc": 5.3801962703859285,
+    "lo": 3.331951662115018,
+    "hi": 7.469041156768563,
+    "p": 1.6690859346711989e-07,
+    "n": 575
+   },
+   "degree": {
+    "pc": -2.67986182365727,
+    "lo": -5.040053304688808,
+    "hi": -0.26100872769235783,
+    "p": 0.030112463254992127,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": -4.599118143965841,
+    "lo": -6.703438579329668,
+    "hi": -2.4473343891906807,
+    "p": 3.51482458329041e-05,
+    "n": 575
+   },
+   "white": {
+    "pc": 9.660686025669762,
+    "lo": 7.419412091348843,
+    "hi": 11.94872347089495,
+    "p": 2.0777675164658524e-18,
+    "n": 575
+   },
+   "r2_pc": 70.07302512638599,
+   "n": 575
+  },
+  "health": {
+   "con_pct": {
+    "pc": -2.979468849779121,
+    "lo": -4.851133572157895,
+    "hi": -1.070986780389127,
+    "p": 0.002339649259305415,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 3.993996700591662,
+    "lo": 1.7208352298540452,
+    "hi": 6.317956644035183,
+    "p": 0.000514571587917541,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 0.9318478680945264,
+    "lo": -1.2024952076750584,
+    "hi": 3.112299601918389,
+    "p": 0.39500987729536097,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": -1.0368885016647789,
+    "lo": -2.58143807023945,
+    "hi": 0.532149555782313,
+    "p": 0.19405426779847013,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": 0.6265468453997114,
+    "lo": -0.6658593589063733,
+    "hi": 1.9357681526114945,
+    "p": 0.3436340979011234,
+    "n": 575
+   },
+   "over65": {
+    "pc": -0.1491977997078897,
+    "lo": -2.7630540031105433,
+    "hi": 2.5349222749221134,
+    "p": 0.9121550097665572,
+    "n": 575
+   },
+   "degree": {
+    "pc": -2.5578725840654015,
+    "lo": -5.332696755257471,
+    "hi": 0.29828536253935223,
+    "p": 0.07876430581825883,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": -7.249875677237172,
+    "lo": -9.965122991020635,
+    "hi": -4.452742674041666,
+    "p": 6.88271418770222e-07,
+    "n": 575
+   },
+   "white": {
+    "pc": 6.245235160238338,
+    "lo": 3.656807706211751,
+    "hi": 8.898298568555063,
+    "p": 1.479526046485323e-06,
+    "n": 575
+   },
+   "r2_pc": 28.800887561634646,
+   "n": 575
+  },
+  "transport": {
+   "con_pct": {
+    "pc": -1.6080496591887594,
+    "lo": -5.810908842970641,
+    "hi": 2.7823474347875354,
+    "p": 0.4667147972581517,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": -1.3260493580009691,
+    "lo": -5.324632131876306,
+    "hi": 2.8414122336657632,
+    "p": 0.5270721940278607,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 1.7726961898334004,
+    "lo": -2.25800715812432,
+    "hi": 5.969618467924032,
+    "p": 0.3940763157970466,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": 2.5895590390021317,
+    "lo": -0.29309078099748476,
+    "hi": 5.5555498235330125,
+    "p": 0.07872777932984186,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": -1.314210379525882,
+    "lo": -3.307088207296849,
+    "hi": 0.7197414211225883,
+    "p": 0.20374068264844136,
+    "n": 575
+   },
+   "over65": {
+    "pc": 5.803432182939816,
+    "lo": 0.3695531665407259,
+    "hi": 11.531494447478563,
+    "p": 0.035985745118640035,
+    "n": 575
+   },
+   "degree": {
+    "pc": -11.869614079578849,
+    "lo": -16.39106925412076,
+    "hi": -7.103644871511882,
+    "p": 2.5746835022091953e-06,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": -12.345702428213611,
+    "lo": -17.0185284992068,
+    "hi": -7.409741670707371,
+    "p": 2.4257174333661236e-06,
+    "n": 575
+   },
+   "white": {
+    "pc": -0.14983911522350457,
+    "lo": -4.029880288473131,
+    "hi": 3.887070878773291,
+    "p": 0.9408880139179356,
+    "n": 575
+   },
+   "r2_pc": 37.49960606158527,
+   "n": 575
+  },
+  "education": {
+   "con_pct": {
+    "pc": 0.33655075285417,
+    "lo": -2.0339103816496618,
+    "hi": 2.764369346577644,
+    "p": 0.7829846305543101,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 2.0814934276586428,
+    "lo": -0.6649087131127662,
+    "hi": 4.903827694943641,
+    "p": 0.13873284157450302,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 2.179195401026801,
+    "lo": -0.4825683100205147,
+    "hi": 4.912152529479807,
+    "p": 0.10942819268969226,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": -0.7524889919531486,
+    "lo": -2.5746593147808583,
+    "hi": 1.1037618345919764,
+    "p": 0.42433986547079316,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": -3.4001678635923738,
+    "lo": -5.525120018268181,
+    "hi": -1.2274207642652968,
+    "p": 0.002302096215690452,
+    "n": 575
+   },
+   "over65": {
+    "pc": -5.356260822030423,
+    "lo": -7.69469550155647,
+    "hi": -2.9585849452609114,
+    "p": 1.6123569013402095e-05,
+    "n": 575
+   },
+   "degree": {
+    "pc": -5.469449783738822,
+    "lo": -8.09097109805551,
+    "hi": -2.773154814608003,
+    "p": 8.858736933241136e-05,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": -4.829551728632708,
+    "lo": -7.4732789484527,
+    "hi": -2.1102863990279275,
+    "p": 0.000573533270923227,
+    "n": 575
+   },
+   "white": {
+    "pc": 4.123371886345861,
+    "lo": 1.5588467994574806,
+    "hi": 6.752655378124994,
+    "p": 0.001494951639031783,
+    "n": 575
+   },
+   "r2_pc": 59.251794996667016,
+   "n": 575
+  },
+  "money": {
+   "con_pct": {
+    "pc": -0.17829377795137713,
+    "lo": -2.3185682598085067,
+    "hi": 2.0088757460451134,
+    "p": 0.8718001038368087,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 2.764823365620228,
+    "lo": 0.04273888487758004,
+    "hi": 5.560973630675559,
+    "p": 0.04646325383088437,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 0.10233687193961227,
+    "lo": -2.435043092377953,
+    "hi": 2.7057066884272896,
+    "p": 0.9377624489920289,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": -0.06880055019856668,
+    "lo": -1.845848940291206,
+    "hi": 1.7404207123262294,
+    "p": 0.9400716926334118,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": -1.1716431443271502,
+    "lo": -2.5457514919399293,
+    "hi": 0.22184017954254287,
+    "p": 0.09898960658327895,
+    "n": 575
+   },
+   "over65": {
+    "pc": 7.601654520156953,
+    "lo": 5.775970280119358,
+    "hi": 9.458849914717572,
+    "p": 4.8056011764480003e-17,
+    "n": 575
+   },
+   "degree": {
+    "pc": -3.988646310807342,
+    "lo": -6.420078764712711,
+    "hi": -1.4940393671197039,
+    "p": 0.0018697722713282678,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": -3.440045754211196,
+    "lo": -5.670896184376617,
+    "hi": -1.156436488856416,
+    "p": 0.0033322586911975036,
+    "n": 575
+   },
+   "white": {
+    "pc": -0.5478238340365982,
+    "lo": -2.6072008785177014,
+    "hi": 1.5550988714131853,
+    "p": 0.606870522538085,
+    "n": 575
+   },
+   "r2_pc": 46.168465797333816,
+   "n": 575
+  },
+  "democracy": {
+   "con_pct": {
+    "pc": 5.258585894697276,
+    "lo": 3.626011089695047,
+    "hi": 6.9168810807688885,
+    "p": 1.310750531437623e-10,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": -3.9137353788337825,
+    "lo": -5.6130067806944295,
+    "hi": -2.183871591320241,
+    "p": 1.1576970427248136e-05,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": -2.7470122152745247,
+    "lo": -4.375071213478177,
+    "hi": -1.091234753535597,
+    "p": 0.0012214838722475225,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": 3.589372587691053,
+    "lo": 2.164324651702354,
+    "hi": 5.034297928309894,
+    "p": 6.049713717577305e-07,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": -1.7307189225294284,
+    "lo": -2.6098091070355545,
+    "hi": -0.8436936518980032,
+    "p": 0.000140106117805309,
+    "n": 575
+   },
+   "over65": {
+    "pc": -0.24686304202384823,
+    "lo": -1.7281281145225869,
+    "hi": 1.2567293370877142,
+    "p": 0.7460820642850483,
+    "n": 575
+   },
+   "degree": {
+    "pc": -2.9760275221055177,
+    "lo": -4.741561232837599,
+    "hi": -1.1777711536847923,
+    "p": 0.0012623227923301717,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": -0.5535587067622805,
+    "lo": -2.157629926629101,
+    "hi": 1.0768103682819552,
+    "p": 0.5034662711789843,
+    "n": 575
+   },
+   "white": {
+    "pc": 9.647673531073831,
+    "lo": 7.773563370295267,
+    "hi": 11.554373213669233,
+    "p": 1.1753313113953435e-25,
+    "n": 575
+   },
+   "r2_pc": 89.21696352523354,
+   "n": 575
+  },
+  "international": {
+   "con_pct": {
+    "pc": -9.074911876817593,
+    "lo": -16.36140366852453,
+    "hi": -1.1536298691176006,
+    "p": 0.025600123648118773,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": -6.467447325752063,
+    "lo": -16.286493843354645,
+    "hi": 4.503309100338071,
+    "p": 0.23738536886709494,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": -6.012153632499107,
+    "lo": -15.171999888853948,
+    "hi": 4.136785651277375,
+    "p": 0.23595064753673467,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": -8.990539288732291,
+    "lo": -14.763266037901623,
+    "hi": -2.826849951350774,
+    "p": 0.004838012005892302,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": 2.3523797604066754,
+    "lo": -1.6808516261088924,
+    "hi": 6.551061679053727,
+    "p": 0.25698311154020737,
+    "n": 575
+   },
+   "over65": {
+    "pc": 2.1931369965185965,
+    "lo": -2.226190827740082,
+    "hi": 6.8122162530228625,
+    "p": 0.3361378652832123,
+    "n": 575
+   },
+   "degree": {
+    "pc": 39.62767669231051,
+    "lo": 32.714184445229336,
+    "hi": 46.90131412847038,
+    "p": 5.561622817422146e-38,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": 13.810859592966862,
+    "lo": 8.028078485431966,
+    "hi": 19.90319501088573,
+    "p": 1.1599662661976292e-06,
+    "n": 575
+   },
+   "white": {
+    "pc": -37.87051142000677,
+    "lo": -42.09184971356681,
+    "hi": -33.34144965573434,
+    "p": 4.073759383379914e-40,
+    "n": 575
+   },
+   "r2_pc": 89.93488338921878,
+   "n": 575
+  },
+  "environment": {
+   "con_pct": {
+    "pc": -7.129647146047436,
+    "lo": -13.18198407395219,
+    "hi": -0.655384170902884,
+    "p": 0.031460279490062894,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": -0.39882519183725984,
+    "lo": -7.78508573741179,
+    "hi": 7.579062481337884,
+    "p": 0.9190333033334015,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 0.5987635726038665,
+    "lo": -6.303046856254491,
+    "hi": 8.008968197832944,
+    "p": 0.8692397062755577,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": -6.204270064527795,
+    "lo": -10.725277305227287,
+    "hi": -1.454312166201055,
+    "p": 0.01104747098864709,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": 6.540585497276341,
+    "lo": 2.585710753670445,
+    "hi": 10.647928202771851,
+    "p": 0.0010282495297806696,
+    "n": 575
+   },
+   "over65": {
+    "pc": 21.18981270274791,
+    "lo": 13.362874362514908,
+    "hi": 29.557148100891673,
+    "p": 1.6810995370904543e-08,
+    "n": 575
+   },
+   "degree": {
+    "pc": 22.476248189847258,
+    "lo": 14.855963159554886,
+    "hi": 30.602112054233153,
+    "p": 6.171762407057724e-10,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": -2.850848607721679,
+    "lo": -9.518305456265786,
+    "hi": 4.307922876908421,
+    "p": 0.4252800537727699,
+    "n": 575
+   },
+   "white": {
+    "pc": 15.855004122251447,
+    "lo": 8.977946823779392,
+    "hi": 23.16603837170186,
+    "p": 2.43322498405451e-06,
+    "n": 575
+   },
+   "r2_pc": 64.52605838469118,
+   "n": 575
+  },
+  "online": {
+   "con_pct": {
+    "pc": -0.3474048408342645,
+    "lo": -1.6047119790252862,
+    "hi": 0.925968323195403,
+    "p": 0.591132529439258,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 0.2540412798256453,
+    "lo": -0.9028289569325998,
+    "hi": 1.4244169348577973,
+    "p": 0.6683231427939085,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": -0.10830382878287415,
+    "lo": -1.237357187749688,
+    "hi": 1.0336568547663294,
+    "p": 0.8517839774761929,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": -0.29202568811629304,
+    "lo": -1.166570395521116,
+    "hi": 0.590257579493425,
+    "p": 0.515279333937023,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": -0.0903031838785151,
+    "lo": -0.7866180708987369,
+    "hi": 0.6108986892766177,
+    "p": 0.8001281860135194,
+    "n": 575
+   },
+   "over65": {
+    "pc": -7.238869185946772,
+    "lo": -8.560632138728263,
+    "hi": -5.8980000500823415,
+    "p": 1.0448344164622769e-24,
+    "n": 575
+   },
+   "degree": {
+    "pc": 0.2584938454774033,
+    "lo": -1.3649941500903373,
+    "hi": 1.9087037259281514,
+    "p": 0.7566110191998128,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": 4.635884610967289,
+    "lo": 2.9627406167995085,
+    "hi": 6.336217186251392,
+    "p": 3.587462941117526e-08,
+    "n": 575
+   },
+   "white": {
+    "pc": 3.888523422144319,
+    "lo": 2.6309171330778147,
+    "hi": 5.161540014679633,
+    "p": 8.299875394842401e-10,
+    "n": 575
+   },
+   "r2_pc": 56.67538816264883,
+   "n": 575
+  },
+  "justice": {
+   "con_pct": {
+    "pc": 6.034557378796479,
+    "lo": 2.9450253189106546,
+    "hi": 9.21681085304391,
+    "p": 0.00010283527297795352,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": -2.182047246025942,
+    "lo": -4.8575412876684325,
+    "hi": 0.5686841655956787,
+    "p": 0.11895013697055247,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": -0.24828350872141414,
+    "lo": -2.8403584308440033,
+    "hi": 2.4129441222151105,
+    "p": 0.8531849023806275,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": 3.401866122814501,
+    "lo": 0.49299198676573397,
+    "hi": 6.394940645100022,
+    "p": 0.021576029079269397,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": -0.9548706305107846,
+    "lo": -2.8490598577468162,
+    "hi": 0.9762503322630067,
+    "p": 0.3301245853468673,
+    "n": 575
+   },
+   "over65": {
+    "pc": -6.33917217511698,
+    "lo": -9.251513346445838,
+    "hi": -3.333366843547114,
+    "p": 4.83456806572205e-05,
+    "n": 575
+   },
+   "degree": {
+    "pc": -2.6289918617381947,
+    "lo": -6.3722013556273165,
+    "hi": 1.2638699524875507,
+    "p": 0.18285379441774552,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": 6.623179979935068,
+    "lo": 2.3078140797419877,
+    "hi": 11.120568954514564,
+    "p": 0.002347457863657758,
+    "n": 575
+   },
+   "white": {
+    "pc": 9.363090090288196,
+    "lo": 6.230259444065256,
+    "hi": 12.588310870068886,
+    "p": 1.583134129937666e-09,
+    "n": 575
+   },
+   "r2_pc": 71.16691453437258,
+   "n": 575
+  },
+  "equality": {
+   "con_pct": {
+    "pc": -0.6546664887795539,
+    "lo": -4.8788975702731,
+    "hi": 3.757158383934378,
+    "p": 0.7670214579614227,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 10.513945076583898,
+    "lo": 6.051433702155329,
+    "hi": 15.16423333503678,
+    "p": 1.9960983121234115e-06,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 7.370390382536129,
+    "lo": 3.208474339895462,
+    "hi": 11.7001370733554,
+    "p": 0.0004224381185911533,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": -3.2741076662654023,
+    "lo": -6.41509919766311,
+    "hi": -0.02769498556126626,
+    "p": 0.048108463133899965,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": 10.191634422319895,
+    "lo": 6.2837124587495685,
+    "hi": 14.24324589127215,
+    "p": 1.3803838551312396e-07,
+    "n": 575
+   },
+   "over65": {
+    "pc": -6.45014245420249,
+    "lo": -10.02971563737497,
+    "hi": -2.728151757687014,
+    "p": 0.0008095120747669745,
+    "n": 575
+   },
+   "degree": {
+    "pc": 20.75719512054257,
+    "lo": 15.23126251403879,
+    "hi": 26.548124660217187,
+    "p": 2.9714743422331182e-15,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": 7.079773792263522,
+    "lo": 2.1177361377308968,
+    "hi": 12.282923506426947,
+    "p": 0.004718890196520475,
+    "n": 575
+   },
+   "white": {
+    "pc": -0.5681721536328177,
+    "lo": -5.115036771313042,
+    "hi": 4.196577122986289,
+    "p": 0.8114228683782129,
+    "n": 575
+   },
+   "r2_pc": 73.45508193389767,
+   "n": 575
+  },
+  "other": {
+   "con_pct": {
+    "pc": -7.001916817157062,
+    "lo": -11.931660874209038,
+    "hi": -1.7962236879495719,
+    "p": 0.008995769447455804,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 4.358559883384783,
+    "lo": -0.7223547325819868,
+    "hi": 9.69950981007235,
+    "p": 0.09387954518242594,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 4.366439864129745,
+    "lo": -0.6775206094891795,
+    "hi": 9.66655118512534,
+    "p": 0.09084020912675402,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": -5.991944077089717,
+    "lo": -12.53027158832033,
+    "hi": 1.035120822725344,
+    "p": 0.09296203882814458,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": -1.0131384242582642,
+    "lo": -3.8792178052069803,
+    "hi": 1.9384002177402992,
+    "p": 0.49695825842585073,
+    "n": 575
+   },
+   "over65": {
+    "pc": 11.981982820877302,
+    "lo": 4.882972708018762,
+    "hi": 19.56148984644983,
+    "p": 0.0007073739785378274,
+    "n": 575
+   },
+   "degree": {
+    "pc": -1.3326587507184295,
+    "lo": -7.857857246428002,
+    "hi": 5.654632487095945,
+    "p": 0.7007472268804951,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": 4.220317258764683,
+    "lo": -3.183588738125631,
+    "hi": 12.190427097506928,
+    "p": 0.2715733313846208,
+    "n": 575
+   },
+   "white": {
+    "pc": 6.949278000108028,
+    "lo": 0.8652694666538618,
+    "hi": 13.400262798344563,
+    "p": 0.02455874118498569,
+    "n": 575
+   },
+   "r2_pc": 41.553135536997985,
+   "n": 575
+  }
+ },
+ "robust": {
+  "immigration_ruk": {
+   "n_checks": 19,
+   "n_sig": 10,
+   "min_pc": -6.784353124513542,
+   "max_pc": 5.27446976096968,
+   "rows": {
+    "petition_weighted": {
+     "pc": 5.27446976096968,
+     "lo": 1.4191678914178718,
+     "hi": 9.276325312772983,
+     "p": 0.006928488278214879,
+     "n": 575
+    },
+    "valid_votes": {
+     "pc": 5.264436094011726,
+     "lo": -0.18313866915592447,
+     "hi": 11.009316045948413,
+     "p": 0.05844395449347384,
+     "n": 575
+    },
+    "drop_top5": {
+     "pc": 4.900682065646134,
+     "lo": 1.1175937079381137,
+     "hi": 8.82530620360189,
+     "p": 0.010679287308267981,
+     "n": 575
+    },
+    "n10k": {
+     "pc": 3.527177062065334,
+     "lo": 0.27086563843137235,
+     "hi": 6.889237688323346,
+     "p": 0.03351537477895379,
+     "n": 575
+    },
+    "strict_rules": {
+     "pc": 2.5290846890397622,
+     "lo": -0.3544522526812144,
+     "hi": 5.496065251496862,
+     "p": 0.08616128492828108,
+     "n": 575
+    },
+    "region_clustered": {
+     "pc": 3.6156145177071997,
+     "lo": 1.845841140326998,
+     "hi": 5.416141215716053,
+     "p": 0.001178847543663818,
+     "n": 575
+    },
+    "no_london": {
+     "pc": 3.316944538215716,
+     "lo": -0.2444138066199586,
+     "hi": 7.005446371895641,
+     "p": 0.06826806824490793,
+     "n": 500
+    },
+    "england_only": {
+     "pc": 3.7062010084681685,
+     "lo": -0.45417701154314427,
+     "hi": 8.040456191275158,
+     "p": 0.08149861283497634,
+     "n": 543
+    },
+    "gb_no_census": {
+     "pc": -6.784353124513542,
+     "lo": -10.611693287086677,
+     "hi": -2.79313769392473,
+     "p": 0.0010223739169745107,
+     "n": 632
+    },
+    "drop East Midlands": {
+     "pc": 3.509365979054202,
+     "lo": 0.10359946850273527,
+     "hi": 7.031004901646587,
+     "p": 0.04331872730480636,
+     "n": 528
+    },
+    "drop East of England": {
+     "pc": 3.417869342572133,
+     "lo": -0.007087920516457569,
+     "hi": 6.960138243156178,
+     "p": 0.05048413172701223,
+     "n": 514
+    },
+    "drop London": {
+     "pc": 3.316944538215716,
+     "lo": -0.2444138066199586,
+     "hi": 7.005446371895641,
+     "p": 0.06826806824490793,
+     "n": 500
+    },
+    "drop North East": {
+     "pc": 3.56388241316814,
+     "lo": 0.22261578759725786,
+     "hi": 7.016541687747657,
+     "p": 0.03636153110464244,
+     "n": 548
+    },
+    "drop North West": {
+     "pc": 4.529195219785187,
+     "lo": 1.7149373188848793,
+     "hi": 7.421318257719878,
+     "p": 0.001467234442199463,
+     "n": 502
+    },
+    "drop South East": {
+     "pc": 4.1210322120880605,
+     "lo": 0.6418775268750121,
+     "hi": 7.720460064108869,
+     "p": 0.019861444176228836,
+     "n": 484
+    },
+    "drop South West": {
+     "pc": 3.476290399835702,
+     "lo": 0.09498311543616467,
+     "hi": 6.971821580335491,
+     "p": 0.04380290297705921,
+     "n": 517
+    },
+    "drop Wales": {
+     "pc": 3.7062010084681685,
+     "lo": -0.45417701154314427,
+     "hi": 8.040456191275158,
+     "p": 0.08149861283497634,
+     "n": 543
+    },
+    "drop West Midlands": {
+     "pc": 3.218955972636439,
+     "lo": -0.09493524679661247,
+     "hi": 6.642770297983747,
+     "p": 0.057051438365601885,
+     "n": 518
+    },
+    "drop Yorkshire and The Humber": {
+     "pc": 3.6540421681715562,
+     "lo": 0.32370957071297113,
+     "hi": 7.094928046177218,
+     "p": 0.031245570494412837,
+     "n": 521
+    }
+   }
+  },
+  "eu_ruk": {
+   "n_checks": 19,
+   "n_sig": 19,
+   "min_pc": -8.406906907760959,
+   "max_pc": -4.763696140254403,
+   "rows": {
+    "petition_weighted": {
+     "pc": -4.763696140254403,
+     "lo": -7.3555911520753465,
+     "hi": -2.0992881744857472,
+     "p": 0.000526283590867677,
+     "n": 575
+    },
+    "valid_votes": {
+     "pc": -4.772773073697101,
+     "lo": -7.454327504931513,
+     "hi": -2.0135193403364116,
+     "p": 0.000791673195113953,
+     "n": 575
+    },
+    "drop_top5": {
+     "pc": -5.302456499776476,
+     "lo": -8.050723014734729,
+     "hi": -2.4720472090957846,
+     "p": 0.00028808074960910056,
+     "n": 575
+    },
+    "n10k": {
+     "pc": -6.958385003741652,
+     "lo": -10.100275435241723,
+     "hi": -3.7066891692623782,
+     "p": 3.8714634560734215e-05,
+     "n": 575
+    },
+    "strict_rules": {
+     "pc": -4.799937793851738,
+     "lo": -7.80667648358615,
+     "hi": -1.695139101467169,
+     "p": 0.002663785491613809,
+     "n": 575
+    },
+    "region_clustered": {
+     "pc": -6.264375672199673,
+     "lo": -10.192702208175286,
+     "hi": -2.1642173391130726,
+     "p": 0.007648851751641128,
+     "n": 575
+    },
+    "no_london": {
+     "pc": -5.808966433503294,
+     "lo": -8.915084256315463,
+     "hi": -2.5969258258873196,
+     "p": 0.00046893105928937735,
+     "n": 500
+    },
+    "england_only": {
+     "pc": -6.711749504661812,
+     "lo": -9.592809898293908,
+     "hi": -3.7388766237439364,
+     "p": 1.420059594989937e-05,
+     "n": 543
+    },
+    "gb_no_census": {
+     "pc": -8.406906907760959,
+     "lo": -11.599867191987423,
+     "hi": -5.098618794799348,
+     "p": 1.230534960474289e-06,
+     "n": 632
+    },
+    "drop East Midlands": {
+     "pc": -6.353626906035615,
+     "lo": -9.51754554206634,
+     "hi": -3.0790748748854235,
+     "p": 0.00018152292002991503,
+     "n": 528
+    },
+    "drop East of England": {
+     "pc": -5.40810013345574,
+     "lo": -8.410327048797505,
+     "hi": -2.3074629262025304,
+     "p": 0.0007285867872145134,
+     "n": 514
+    },
+    "drop London": {
+     "pc": -5.808966433503294,
+     "lo": -8.915084256315463,
+     "hi": -2.5969258258873196,
+     "p": 0.00046893105928937735,
+     "n": 500
+    },
+    "drop North East": {
+     "pc": -5.899475453106429,
+     "lo": -9.064708455291036,
+     "hi": -2.6240685042842493,
+     "p": 0.0004954891996438855,
+     "n": 548
+    },
+    "drop North West": {
+     "pc": -7.253589702956676,
+     "lo": -11.053780197854568,
+     "hi": -3.2910376391282914,
+     "p": 0.0004192270404269064,
+     "n": 502
+    },
+    "drop South East": {
+     "pc": -5.7380510671172775,
+     "lo": -8.968317250340208,
+     "hi": -2.3931586427957563,
+     "p": 0.0008954717001803846,
+     "n": 484
+    },
+    "drop South West": {
+     "pc": -6.413381156278797,
+     "lo": -9.666092856121033,
+     "hi": -3.0435469524199954,
+     "p": 0.0002402184984935564,
+     "n": 517
+    },
+    "drop Wales": {
+     "pc": -6.711749504661812,
+     "lo": -9.592809898293908,
+     "hi": -3.7388766237439364,
+     "p": 1.420059594989937e-05,
+     "n": 543
+    },
+    "drop West Midlands": {
+     "pc": -5.801468615890104,
+     "lo": -8.934034504945954,
+     "hi": -2.5611460144782106,
+     "p": 0.0005331216236644127,
+     "n": 518
+    },
+    "drop Yorkshire and The Humber": {
+     "pc": -7.378923682914906,
+     "lo": -10.801038289055443,
+     "hi": -3.8255197864851986,
+     "p": 6.588697925221565e-05,
+     "n": 521
+    }
+   }
+  },
+  "eu_ld": {
+   "n_checks": 19,
+   "n_sig": 15,
+   "min_pc": 2.2442615008400724,
+   "max_pc": 19.545654719869155,
+   "rows": {
+    "petition_weighted": {
+     "pc": 3.2357188823391114,
+     "lo": 0.31965222464878096,
+     "hi": 6.236549039139816,
+     "p": 0.029386227861230223,
+     "n": 575
+    },
+    "valid_votes": {
+     "pc": 2.2442615008400724,
+     "lo": -1.2783532490909022,
+     "hi": 5.892571223300624,
+     "p": 0.21470694034934312,
+     "n": 575
+    },
+    "drop_top5": {
+     "pc": 2.8990742257087865,
+     "lo": 0.02401355590959664,
+     "hi": 5.8567747892811495,
+     "p": 0.048090202454428445,
+     "n": 575
+    },
+    "n10k": {
+     "pc": 4.027188435069284,
+     "lo": 0.72221377037478,
+     "hi": 7.440608467725784,
+     "p": 0.016538102161517132,
+     "n": 575
+    },
+    "strict_rules": {
+     "pc": 8.792206998207487,
+     "lo": 3.886369550914237,
+     "hi": 13.929713346467288,
+     "p": 0.00034425452720870264,
+     "n": 575
+    },
+    "region_clustered": {
+     "pc": 3.7186875112332762,
+     "lo": 1.452262312967112,
+     "hi": 6.0357442386760995,
+     "p": 0.00463687593394373,
+     "n": 575
+    },
+    "no_london": {
+     "pc": 3.1786241422281147,
+     "lo": -0.8493083132461332,
+     "hi": 7.370188737729388,
+     "p": 0.12352300028793613,
+     "n": 500
+    },
+    "england_only": {
+     "pc": 4.7912701164111615,
+     "lo": 1.4693793626229246,
+     "hi": 8.221912478314275,
+     "p": 0.004406743967987828,
+     "n": 543
+    },
+    "gb_no_census": {
+     "pc": 19.545654719869155,
+     "lo": 14.111246904963437,
+     "hi": 25.238869524442652,
+     "p": 5.4378320610996863e-14,
+     "n": 632
+    },
+    "drop East Midlands": {
+     "pc": 3.7930212199480007,
+     "lo": 0.43960259721134154,
+     "hi": 7.2584018195197775,
+     "p": 0.02630112773256878,
+     "n": 528
+    },
+    "drop East of England": {
+     "pc": 3.5141738902040975,
+     "lo": 0.30253992985336264,
+     "hi": 6.82864266114378,
+     "p": 0.03172814814028939,
+     "n": 514
+    },
+    "drop London": {
+     "pc": 3.1786241422281147,
+     "lo": -0.8493083132461332,
+     "hi": 7.370188737729388,
+     "p": 0.12352300028793613,
+     "n": 500
+    },
+    "drop North East": {
+     "pc": 3.7962397389640357,
+     "lo": 0.5215551927676199,
+     "hi": 7.177603483035289,
+     "p": 0.022726075504571633,
+     "n": 548
+    },
+    "drop North West": {
+     "pc": 3.440158748695965,
+     "lo": -0.4140600088146207,
+     "hi": 7.443545172164856,
+     "p": 0.0808456208328961,
+     "n": 502
+    },
+    "drop South East": {
+     "pc": 3.548734834920131,
+     "lo": 0.4037387925325042,
+     "hi": 6.792243146129473,
+     "p": 0.026690826796781798,
+     "n": 484
+    },
+    "drop South West": {
+     "pc": 3.2924895172547375,
+     "lo": 0.12010199615513084,
+     "hi": 6.565396738028806,
+     "p": 0.04181264419780469,
+     "n": 517
+    },
+    "drop Wales": {
+     "pc": 4.7912701164111615,
+     "lo": 1.4693793626229246,
+     "hi": 8.221912478314275,
+     "p": 0.004406743967987828,
+     "n": 543
+    },
+    "drop West Midlands": {
+     "pc": 3.7145918032051473,
+     "lo": 0.49872537678086193,
+     "hi": 7.033362986220415,
+     "p": 0.02323630050966301,
+     "n": 518
+    },
+    "drop Yorkshire and The Humber": {
+     "pc": 3.984127881494559,
+     "lo": 0.28826139645659055,
+     "hi": 7.816196040437573,
+     "p": 0.03435701054802862,
+     "n": 521
+    }
+   }
+  },
+  "eu_green": {
+   "n_checks": 19,
+   "n_sig": 18,
+   "min_pc": 2.2565015293637636,
+   "max_pc": 11.27789574227933,
+   "rows": {
+    "petition_weighted": {
+     "pc": 3.354729362538289,
+     "lo": 1.4838799642826528,
+     "hi": 5.260067760152087,
+     "p": 0.0003995297976893905,
+     "n": 575
+    },
+    "valid_votes": {
+     "pc": 3.7670016837112463,
+     "lo": 1.2555035651169888,
+     "hi": 6.340793925366639,
+     "p": 0.003095852240671452,
+     "n": 575
+    },
+    "drop_top5": {
+     "pc": 3.0675045874429596,
+     "lo": 1.2610512443518962,
+     "hi": 4.906184276603542,
+     "p": 0.0008109980067392432,
+     "n": 575
+    },
+    "n10k": {
+     "pc": 3.677470644152514,
+     "lo": 1.6089267546674169,
+     "hi": 5.788125733503513,
+     "p": 0.0004443727521143231,
+     "n": 575
+    },
+    "strict_rules": {
+     "pc": 2.2565015293637636,
+     "lo": -0.02114054970733248,
+     "hi": 4.586031112141908,
+     "p": 0.05218947381367465,
+     "n": 575
+    },
+    "region_clustered": {
+     "pc": 3.5677083721666447,
+     "lo": 0.7493882954946685,
+     "hi": 6.46486692308601,
+     "p": 0.01834716885376574,
+     "n": 575
+    },
+    "no_london": {
+     "pc": 3.410031214727538,
+     "lo": 1.280052247780028,
+     "hi": 5.584804890000639,
+     "p": 0.0015898059340730105,
+     "n": 500
+    },
+    "england_only": {
+     "pc": 3.688218679374633,
+     "lo": 1.7057643156771718,
+     "hi": 5.709315152795069,
+     "p": 0.00023580741276486695,
+     "n": 543
+    },
+    "gb_no_census": {
+     "pc": 11.27789574227933,
+     "lo": 8.319735977714316,
+     "hi": 14.316841423775406,
+     "p": 7.636550531018926e-15,
+     "n": 632
+    },
+    "drop East Midlands": {
+     "pc": 3.6042494447604767,
+     "lo": 1.561932604192151,
+     "hi": 5.687635394298263,
+     "p": 0.0004908545230687099,
+     "n": 528
+    },
+    "drop East of England": {
+     "pc": 2.936036671003728,
+     "lo": 0.8589530854359761,
+     "hi": 5.0558955986651055,
+     "p": 0.005397380894923781,
+     "n": 514
+    },
+    "drop London": {
+     "pc": 3.410031214727538,
+     "lo": 1.280052247780028,
+     "hi": 5.584804890000639,
+     "p": 0.0015898059340730105,
+     "n": 500
+    },
+    "drop North East": {
+     "pc": 3.5918186081997705,
+     "lo": 1.5921503742074794,
+     "hi": 5.630846901323716,
+     "p": 0.000387742850680551,
+     "n": 548
+    },
+    "drop North West": {
+     "pc": 3.134042504938872,
+     "lo": 0.9130080929258932,
+     "hi": 5.403960544073572,
+     "p": 0.005466193163589809,
+     "n": 502
+    },
+    "drop South East": {
+     "pc": 3.541527224219787,
+     "lo": 1.2627643671105027,
+     "hi": 5.871570136652449,
+     "p": 0.0021756216356822703,
+     "n": 484
+    },
+    "drop South West": {
+     "pc": 4.476412605243585,
+     "lo": 2.566435379576082,
+     "hi": 6.421957148709234,
+     "p": 3.2899768372486194e-06,
+     "n": 517
+    },
+    "drop Wales": {
+     "pc": 3.688218679374633,
+     "lo": 1.7057643156771718,
+     "hi": 5.709315152795069,
+     "p": 0.00023580741276486695,
+     "n": 543
+    },
+    "drop West Midlands": {
+     "pc": 3.579334624375363,
+     "lo": 1.3843064614522227,
+     "hi": 5.821886401200804,
+     "p": 0.0012910267244698062,
+     "n": 518
+    },
+    "drop Yorkshire and The Humber": {
+     "pc": 3.4121485766021475,
+     "lo": 1.3256811798389556,
+     "hi": 5.541579871037339,
+     "p": 0.0012538040121038356,
+     "n": 521
+    }
+   }
+  }
+ },
+ "exploratory": {
+  "restrict": {
+   "con_pct": {
+    "pc": 5.432857849771944,
+    "lo": 1.4873755953709544,
+    "hi": 9.531726967597788,
+    "p": 0.006554306485596276,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": -2.7170403486388772,
+    "lo": -7.140185223696783,
+    "hi": 1.9167899626637785,
+    "p": 0.2459461708885301,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": -1.8572800290449498,
+    "lo": -5.999683985329685,
+    "hi": 2.4676712979780246,
+    "p": 0.3941864497557659,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": 5.68223688411118,
+    "lo": 2.3294820949209427,
+    "hi": 9.144842367806195,
+    "p": 0.0007796368462476725,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": -4.859864030483019,
+    "lo": -7.08819399212609,
+    "hi": -2.5780914049707837,
+    "p": 3.78931719367351e-05,
+    "n": 575
+   },
+   "over65": {
+    "pc": -4.1838784626551995,
+    "lo": -7.165070369077242,
+    "hi": -1.1069520604108485,
+    "p": 0.008044515277332293,
+    "n": 575
+   },
+   "degree": {
+    "pc": -14.931461886308595,
+    "lo": -18.38288572707856,
+    "hi": -11.334084263237509,
+    "p": 1.9718121582185306e-14,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": -0.9433493256990166,
+    "lo": -4.418336294317227,
+    "hi": 2.6579749963811627,
+    "p": 0.6029193020311254,
+    "n": 575
+   },
+   "white": {
+    "pc": 15.016918261878187,
+    "lo": 10.472052019260204,
+    "hi": 19.748762195104174,
+    "p": 1.0348399624188875e-11,
+    "n": 575
+   },
+   "n_petitions": 20,
+   "corr_ruk": 0.6355313594007451,
+   "signatures": 1877687,
+   "r2_pc": 84.30006782384494
+  },
+  "open": {
+   "con_pct": {
+    "pc": 10.229608420864643,
+    "lo": 1.062337713592476,
+    "hi": 20.228433732173134,
+    "p": 0.027913486679418634,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 21.47760063114694,
+    "lo": 10.073019985758581,
+    "hi": 34.06380107504718,
+    "p": 0.0001097332545788998,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 28.29225189720812,
+    "lo": 16.503170387863108,
+    "hi": 41.274283283979464,
+    "p": 4.066399750840534e-07,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": 5.078419352728547,
+    "lo": -1.9460744964685195,
+    "hi": 12.606141538619076,
+    "p": 0.16054107376006765,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": 3.2347105675469168,
+    "lo": -1.061088403284327,
+    "hi": 7.717027547319022,
+    "p": 0.14209373120255187,
+    "n": 575
+   },
+   "over65": {
+    "pc": -36.23075444935835,
+    "lo": -41.3519872483893,
+    "hi": -30.662327889595076,
+    "p": 6.092956172701583e-26,
+    "n": 575
+   },
+   "degree": {
+    "pc": 8.946868428894316,
+    "lo": -0.03430218026437837,
+    "hi": 18.734930074378966,
+    "p": 0.05092062402698299,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": 5.7927730362473895,
+    "lo": -3.704377940645598,
+    "hi": 16.226580059895078,
+    "p": 0.24063418961499816,
+    "n": 575
+   },
+   "white": {
+    "pc": -39.68659240181039,
+    "lo": -44.57580784895503,
+    "hi": -34.3660774307421,
+    "p": 9.789352791685168e-32,
+    "n": 575
+   },
+   "n_petitions": 33,
+   "corr_ruk": -0.3919959465457244,
+   "signatures": 1232586,
+   "r2_pc": 81.07895822606812
+  },
+  "rejoin": {
+   "con_pct": {
+    "pc": -8.282157387592582,
+    "lo": -11.351233101681046,
+    "hi": -5.106828354158887,
+    "p": 6.40503926411464e-07,
+    "n": 575
+   },
+   "lab_pct": {
+    "pc": 8.945157939917149,
+    "lo": 4.891297402950756,
+    "hi": 13.15569291661367,
+    "p": 9.500927200739453e-06,
+    "n": 575
+   },
+   "ld_pct": {
+    "pc": 5.042595515256565,
+    "lo": 1.2154197179505166,
+    "hi": 9.014485177547837,
+    "p": 0.009378623862969148,
+    "n": 575
+   },
+   "ruk_pct": {
+    "pc": -8.217575547448297,
+    "lo": -11.675816114292658,
+    "hi": -4.623931206778598,
+    "p": 1.2091754745392655e-05,
+    "n": 575
+   },
+   "green_pct": {
+    "pc": 4.362333968626375,
+    "lo": 2.056708839123167,
+    "hi": 6.720046876564401,
+    "p": 0.00017963120218390786,
+    "n": 575
+   },
+   "over65": {
+    "pc": 13.98917986734418,
+    "lo": 10.0507532862661,
+    "hi": 18.068552361751845,
+    "p": 2.912595218571229e-13,
+    "n": 575
+   },
+   "degree": {
+    "pc": 25.239512494608295,
+    "lo": 20.613615545672225,
+    "hi": 30.042826582441727,
+    "p": 1.002523434820042e-31,
+    "n": 575
+   },
+   "notgoodhealth": {
+    "pc": 1.3017641233552313,
+    "lo": -2.454645457231952,
+    "hi": 5.202830648430146,
+    "p": 0.5023080891645709,
+    "n": 575
+   },
+   "white": {
+    "pc": 1.6791443492703007,
+    "lo": -2.515420804764956,
+    "hi": 6.054193195974622,
+    "p": 0.4385056902761816,
+    "n": 575
+   },
+   "n_petitions": 5,
+   "corr_ruk": -0.6359775502009511,
+   "signatures": 289586,
+   "r2_pc": 80.86961512220196
+  },
+  "corr_restrict_open": -0.5632242905075957
+ },
+ "P1": {
+  "moran_placebo": -0.00046531869376615546,
+  "r2_placebo": 0.008637672623252973
+ },
+ "P2": {
+  "n_groups": 21,
+  "n_pairs": 99,
+  "median_within": 0.6318212639981031,
+  "min_within": -0.31312725961225113,
+  "median_random": 0.011980562791821359,
+  "q90_random": 0.3242137357972571,
+  "share_within_above_q90": 0.8484848484848485,
+  "share_within_above_q90_pc": 84.84848484848484
+ },
+ "top": {
+  "n_distinct": 144,
+  "same_as_raw": 0.9815384615384616,
+  "family_counts": {
+   "health": 130,
+   "environment": 126,
+   "justice": 71,
+   "immigration": 53,
+   "transport": 50,
+   "local": 48,
+   "other": 37,
+   "animals": 36,
+   "money": 30,
+   "international": 21,
+   "education": 19,
+   "equality": 13,
+   "democracy": 8,
+   "online": 8
+  },
+  "most_common": [
+   {
+    "id": 769805,
+    "a": "Hold a referendum on abolishing the Scottish Parliament & Government",
+    "seats": 35
+   },
+   {
+    "id": 770812,
+    "a": "Review and refund overcharged UK Student and Child Student visa fees",
+    "seats": 19
+   },
+   {
+    "id": 772026,
+    "a": "Raise Human Rights Issues in Azad Kashmir with the Government of Pakistan",
+    "seats": 17
+   },
+   {
+    "id": 727534,
+    "a": "Formal support framework for families of murdered British citizens overseas",
+    "seats": 17
+   },
+   {
+    "id": 767644,
+    "a": "Make seizure training mandatory in all child and vulnerable adult work settings",
+    "seats": 14
+   },
+   {
+    "id": 764882,
+    "a": "Stop megasheds being built & operated 24/7 close to homes and communities",
+    "seats": 12
+   },
+   {
+    "id": 771401,
+    "a": "Permanent driving ban on intoxicated drivers guilty of causing death",
+    "seats": 11
+   },
+   {
+    "id": 768395,
+    "a": "Make carbon monoxide alarms mandatory in all holiday accommodation",
+    "seats": 11
+   },
+   {
+    "id": 763675,
+    "a": "Introduce legislation to make it possible to renumerate emergency volunteers",
+    "seats": 11
+   },
+   {
+    "id": 761817,
+    "a": "Mandatory suicide risk assessment for adolescents in hospital who express intent",
+    "seats": 11
+   }
+  ],
+  "same_as_raw_pc": 98.15384615384616
+ },
+ "activity": {
+  "median_per_vote": 1.0688493398721013,
+  "max_per_vote": 1.6077600909607732,
+  "min_per_vote": 0.40283785330129307,
+  "max_seat": "Blackpool South",
+  "min_seat": "West Tyrone",
+  "corr": {
+   "over65": 0.22030190901152452,
+   "degree": -0.6595548191771161,
+   "notgoodhealth": 0.6474533419667736,
+   "white": 0.4969027699823287
+  },
+  "by_nation": {
+   "England": 1.0834263517435372,
+   "Northern Ireland": 0.6741436266397449,
+   "Scotland": 0.8492227760412266,
+   "Wales": 1.1341369923893287
+  },
+  "max_signatures_seat": "Rayleigh and Wickford",
+  "max_signatures": 65942,
+  "min_signatures_seat": "Na h-Eileanan an Iar",
+  "min_signatures": 9446
+ },
+ "cases": {
+  "711355": {
+   "a": "Grant Cornwall nation status",
+   "n": 24011,
+   "family": "local",
+   "D_pc": 68.952,
+   "I": 0.56157,
+   "top10_pc": 67.595,
+   "r2_votes_pc": 18.719,
+   "best_party": "ruk",
+   "best_r": -0.31568,
+   "top": [
+    {
+     "seat": "Truro and Falmouth",
+     "lq": 66.641191462802,
+     "sig": 2806
+    },
+    {
+     "seat": "St Ives",
+     "lq": 63.573230822685986,
+     "sig": 2727
+    },
+    {
+     "seat": "Camborne and Redruth",
+     "lq": 61.63560882511484,
+     "sig": 2772
+    },
+    {
+     "seat": "St Austell and Newquay",
+     "lq": 56.12383558018991,
+     "sig": 2588
+    }
+   ],
+   "low": [
+    {
+     "seat": "Burnley",
+     "lq": 0.0006636273018919116
+    },
+    {
+     "seat": "Bridlington and The Wolds",
+     "lq": 0.0006671954229318954
+    },
+    {
+     "seat": "Jarrow and Gateshead East",
+     "lq": 0.0006996493813233961
+    }
+   ]
+  },
+  "762755": {
+   "a": "The Government must get the East West Rail Line passenger service running ASAP",
+   "n": 3615,
+   "family": "local",
+   "D_pc": 85.30499999999999,
+   "I": 0.28995,
+   "top10_pc": 83.919,
+   "r2_votes_pc": 8.527,
+   "best_party": "ld",
+   "best_r": 0.17973,
+   "top": [
+    {
+     "seat": "Buckingham and Bletchley",
+     "lq": 297.682883311159,
+     "sig": 1819
+    },
+    {
+     "seat": "Milton Keynes Central",
+     "lq": 34.610835385949144,
+     "sig": 229
+    },
+    {
+     "seat": "Mid Buckinghamshire",
+     "lq": 32.453964039594396,
+     "sig": 199
+    },
+    {
+     "seat": "Milton Keynes North",
+     "lq": 30.374938189719796,
+     "sig": 178
+    }
+   ],
+   "low": [
+    {
+     "seat": "Rayleigh and Wickford",
+     "lq": 0.000806649584642334
+    },
+    {
+     "seat": "Torridge and Tavistock",
+     "lq": 0.0008124479271059863
+    },
+    {
+     "seat": "Basildon and Billericay",
+     "lq": 0.0008621024502905825
+    }
+   ]
+  },
+  "701546": {
+   "a": "Pause plans for Bedford - Cambridge rail link pending a full, independent review",
+   "n": 4346,
+   "family": "local",
+   "D_pc": 82.804,
+   "I": 0.33434,
+   "top10_pc": 83.107,
+   "r2_votes_pc": 15.995000000000001,
+   "best_party": "ld",
+   "best_r": 0.28798,
+   "top": [
+    {
+     "seat": "South Cambridgeshire",
+     "lq": 264.0308136226958,
+     "sig": 1857
+    },
+    {
+     "seat": "North Bedfordshire",
+     "lq": 93.02762534198565,
+     "sig": 723
+    },
+    {
+     "seat": "Bedford",
+     "lq": 57.365487658791075,
+     "sig": 313
+    },
+    {
+     "seat": "St Neots and Mid Cambridgeshire",
+     "lq": 47.81630449001218,
+     "sig": 362
+    }
+   ],
+   "low": [
+    {
+     "seat": "Basildon and Billericay",
+     "lq": 0.0008300489488830009
+    },
+    {
+     "seat": "Fylde",
+     "lq": 0.0008334638853237346
+    },
+    {
+     "seat": "North Devon",
+     "lq": 0.0008395940777522574
+    }
+   ]
+  },
+  "764785": {
+   "a": "Support the Ceramics Industry and protect British manufacturing jobs and skills",
+   "n": 111258,
+   "family": "money",
+   "D_pc": 22.808,
+   "I": 0.64219,
+   "top10_pc": 13.324,
+   "r2_votes_pc": 17.473,
+   "best_party": "con",
+   "best_r": 0.35606,
+   "top": [
+    {
+     "seat": "Amber Valley",
+     "lq": 20.829893598202187,
+     "sig": 3919
+    },
+    {
+     "seat": "Mid Derbyshire",
+     "lq": 15.46645012430116,
+     "sig": 2551
+    },
+    {
+     "seat": "Derbyshire Dales",
+     "lq": 7.8850172072661175,
+     "sig": 1414
+    },
+    {
+     "seat": "Derby North",
+     "lq": 7.458286404844812,
+     "sig": 1204
+    }
+   ],
+   "low": [
+    {
+     "seat": "Rhondda and Ogmore",
+     "lq": 0.15927054168715618
+    },
+    {
+     "seat": "Liverpool Walton",
+     "lq": 0.18678146631090456
+    },
+    {
+     "seat": "Slough",
+     "lq": 0.21022303188881566
+    }
+   ]
+  },
+  "769805": {
+   "a": "Hold a referendum on abolishing the Scottish Parliament & Government",
+   "n": 17762,
+   "family": "local",
+   "D_pc": 85.968,
+   "I": 0.67302,
+   "top10_pc": 22.012,
+   "r2_votes_pc": 53.761,
+   "best_party": "ruk",
+   "best_r": -0.28218,
+   "top": [
+    {
+     "seat": "Central Ayrshire",
+     "lq": 21.954270532441615,
+     "sig": 415
+    },
+    {
+     "seat": "East Renfrewshire",
+     "lq": 19.685793189520282,
+     "sig": 381
+    },
+    {
+     "seat": "Mid Dunbartonshire",
+     "lq": 19.546492472482818,
+     "sig": 381
+    },
+    {
+     "seat": "Hamilton and Clyde Valley",
+     "lq": 19.11018291904367,
+     "sig": 385
+    }
+   ],
+   "low": [
+    {
+     "seat": "Torridge and Tavistock",
+     "lq": 0.002116227922240249
+    },
+    {
+     "seat": "Maldon",
+     "lq": 0.0021894776520312107
+    },
+    {
+     "seat": "Blackpool North and Fleetwood",
+     "lq": 0.002277354331624057
+    }
+   ]
+  },
+  "725716": {
+   "a": "Protect Northern Ireland Veterans from Prosecutions",
+   "n": 209956,
+   "family": "local",
+   "D_pc": 14.832999999999998,
+   "I": 0.70151,
+   "top10_pc": 4.73,
+   "r2_votes_pc": 52.54299999999999,
+   "best_party": "con",
+   "best_r": 0.49699,
+   "top": [
+    {
+     "seat": "Strangford",
+     "lq": 4.486243464759544,
+     "sig": 944
+    },
+    {
+     "seat": "North Down",
+     "lq": 4.199473489676077,
+     "sig": 978
+    },
+    {
+     "seat": "East Antrim",
+     "lq": 4.090886422022643,
+     "sig": 924
+    },
+    {
+     "seat": "Lagan Valley",
+     "lq": 3.9490947352751977,
+     "sig": 907
+    }
+   ],
+   "low": [
+    {
+     "seat": "East Ham",
+     "lq": 0.1265911664616626
+    },
+    {
+     "seat": "Hackney North and Stoke Newington",
+     "lq": 0.15597547072781487
+    },
+    {
+     "seat": "Tottenham",
+     "lq": 0.15857677445903948
+    }
+   ]
+  },
+  "700138": {
+   "a": "Don't change inheritance tax relief for working farms",
+   "n": 154005,
+   "family": "money",
+   "D_pc": 21.499,
+   "I": 0.62798,
+   "top10_pc": 5.328,
+   "r2_votes_pc": 51.144,
+   "best_party": "con",
+   "best_r": 0.59162,
+   "top": [
+    {
+     "seat": "Orkney and Shetland",
+     "lq": 4.118727980439292,
+     "sig": 362
+    },
+    {
+     "seat": "South Shropshire",
+     "lq": 3.7542780145999153,
+     "sig": 1006
+    },
+    {
+     "seat": "North Herefordshire",
+     "lq": 3.539674779574417,
+     "sig": 928
+    },
+    {
+     "seat": "Thirsk and Malton",
+     "lq": 3.2784983185600094,
+     "sig": 892
+    }
+   ],
+   "low": [
+    {
+     "seat": "East Ham",
+     "lq": 0.19846261536009532
+    },
+    {
+     "seat": "Stratford and Bow",
+     "lq": 0.240510608432631
+    },
+    {
+     "seat": "Birmingham Ladywood",
+     "lq": 0.24823439797099672
+    }
+   ]
+  },
+  "750236": {
+   "a": "Do not merge section 1 & 2 regulations on firearms licenses",
+   "n": 122952,
+   "family": "justice",
+   "D_pc": 30.487,
+   "I": 0.68216,
+   "top10_pc": 5.859,
+   "r2_votes_pc": 55.861000000000004,
+   "best_party": "con",
+   "best_r": 0.62591,
+   "top": [
+    {
+     "seat": "Arundel and South Downs",
+     "lq": 3.701027298510008,
+     "sig": 844
+    },
+    {
+     "seat": "South Cotswolds",
+     "lq": 3.617025167527217,
+     "sig": 698
+    },
+    {
+     "seat": "South Shropshire",
+     "lq": 3.572846657015421,
+     "sig": 773
+    },
+    {
+     "seat": "North Cotswolds",
+     "lq": 3.5030067433676897,
+     "sig": 712
+    }
+   ],
+   "low": [
+    {
+     "seat": "Belfast West",
+     "lq": 0.06558395034877308
+    },
+    {
+     "seat": "Stratford and Bow",
+     "lq": 0.06656557516920437
+    },
+    {
+     "seat": "Tottenham",
+     "lq": 0.06996071365137327
+    }
+   ]
+  },
+  "700036": {
+   "a": "Ban driven grouse shooting",
+   "n": 104341,
+   "family": "animals",
+   "D_pc": 19.287000000000003,
+   "I": 0.60654,
+   "top10_pc": 4.805000000000001,
+   "r2_votes_pc": 31.747999999999998,
+   "best_party": "ld",
+   "best_r": 0.36973,
+   "top": [
+    {
+     "seat": "Sheffield Hallam",
+     "lq": 4.503898440918454,
+     "sig": 635
+    },
+    {
+     "seat": "Derbyshire Dales",
+     "lq": 3.4671071419862347,
+     "sig": 617
+    },
+    {
+     "seat": "Sheffield Central",
+     "lq": 2.883931352031028,
+     "sig": 346
+    },
+    {
+     "seat": "Westmorland and Lonsdale",
+     "lq": 2.847357532250273,
+     "sig": 468
+    }
+   ],
+   "low": [
+    {
+     "seat": "West Ham and Beckton",
+     "lq": 0.20073587297451953
+    },
+    {
+     "seat": "Barking",
+     "lq": 0.23845939528788176
+    },
+    {
+     "seat": "Hayes and Harlington",
+     "lq": 0.2517641283838308
+    }
+   ]
+  },
+  "700005": {
+   "a": "Apply for the UK to join the European Union as a full member as soon as possible",
+   "n": 136650,
+   "family": "eu",
+   "D_pc": 14.754000000000001,
+   "I": 0.56412,
+   "top10_pc": 3.476,
+   "r2_votes_pc": 61.851,
+   "best_party": "ruk",
+   "best_r": -0.68319,
+   "top": [
+    {
+     "seat": "Cambridge",
+     "lq": 2.607034127228361,
+     "sig": 499
+    },
+    {
+     "seat": "Hornsey and Friern Barnet",
+     "lq": 2.58052748069341,
+     "sig": 440
+    },
+    {
+     "seat": "Edinburgh North and Leith",
+     "lq": 2.3798531252372968,
+     "sig": 471
+    },
+    {
+     "seat": "Oxford West and Abingdon",
+     "lq": 2.3502192912035764,
+     "sig": 410
+    }
+   ],
+   "low": [
+    {
+     "seat": "Mid Ulster",
+     "lq": 0.34195239141150796
+    },
+    {
+     "seat": "Upper Bann",
+     "lq": 0.3493870600301715
+    },
+    {
+     "seat": "Castle Point",
+     "lq": 0.3578359476352428
+    }
+   ]
+  },
+  "737105": {
+   "a": "Introduce offshore detention/mass deportation for illegal migrants",
+   "n": 720772,
+   "family": "immigration",
+   "D_pc": 10.598,
+   "I": 0.67088,
+   "top10_pc": 3.138,
+   "r2_votes_pc": 60.992000000000004,
+   "best_party": "ruk",
+   "best_r": 0.62319,
+   "top": [
+    {
+     "seat": "Great Yarmouth",
+     "lq": 3.1100427551740455,
+     "sig": 4098
+    },
+    {
+     "seat": "Carlisle",
+     "lq": 1.8877440754581645,
+     "sig": 2505
+    },
+    {
+     "seat": "Aberdeenshire North and Moray East",
+     "lq": 1.7679712298996966,
+     "sig": 1697
+    },
+    {
+     "seat": "Houghton and Sunderland South",
+     "lq": 1.708118650341518,
+     "sig": 2307
+    }
+   ],
+   "low": [
+    {
+     "seat": "Hackney North and Stoke Newington",
+     "lq": 0.23572352920459413
+    },
+    {
+     "seat": "East Ham",
+     "lq": 0.2505638497584581
+    },
+    {
+     "seat": "Tottenham",
+     "lq": 0.2621394397930286
+    }
+   ]
+  },
+  "700143": {
+   "a": "Call a General Election",
+   "n": 3084711,
+   "family": "democracy",
+   "D_pc": 7.861999999999999,
+   "I": 0.58417,
+   "top10_pc": 2.546,
+   "r2_votes_pc": 77.723,
+   "best_party": "con",
+   "best_r": 0.68608,
+   "top": [
+    {
+     "seat": "Kingswinford and South Staffordshire",
+     "lq": 1.4285054575552658,
+     "sig": 6451
+    },
+    {
+     "seat": "Wetherby and Easingwold",
+     "lq": 1.4063114772736456,
+     "sig": 6626
+    },
+    {
+     "seat": "Richmond and Northallerton",
+     "lq": 1.394216922739281,
+     "sig": 7173
+    },
+    {
+     "seat": "Thirsk and Malton",
+     "lq": 1.377469379402968,
+     "sig": 7491
+    }
+   ],
+   "low": [
+    {
+     "seat": "Walthamstow",
+     "lq": 0.34287470197643377
+    },
+    {
+     "seat": "East Ham",
+     "lq": 0.3926304668299855
+    },
+    {
+     "seat": "Manchester Rusholme",
+     "lq": 0.3959621126776838
+    }
+   ]
+  },
+  "700682": {
+   "a": "Urgently fulfil humanitarian obligations to Gaza",
+   "n": 198965,
+   "family": "international",
+   "D_pc": 32.702999999999996,
+   "I": 0.70932,
+   "top10_pc": 7.446,
+   "r2_votes_pc": 68.92200000000001,
+   "best_party": "ruk",
+   "best_r": -0.76414,
+   "top": [
+    {
+     "seat": "Hackney North and Stoke Newington",
+     "lq": 7.923038626917886,
+     "sig": 1834
+    },
+    {
+     "seat": "Hackney South and Shoreditch",
+     "lq": 7.387123458725242,
+     "sig": 1658
+    },
+    {
+     "seat": "Lewisham West and East Dulwich",
+     "lq": 6.6095950676673425,
+     "sig": 1533
+    },
+    {
+     "seat": "Walthamstow",
+     "lq": 6.567680797314004,
+     "sig": 1668
+    }
+   ],
+   "low": [
+    {
+     "seat": "Boston and Skegness",
+     "lq": 0.11373825587271678
+    },
+    {
+     "seat": "Easington",
+     "lq": 0.1280056851248831
+    },
+    {
+     "seat": "Ashfield",
+     "lq": 0.15247509682341467
+    }
+   ]
+  },
+  "715511": {
+   "a": "Grant the vote for London Mayor to all UK Residents",
+   "n": 70906,
+   "family": "local",
+   "D_pc": 11.949,
+   "I": 0.66168,
+   "top10_pc": 3.83,
+   "r2_votes_pc": 64.08500000000001,
+   "best_party": "ruk",
+   "best_r": 0.70448,
+   "top": [
+    {
+     "seat": "Broxbourne",
+     "lq": 2.3695340411941044,
+     "sig": 288
+    },
+    {
+     "seat": "Epping Forest",
+     "lq": 2.2443100385374177,
+     "sig": 298
+    },
+    {
+     "seat": "South West Hertfordshire",
+     "lq": 2.086983103887338,
+     "sig": 238
+    },
+    {
+     "seat": "Brentwood and Ongar",
+     "lq": 2.085466042016514,
+     "sig": 306
+    }
+   ],
+   "low": [
+    {
+     "seat": "Edinburgh East and Musselburgh",
+     "lq": 0.38002598671561233
+    },
+    {
+     "seat": "South Down",
+     "lq": 0.38786241852278075
+    },
+    {
+     "seat": "Fermanagh and South Tyrone",
+     "lq": 0.4056443662937902
+    }
+   ]
+  },
+  "730194": {
+   "a": "Do not introduce Digital ID cards",
+   "n": 2984191,
+   "family": "online",
+   "D_pc": 5.143,
+   "I": 0.67895,
+   "top10_pc": 2.1350000000000002,
+   "r2_votes_pc": 50.404,
+   "best_party": "ld",
+   "best_r": -0.4425,
+   "top": [
+    {
+     "seat": "Upper Bann",
+     "lq": 2.143162541870684,
+     "sig": 7218
+    },
+    {
+     "seat": "South Down",
+     "lq": 2.072564992767618,
+     "sig": 4509
+    },
+    {
+     "seat": "Newry and Armagh",
+     "lq": 1.9763027142016223,
+     "sig": 4033
+    },
+    {
+     "seat": "Fermanagh and South Tyrone",
+     "lq": 1.8528732137142097,
+     "sig": 4005
+    }
+   ],
+   "low": [
+    {
+     "seat": "Twickenham",
+     "lq": 0.6227553115939279
+    },
+    {
+     "seat": "Richmond Park",
+     "lq": 0.6240451392256547
+    },
+    {
+     "seat": "Harrow West",
+     "lq": 0.6925789694269567
+    }
+   ]
+  },
+  "702845": {
+   "a": "Extend free bus travel for people over 60 in England",
+   "n": 101204,
+   "family": "transport",
+   "D_pc": 23.971999999999998,
+   "I": 0.91842,
+   "top10_pc": 4.169,
+   "r2_votes_pc": 64.404,
+   "best_party": "ruk",
+   "best_r": 0.35322,
+   "top": [
+    {
+     "seat": "Leicester East",
+     "lq": 2.550755227643397,
+     "sig": 218
+    },
+    {
+     "seat": "Gateshead Central and Whickham",
+     "lq": 2.53895379391108,
+     "sig": 396
+    },
+    {
+     "seat": "South Ribble",
+     "lq": 2.503136353500139,
+     "sig": 431
+    },
+    {
+     "seat": "Birmingham Perry Barr",
+     "lq": 2.4699098446349166,
+     "sig": 217
+    }
+   ],
+   "low": [
+    {
+     "seat": "Belfast East",
+     "lq": 0.02493518777669852
+    },
+    {
+     "seat": "Rhondda and Ogmore",
+     "lq": 0.037545295160673134
+    },
+    {
+     "seat": "Belfast South and Mid Down",
+     "lq": 0.038458748573907145
+    }
+   ]
+  }
+ },
+ "seat_cases": {
+  "Sheffield Hallam": {
+   "top": "Make carbon monoxide alarms mandatory in all holiday accommodation",
+   "lq": 22.038710003938416,
+   "sig": 725,
+   "signatures": 40913,
+   "cluster": "Diverse cities",
+   "pc1": 0.9703,
+   "pc2": -1.5954
+  },
+  "Cambridge": {
+   "top": "Run a public information campaign on the climate crisis",
+   "lq": 11.403524632695726,
+   "sig": 400,
+   "signatures": 43846,
+   "cluster": "Diverse cities",
+   "pc1": 2.0915,
+   "pc2": -0.9048
+  },
+  "Great Yarmouth": {
+   "top": "Recognise circus and fairgrounds in the UK inventory of ICH",
+   "lq": 4.062466189497202,
+   "sig": 77,
+   "signatures": 56179,
+   "cluster": "Towns, suburbs and countryside",
+   "pc1": -1.4165,
+   "pc2": 0.5518
+  },
+  "Brighton Pavilion": {
+   "top": "Fund a National Climate Resilience Plan: protect communities from climate impact",
+   "lq": 8.345084610998622,
+   "sig": 176,
+   "signatures": 57548,
+   "cluster": "Diverse cities",
+   "pc1": 2.1743,
+   "pc2": -1.2693
+  },
+  "Clacton": {
+   "top": "Fund more staff training and better facilities in psychiatric hospitals",
+   "lq": 6.117694354068142,
+   "sig": 126,
+   "signatures": 59860,
+   "cluster": "Towns, suburbs and countryside",
+   "pc1": -1.3641,
+   "pc2": 0.1796
+  },
+  "Bethnal Green and Stepney": {
+   "top": "Review and refund overcharged UK Student and Child Student visa fees",
+   "lq": 16.484043435826152,
+   "sig": 274,
+   "signatures": 37490,
+   "cluster": "Diverse cities",
+   "pc1": 2.7729,
+   "pc2": 0.619
+  },
+  "Orkney and Shetland": {
+   "top": "Introduce legislation to make it possible to renumerate emergency volunteers",
+   "lq": 73.97674919256669,
+   "sig": 584,
+   "signatures": 17251,
+   "cluster": "Scotland and Northern Ireland",
+   "pc1": -0.0622,
+   "pc2": -0.598
+  },
+  "Truro and Falmouth": {
+   "top": "Grant Cornwall nation status",
+   "lq": 66.641191462802,
+   "sig": 2806,
+   "signatures": 54376,
+   "cluster": "Towns, suburbs and countryside",
+   "pc1": 0.1305,
+   "pc2": -1.451
+  }
+ },
+ "sample": {
+  "petitions": 734,
+  "seats": 650,
+  "seat_signatures": 30338613,
+  "gb": 632,
+  "ew": 575
+ }
+}

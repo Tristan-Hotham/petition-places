@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>What each constituency signs | The geography of UK Parliament petitions</title>
+<meta name="description" content="Where in the UK do people sign which Parliament petitions? {{sample.petitions|int}} petitions with about 3,000 or more signatures, mapped across all 650 constituencies.">
+<meta property="og:title" content="What each constituency signs">
+<meta property="og:description" content="Every petition has its own map. Local causes are lopsided; national ones follow two broad signature personalities that are stable over time.">
+<meta property="og:image" content="https://maps.tristanhotham.com/petition-places/header.png">
+<meta property="og:url" content="https://maps.tristanhotham.com/petition-places/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+{{CSS}}
+</style></head>
+<body>
+<div class="topbar">
+  <a class="tb-name" href="#mapWrap">What each constituency signs</a>
+  <span class="tb-k">Data study · 2026</span>
+  <nav class="tb-links"><a href="#essay">About</a><button class="theme" id="theme" aria-label="Toggle dark mode">◐</button><a href="https://doi.org/10.5281/zenodo.24104518">Paper</a><a class="x" href="{{REPO}}">Data and code</a></nav>
+</div>
+<div class="mapband">
+  <div class="pane" id="mapWrap" data-fullscreen-map role="application" aria-label="Hexagon map of the 650 UK constituencies coloured by the petitions they sign">
+    <div id="map"></div>
+    <div class="nojs" id="nojs">Loading the map. It needs JavaScript and WebGL.</div>
+    <div class="cartouche" id="cartouche">
+      <button class="ct-toggle" id="ctToggle" aria-expanded="true">What each constituency signs ▾</button>
+      <button class="ct-fold" id="ctFold" title="Fold the title" aria-label="Fold the title">▴</button>
+      <div class="ct-body">
+        <div class="kicker"><b>Data study</b><span>2026</span></div>
+        <h1>What each constituency <span class="a">signs</span></h1>
+        <p class="dek">{{sample.petitions|int}} UK Parliament petitions with about 3,000 or more signatures, {{inputs.first_year}} to {{inputs.last_year}}, counted in all 650 constituencies. Each hex is a seat. Colour shows the petition each seat over-signed most, or pick any petition to see its map. Tap a seat.</p>
+        <div class="byline">{{BYLINE}}</div>
+      </div>
+    </div>
+    <div class="ov-top">
+      <div class="srch"><input type="search" id="q" placeholder="Find a seat or a petition" aria-label="Find a seat or a petition" autocomplete="off"><ul class="sug" id="sug" role="listbox"></ul></div>
+      <div class="chips"><button class="chip" data-m="top" aria-pressed="true">Top petition</button><button class="chip" data-m="pet" aria-pressed="false">One petition</button><button class="chip" data-m="pc1" aria-pressed="false">Personality</button><button class="chip" data-m="cl" aria-pressed="false">Seat groups</button><button class="chip" data-m="rate" aria-pressed="false">Signing rate</button><button class="chip lyr" id="lyrBtn" aria-expanded="false" aria-controls="lp">Layers</button></div>
+    </div>
+    <div class="lp" id="lp" role="dialog" aria-label="Map layers">
+      <h4>View</h4>
+      <label><input type="radio" name="view" id="vHex" checked> Hexagons (every seat the same size)</label>
+      <label><input type="radio" name="view" id="vGeo"> Real boundaries</label>
+      <h4 style="margin-top:8px">Layers</h4>
+      <label><input type="checkbox" id="lyS" checked> Seats coloured by the data</label>
+      <label><input type="checkbox" id="lyO" checked> Seat outlines</label>
+      <label><input type="checkbox" id="lyL" checked> Seat names (close in)</label>
+      <label><input type="checkbox" id="lyN" checked> Nation labels (hexagons)</label>
+      <label><input type="checkbox" id="lyB" checked> Base map (real boundaries)</label>
+    </div>
+    <div class="pp" id="pp" aria-live="polite"></div>
+    <div class="keys" id="keys"><b id="keyTitle">Topic of the most over-signed petition</b><div id="keyBody"></div><div class="row kx" style="color:#6E604E">All 650 UK constituencies (2024 boundaries); petitions {{inputs.first_year}} to {{inputs.last_year}}</div></div>
+  </div>
+</div>
+<div class="wrap" id="essay">
+<p style="margin-top:6px">Any UK resident or British citizen can start or sign a petition to Parliament. When you sign, the site asks for your postcode, and it publishes a running count of signatures in every constituency. That makes each petition a little map of who cared. I took the {{sample.petitions|int}} petitions of the current Parliament that had reached about 3,000 signatures by the time I collected the data, {{inputs.detail_signatures|int}} signatures between them, and asked a simple question: what does each constituency sign more than the rest of the country does?</p>
+<div class="byline">{{BYLINE}} · Data: UK Parliament petitions site (Open Government Licence v3.0); 2024 results and Census 2021 shares via voteReproject (MIT); hexagons by Open Innovations (MIT) · Base map: OpenFreeMap Positron</div>
+<div class="stats">
+<div class="stat"><b>{{H1.n_sig|int}}</b><span>of the {{H1.n|int}} petition maps are clustered: neighbouring seats sign alike</span></div>
+<div class="stat"><b>{{H2.D_local_pc|f0}}%</b><span>of a typical local cause's signatures would have to move to match the national map, against {{H2.D_national_pc|f0}}% for the rest</span></div>
+<div class="stat"><b>{{H3.pc12_pc|f0}}%</b><span>of all the variation between seats sits on two signature personalities</span></div>
+<div class="stat"><b>{{H3.stab1|f2}}</b><span>correlation of the main personality between the petitions of the first and second halves of the period</span></div>
+</div>
+
+<h2><span class="n">01 · Every petition has a map</span>Some are everywhere, some are somewhere</h2>
+<p>To compare petitions of very different sizes, I measure each seat against itself. A seat that gives a petition the same share of its signatures as the country as a whole scores one. Twice the usual share scores two. Some seats sign far more petitions than others overall, from {{activity.min_signatures|int}} signatures in {{activity.min_signatures_seat}} to {{activity.max_signatures|int}} in {{activity.max_signatures_seat}}, so this keeps the busiest seats from dominating every map. Small counts are pulled gently towards one, so a seat with a handful of signatures cannot top a list by chance.</p>
+<p>The biggest petition, "{{cases.700143.a}}", with {{cases.700143.n|int}} signatures, is close to the national pattern everywhere: only {{cases.700143.D_pc|f0}}% of its signatures would have to move for it to match the overall map exactly. At the other end, "{{cases.711355.a}}" drew {{cases.711355.top.0.lq|f0}} times the usual share in {{cases.711355.top.0.seat}} and {{cases.711355.top.1.lq|f0}} times in {{cases.711355.top.1.seat}}, and {{cases.711355.D_pc|f0}}% of its signatures would have to move. Between the two sit petitions with clear but broad geographies: "{{cases.700138.a}}" is strongest in {{cases.700138.top.1.seat}} and {{cases.700138.top.2.seat}}; "{{cases.700036.a}}" in {{cases.700036.top.0.seat}} and {{cases.700036.top.1.seat}}, both on the edge of the Peak District.</p>
+<div class="figure"><img src="img/cases.jpg" alt="Six hexagon maps of the UK, one per petition: Cornwall nation status is red only in Cornwall; farm inheritance tax is red in rural seats; rejoin the EU is red in university cities; offshore detention is pale red across much of England and blue in London; grouse shooting is red around Sheffield and the Lake District; call a general election is pale almost everywhere" loading="lazy"><p class="src">Six petitions on the same scale. Red: more than the seat's usual share; blue: less.</p></div>
+<p>Every one of the {{H1.n|int}} maps is clustered: neighbouring seats sign alike far more than chance would give. The typical petition has a spatial correlation (Moran's I) of {{H1.median_I|f2}}; shuffle the seats at random and it falls to {{P1.moran_placebo|f2}}.</p>
+
+<h2><span class="n">02 · Local causes</span>The most lopsided maps</h2>
+<p>Ten petitions are about a particular part of the UK, among them Cornwall's status, two about the rail link between Oxford and Cambridge, the Scottish Parliament, Northern Ireland veterans, the London Mayor. Their maps are far more lopsided than any other topic's. In the typical local petition {{H2.D_local_pc|f0}}% of signatures would have to move to match the national pattern, against {{H2.D_national_pc|f0}}% for all other petitions, and {{H2.top10_local_pc|f0}}% of its signatures come from just ten seats. Allowing for petition size, local causes are {{H2.local.pc|f0}}% more uneven than national ones (95% interval {{H2.local.lo|f0}}% to {{H2.local.hi|f0}}%). "{{cases.762755.a}}" was signed {{cases.762755.top.0.lq|f0}} times as heavily as usual in {{cases.762755.top.0.seat}}.</p>
+<p>Among national topics, immigration petitions have the most uneven maps (a typical {{H2.fam.immigration.median_D_pc|f0}}% would have to move) and petitions about elections and democracy the least ({{H2.fam.democracy.median_D_pc|f0}}%). Immigration petitions are uneven partly because they pull in opposite directions: in an exploratory split (section 04), petitions asking to keep or open routes to settlement were signed most in more diverse seats, and petitions asking for tighter rules most in whiter seats with a higher Reform UK vote.</p>
+<div class="figure"><img src="img/family.jpg" alt="Dot chart of how uneven each petition's map is, by topic: local causes far to the right, immigration and international affairs next, elections and democracy and Brexit petitions most even" loading="lazy"><p class="src">Each dot is a petition. Bars are medians.</p></div>
+<div class="figure"><img src="img/top.jpg" alt="Hexagon map of the UK coloured by the topic of each seat's most over-signed petition: Scotland mostly local causes, Cornwall local causes, a patchwork of health, environment and justice elsewhere" loading="lazy"><p class="src">The map's opening layer: the topic of each seat's most over-signed petition. {{top.n_distinct|int}} different petitions top at least one seat.</p></div>
+
+<h2><span class="n">03 · Signature personalities</span>Two ways seats differ</h2>
+<p>Put all {{sample.petitions|int}} maps together and ask what they share. The first summary dimension (a principal component) holds {{H3.pc1_pc|f0}}% of the variation between seats, the second {{H3.pc2_pc|f0}}%. The first separates seats with more graduates, younger people and more ethnic diversity (correlation with the share holding a degree {{H3.corr.PC1.degree|f2}}) from older and whiter seats with a higher Reform UK vote in 2024 ({{H3.corr.PC1.ruk|f2}}). The second separates seats held by Labour with poorer health from Conservative and Liberal Democrat seats with older populations. Neither is a party line: they are bundles of topics that tend to travel together.</p>
+<div class="figure"><img src="img/pca.jpg" alt="Two hexagon maps: the first personality is red in London and the big cities and blue across much of eastern and coastal England; the second is red in Scotland, Northern Ireland and northern English cities and blue across southern England" loading="lazy"><p class="src">Seat scores on the two main personalities.</p></div>
+<p>These personalities are stable. Split the petitions into the {{H3.n_early|int}} created first and the {{H3.n_late|int}} created later, and the seats line up almost identically: correlation {{H3.stab1|f2}} for the first personality and {{H3.stab2|f2}} for the second. Grouping seats by their whole profile gives {{H3.k|int}} groups: {{H3.clusters.Towns, suburbs and countryside.n|int}} seats of towns, suburbs and countryside, {{H3.clusters.Diverse cities.n|int}} seats in diverse cities ({{H3.clusters.Diverse cities.london|int}} in London), and {{H3.clusters.Scotland and Northern Ireland.n|int}} seats, almost all in Scotland and Northern Ireland, which probably partly reflects the many petitions about English schools and services that have little to do with them.</p>
+<div class="figure"><img src="img/clusters.jpg" alt="Hexagon map in three colours: gold for most of England and Wales, red for London and other cities, blue for Scotland and Northern Ireland" loading="lazy"><p class="src">Three groups of seats by petition profile.</p></div>
+
+<h2><span class="n">04 · Does it follow the vote?</span>Partly, and the census more</h2>
+<p>For each petition I asked how much of its seat map the 2024 general election vote shares can account for. The typical answer is {{H4a.median_r2_votes_pc|f0}}% in Great Britain, about as much as knowing the region alone ({{H4a.median_r2_region_pc|f0}}%). In England and Wales, four census shares (age, degrees, health and ethnicity) account for more ({{H4a.median_r2_census_ew_pc|f0}}%) than the vote ({{H4a.median_r2_votes_ew_pc|f0}}%). The biggest petition, "{{cases.700143.a}}", follows it closely: the vote accounts for {{cases.700143.r2_votes_pc|f0}}% of its map, which correlates {{cases.700143.best_r|f2}} with the Conservative share. Others hardly follow it at all, such as "{{H4a.low_r2.0.a}}" ({{H4a.low_r2.0.r2|pcx}}).</p>
+<p>Two planned tests looked at direction. Petitions about Brexit and the EU were signed less where Reform UK did well ({{H4b.eu.ruk_pct.pc|f1}}% per standard deviation of the Reform UK share, 95% interval {{H4b.eu.ruk_pct.lo|f1}}% to {{H4b.eu.ruk_pct.hi|f1}}%), even after age, degrees, health, ethnicity and region, and that held in all {{robust.eu_ruk.n_checks|int}} checks. They were signed more where the Greens did well ({{H4b.eu.green_pct.pc|f1}}%, held in {{robust.eu_green.n_sig|int}} of {{robust.eu_green.n_checks|int}} checks) and the Liberal Democrats did well ({{H4b.eu.ld_pct.pc|f1}}%, held in {{robust.eu_ld.n_sig|int}}). Immigration petitions as a whole were signed slightly more where Reform UK did well ({{H4b.immigration.ruk_pct.pc|f1}}%, {{H4b.immigration.ruk_pct.lo|f1}}% to {{H4b.immigration.ruk_pct.hi|f1}}%), but that held in only {{robust.immigration_ruk.n_sig|int}} of {{robust.immigration_ruk.n_checks|int}} checks, so I do not treat it as solid. Splitting immigration petitions by what they ask for, which I did only after seeing that result, suggests why: those asking for tighter rules track the Reform UK vote (map correlation {{exploratory.restrict.corr_ruk|f2}}), while those asking to keep or open routes run the other way ({{exploratory.open.corr_ruk|f2}}).</p>
+<div class="figure"><img src="img/votes.jpg" alt="Left: histograms of how much of each petition's map is explained by region, vote shares and census shares. Right: dot and whisker chart showing EU petitions signed more where degrees are common and less where Reform UK is strong" loading="lazy"><p class="src">How much the vote and the census explain, and the planned directional tests.</p></div>
+
+<h2><span class="n">05 · Checks</span>Is it real?</h2>
+<p>Repeat petitions on the same subject, such as the {{P2.n_groups|int}} groups of near-identical petitions on a general election, the personal allowance or rejoining the EU, should have similar maps if the maps are real and not noise. They do: the typical correlation between two repeat petitions' maps is {{P2.median_within|f2}}, against {{P2.median_random|f2}} for random pairs on different topics. The clustering result holds with other neighbour definitions, other denominators and raw counts. The most over-signed petition in each seat is the same with or without the gentle pull towards one in {{top.same_as_raw_pc|f0}}% of seats.</p>
+<div class="figure"><img src="img/moran.jpg" alt="Left: histogram of spatial correlation of petition maps, all well above the shuffled value of zero. Right: histogram of correlations between random petition pairs centred on zero, with repeat petitions far to the right" loading="lazy"><p class="src">Clustering against shuffled seats, and repeat petitions against random pairs.</p></div>
+<div class="figure"><img src="img/robust.jpg" alt="Four forest plots of the planned directional estimates across 19 checks: the EU and Reform UK estimate is below zero in every check, the immigration and Reform UK estimate crosses zero in about half" loading="lazy"><p class="src">Every planned check for the four directional estimates.</p></div>
+
+<h2><span class="n">06 · How I did this</span>Counts, shares and a written plan</h2>
+<p><b>Petitions.</b> The petitions site publishes every petition of the current Parliament ({{inputs.all_petitions|int}} by the time I collected them, {{inputs.states.rejected|int}} of them rejected) and, for each, signatures by constituency. I used the {{sample.petitions|int}} that had about 3,000 or more signatures, which hold {{inputs.detail_share_pc|f0}}% of all signatures. I sorted them into topics with keyword rules and then read every one, moving {{inputs.n_overrides|int}} by hand.</p>
+<p><b>Measures.</b> Each seat's share of a petition's signatures is compared with its share of all petition signatures. The 2023 boundary review gave nearly every seat an electorate within 5% of the same size, so raw counts are close to rates. I wrote the analysis plan down before computing any of these measures, and anything added later is labelled as exploratory.</p>
+<p><b>What this cannot say.</b> A seat is not a person: a petition signed heavily in a seat with a high Reform UK vote does not mean Reform UK voters signed it. Signing is a minority activity, people may give a postcode that is not where they live, and campaigns can push a petition hard in one place. Petitions still open were still collecting signatures. Northern Ireland and Scotland have no census shares in the data I used, and the vote tests leave out Northern Ireland, where different parties stand.</p>
+<details><summary>Sources and licences</summary>
+<ul class="plain">
+<li>UK Parliament petitions site, petition.parliament.uk: petition list and signatures by constituency, retrieved 2026. Contains public sector information licensed under the Open Government Licence v3.0.</li>
+<li>2024 general election vote shares (House of Commons Library results), Census 2021 shares and simplified 2024 boundaries (ONS, Open Government Licence) via the voteReproject package by Kevin Horan, Katarina Domijan and Chris Brunsdon (MIT).</li>
+<li>Constituency hexagon layout: Open Innovations, odileeds/hexmaps (MIT).</li>
+<li>Base map: OpenFreeMap Positron style (OpenStreetMap, ODbL). MapLibre GL JS 4.7.1 (BSD 3-Clause).</li>
+<li>Text and figures CC BY 4.0; code MIT; derived data CC BY 4.0 (petition data under the Open Government Licence v3.0).</li>
+</ul></details>
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.24104518">Read the paper</a><a href="{{REPO}}">Data and code</a><a href="https://blog.tristanhotham.com/2026/10/31/petition-places/">Blog post</a></div>
+<footer>
+<p>Dr Tristan Hotham, Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+<p>Cite as: Hotham, T. (2026) What each constituency signs: the geography of UK Parliament petitions. Zenodo. <a href="https://doi.org/10.5281/zenodo.24104518">10.5281/zenodo.24104518</a></p>
+<p>Code: <a href="{{REPO}}">github.com/Tristan-Hotham/petition-places</a> (MIT). Text, figures and data CC BY 4.0 (petition data Open Government Licence v3.0).</p>
+<p>{{AI}}</p>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="js/page.js?v={{VERSION}}"></script>
+{{FULLSCREEN}}
+<script src="https://maps.tristanhotham.com/assets/site-nav.js" defer></script>
+</body>
+</html>

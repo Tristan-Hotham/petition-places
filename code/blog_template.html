@@ -1,0 +1,133 @@
+<!-- wp:paragraph -->
+<p><em>Every time you sign a UK Parliament petition, you give a postcode, and the site counts your signature in your constituency. That quietly turns every petition into a map. I put {{sample.petitions|int}} of those maps side by side to see what each part of the country signs more than the rest.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/petition-places/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.24104518">Read the paper</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>The petitions site is a busy door into Parliament. Since the 2024 election people have started {{inputs.all_petitions|int}} petitions, and {{inputs.states.rejected|int}} of them were rejected before they ever went live. Petitions that reach 10,000 signatures get a government response, and those that reach 100,000 are considered for a debate. They cover everything: fireworks, farm taxes, rare diseases, school attendance fines, rail lines, Gaza, the personal allowance, dogs in laboratories.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I took the {{sample.petitions|int}} petitions that had passed about 3,000 signatures, {{inputs.detail_signatures|int}} signatures between them, and for every one of the 650 constituencies asked a simple question. Of all the petition signatures from this seat, what share went to this petition, and is that more or less than the country as a whole? A seat that signs a petition at twice its usual rate scores two. Measuring each seat against itself matters, because some seats sign far more petitions than others: from {{activity.min_signatures|int}} signatures in {{activity.min_signatures_seat}} to {{activity.max_signatures|int}} in {{activity.max_signatures_seat}}.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Every petition has a map</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Some petitions are everywhere. "{{cases.700143.a}}", the biggest of all with {{cases.700143.n|int}} signatures, looks almost the same as the overall map of petition signing: only {{cases.700143.D_pc|f0}}% of its signatures would have to move to match it exactly. Others are very much somewhere. "{{cases.711355.a}}" was signed at {{cases.711355.top.0.lq|f0}} times the usual rate in {{cases.711355.top.0.seat}}, and {{cases.711355.D_pc|f0}}% of its signatures would have to move.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_cases.png|Six hexagon maps of the UK constituencies, one for each of six petitions, coloured from blue for under-signed to red for over-signed|Six petitions on the same scale. Each hexagon is a 2024 constituency; red means the seat signed more than its usual share, blue less.}}
+
+<!-- wp:paragraph -->
+<p>In between are petitions with clear but broad patterns. "{{cases.700138.a}}" was strongest in {{cases.700138.top.1.seat}} and {{cases.700138.top.2.seat}}. "{{cases.700036.a}}" peaked in {{cases.700036.top.0.seat}} and {{cases.700036.top.1.seat}}, both on the edge of the Peak District. "{{cases.700005.a}}" was signed most in {{cases.700005.top.0.seat}} and {{cases.700005.top.1.seat}}. And every single one of the {{H1.n|int}} maps is clustered: neighbouring seats sign alike far more than chance would allow.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Local causes are the most lopsided</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Only ten petitions are about one particular part of the UK, among them Cornwall, the Scottish Parliament, the London Mayor, Northern Ireland veterans, the A1 in the North of England and the rail link between Oxford and Cambridge. Their maps are far more uneven than any other topic's. In the typical one, {{H2.D_local_pc|f0}}% of signatures would have to move to match the national pattern, against {{H2.D_national_pc|f0}}% for everything else, and {{H2.top10_local_pc|f0}}% of its signatures come from just ten seats. "{{cases.762755.a}}" was signed at {{cases.762755.top.0.lq|f0}} times the usual rate in {{cases.762755.top.0.seat}}.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_family.png|Dot chart of how uneven each petition's map is, grouped by topic, with local causes far more uneven than any other group|How uneven each petition's map is, by topic. Each dot is a petition; bars are medians.}}
+
+<!-- wp:paragraph -->
+<p>Among national topics, immigration petitions have the most uneven maps and petitions about elections and democracy the most even. Map the petition each seat over-signs most and you get a patchwork: health petitions top {{top.family_counts.health|int}} seats, environment and planning {{top.family_counts.environment|int}}, and {{top.n_distinct|int}} different petitions top at least one seat.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_top.png|Hexagon map of the UK coloured by the topic of each seat's most over-signed petition, with Scotland and Cornwall dominated by local causes and a patchwork elsewhere|The topic of each seat's most over-signed petition (among petitions with 10,000 or more signatures).}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Two signature personalities</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Put all the maps together and a fairly simple structure appears. Two summary dimensions hold {{H3.pc12_pc|f0}}% of all the variation between seats. The first separates seats with more graduates, younger people and more ethnic diversity from older, whiter seats where Reform UK did better in 2024. The second separates Labour-held seats with poorer health from Conservative and Liberal Democrat seats with older populations, and it is marked by petitions about nature, the countryside and animal welfare.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_pca.png|Two hexagon maps of the main signature personalities: the first red in London and big cities, the second red in Scotland, Northern Ireland and northern English cities|Seat scores on the two main signature personalities.}}
+
+<!-- wp:pullquote -->
+<figure class="wp-block-pullquote"><blockquote><p>Split the petitions in two by date and the seats line up almost exactly the same way: a correlation of {{H3.stab1|f2}}.</p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:paragraph -->
+<p>That stability is the finding I like best. These are not the traces of one or two big campaigns: the same pattern appears in the petitions started early in the Parliament and the ones started later. Grouping seats by their whole profile gives three kinds of place: {{H3.clusters.Towns, suburbs and countryside.n|int}} seats of towns, suburbs and countryside, {{H3.clusters.Diverse cities.n|int}} diverse city seats, {{H3.clusters.Diverse cities.london|int}} of them in London, and {{H3.clusters.Scotland and Northern Ireland.n|int}} seats, almost all in Scotland and Northern Ireland, which probably partly reflects how many petitions are about schools and services in England.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_clusters.png|Hexagon map of three groups of seats: gold for most of England and Wales, red for London and other cities, blue for Scotland and Northern Ireland|Three kinds of seat, grouped by their whole petition profile.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Does it follow the vote?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Partly. For the typical petition, the 2024 vote shares account for {{H4a.median_r2_votes_pc|f0}}% of its map, about the same as simply knowing the region. In England and Wales, four census measures (age, degrees, health and ethnicity) account for more ({{H4a.median_r2_census_ew_pc|f0}}%) than the vote ({{H4a.median_r2_votes_ew_pc|f0}}%). Most petitions, about animals, health or money, are signed right across the political map.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Two links were in my plan from the start. Petitions about the EU were signed less where Reform UK did well, even after allowing for age, degrees and region, and that held in every one of {{robust.eu_ruk.n_checks|int}} checks. Immigration petitions as a group were signed a little more where Reform UK did well, but that held in only {{robust.immigration_ruk.n_sig|int}} of the checks. When I looked at the petitions themselves, a likely reason stood out: the group mixes petitions for tighter rules with petitions from people asking to keep their route to settlement, and the two have nearly opposite maps.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_votes.png|Left: histograms of how much of each petition's map is explained by region, vote and census. Right: estimates for EU and immigration petitions against the Reform UK share, the Liberal Democrat share and the degree share|How much the vote and the census explain, and the planned tests for EU and immigration petitions.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How I did this</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The petitions site publishes signatures by constituency for every petition. I used the {{sample.petitions|int}} with about 3,000 or more signatures, which hold {{inputs.detail_share_pc|f0}}% of all signatures. Seats with only a few signatures for a petition are pulled gently towards the usual rate, so no seat tops a list by chance. I sorted the petitions into topics with keyword rules and then read every one, moving {{inputs.n_overrides|int}} by hand. Votes and census shares for the 2024 seats come from the voteReproject package, and the hexagon layout from Open Innovations. I wrote the analysis plan down before computing any of the measures, and the paper reports it as planned, with later additions marked.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>What this cannot tell you: who signed. A petition signed heavily in a seat with a high vote for one party does not mean that party's voters signed it. People who sign petitions are not typical of everyone, postcodes are self-reported, and a determined local campaign can fill a map on its own. These maps describe places, not people.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/petition-places/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.24104518">Read the paper</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/Tristan-Hotham/petition-places">Data and code</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Notes and sources</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>UK Parliament petitions site, petition.parliament.uk: petitions and signatures by constituency, retrieved 2026. Open Government Licence v3.0.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>2024 general election results, Census 2021 shares and simplified 2024 boundaries via voteReproject (Horan, Domijan and Brunsdon; MIT), from House of Commons Library and ONS data.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Constituency hexagons: Open Innovations, odileeds/hexmaps (MIT).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The closest earlier study: Vidgen, B. and Yasseri, T. (2020) What, when and where of petitions submitted to the UK government during a time of chaos. Policy Sciences 53, 535 to 557.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Paper: Hotham, T. (2026) What each constituency signs: the geography of UK Parliament petitions. Zenodo. https://doi.org/10.5281/zenodo.24104518</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
